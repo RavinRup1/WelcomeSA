@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T10:54:50.776943+02:00",
+  "generated_at": "2026-10-06T11:02:46.878760+02:00",
   "events": [],
   "sources": [
     {
@@ -8,7 +8,24 @@
       "ok": true,
       "events_found": 0,
       "note": "",
-      "debug_links": []
+      "debug_links": [],
+      "debug_sitemap_sample": []
+    },
+    {
+      "name": "ECR East Coast Radio",
+      "url": "https://www.ecr.co.za/events/",
+      "ok": false,
+      "events_found": 0,
+      "note": "unexpected status",
+      "http": 404
+    },
+    {
+      "name": "Ticketpro",
+      "url": "https://www.ticketpros.co.za/events",
+      "ok": false,
+      "events_found": 0,
+      "note": "unexpected status",
+      "http": 404
     },
     {
       "name": "Howler SA",
@@ -24,17 +41,10 @@
         "/favicon-32x32.png",
         "https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap",
         "https://d1as2iufift1z3.cloudfront.net/vite/assets/consumer_portal-DjbXqGTz.css",
-        "https://d1as2iufift1z3.cloudfront.net/vite/assets/chunk-CcFc5KEG.js",
-        "https://d1as2iufift1z3.cloudfront.net/vite/assets/utils-Cb_StTKM.js",
-        "https://d1as2iufift1z3.cloudfront.net/vite/assets/initialisers-B0-XSlUf.js"
+        "https://d1as2iufift1z3.cloudfront.net/vite/assets/chunk-gHWguIl6.js",
+        "https://d1as2iufift1z3.cloudfront.net/vite/assets/utils-BcAt_Pu5.js",
+        "https://d1as2iufift1z3.cloudfront.net/vite/assets/initialisers-DR65a1vR.js"
       ]
-    },
-    {
-      "name": "Durban ICC",
-      "url": "https://www.durbanicc.co.za/events/",
-      "ok": false,
-      "events_found": 0,
-      "note": "ConnectionError"
     }
   ],
   "ok": false,
