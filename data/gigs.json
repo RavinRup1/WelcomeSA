@@ -1,50 +1,60 @@
 {
-  "generated_at": "2026-10-06T11:02:46.878760+02:00",
+  "generated_at": "2026-10-06T11:05:39.798358+02:00",
   "events": [],
   "sources": [
     {
-      "name": "Computicket (sitemap)",
+      "name": "Computicket (discover)",
       "url": "https://www.computicket.com/sitemap.xml",
       "ok": true,
       "events_found": 0,
       "note": "",
+      "debug_robots_sitemaps": [],
       "debug_links": [],
       "debug_sitemap_sample": []
     },
     {
-      "name": "ECR East Coast Radio",
-      "url": "https://www.ecr.co.za/events/",
-      "ok": false,
-      "events_found": 0,
-      "note": "unexpected status",
-      "http": 404
-    },
-    {
-      "name": "Ticketpro",
-      "url": "https://www.ticketpros.co.za/events",
-      "ok": false,
-      "events_found": 0,
-      "note": "unexpected status",
-      "http": 404
-    },
-    {
-      "name": "Howler SA",
-      "url": "https://howler.co.za/events",
+      "name": "ECR (discover)",
+      "url": "https://www.ecr.co.za/robots.txt",
       "ok": true,
       "events_found": 0,
       "note": "",
-      "http": 200,
-      "debug_links": [],
-      "debug_href_sample": [
-        "/apple-touch-icon.png",
-        "/manifest.json",
-        "/favicon-32x32.png",
-        "https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap",
-        "https://d1as2iufift1z3.cloudfront.net/vite/assets/consumer_portal-DjbXqGTz.css",
-        "https://d1as2iufift1z3.cloudfront.net/vite/assets/chunk-gHWguIl6.js",
-        "https://d1as2iufift1z3.cloudfront.net/vite/assets/utils-BcAt_Pu5.js",
-        "https://d1as2iufift1z3.cloudfront.net/vite/assets/initialisers-DR65a1vR.js"
+      "debug_robots_sitemaps": [
+        "https://ecr.co.za/sitemap.xml"
+      ],
+      "debug_links": [
+        "https://m.ecr.co.za/other/add-your-event/",
+        "https://m.ecr.co.za/videos/colour-festival-durban/",
+        "https://m.ecr.co.za/photos/photos-colour-festival-durban/",
+        "https://m.ecr.co.za/photos/photos-big-names-at-the-cape-town-jazz-festival/",
+        "https://m.ecr.co.za/news/sport/photos-hooked-on-the-durban-ski-boat-festival/",
+        "https://m.ecr.co.za/photos/photos-justin-bieber-cape-town-concert/",
+        "https://m.ecr.co.za/photos/justin-biebers-joburg-concert/",
+        "https://m.ecr.co.za/unpublished-articles/lifestyle__old/about-town/trevor-noah-on-the-david-letterman-show/"
+      ],
+      "debug_sitemap_sample": [
+        "https://www.ecr.co.za/news-sitemap.xml",
+        "https://www.ecr.co.za/sitemap-1.xml",
+        "https://www.ecr.co.za/sitemap-2.xml",
+        "https://www.ecr.co.za/sitemap-3.xml",
+        "https://www.ecr.co.za/sitemap-4.xml",
+        "https://www.ecr.co.za/sitemap-5.xml",
+        "https://www.ecr.co.za/sitemap-6.xml",
+        "https://www.ecr.co.za/sitemap-7.xml",
+        "https://www.ecr.co.za/sitemap-8.xml",
+        "https://www.ecr.co.za/sitemap-9.xml",
+        "https://www.ecr.co.za/sitemap-10.xml",
+        "https://www.ecr.co.za/sitemap-11.xml"
       ]
+    },
+    {
+      "name": "Ticketpro (discover)",
+      "url": "https://www.ticketpros.co.za/robots.txt",
+      "ok": true,
+      "events_found": 0,
+      "note": "",
+      "debug_robots_sitemaps": [],
+      "debug_links": [],
+      "debug_sitemap_sample": []
     }
   ],
   "ok": false,
