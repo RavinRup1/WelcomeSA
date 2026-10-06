@@ -1,6 +1,7 @@
 [
   {"name": "Computicket (sitemap)", "url": "https://www.computicket.com/sitemap.xml",
    "sitemap": true, "url_filter": "event|show|concert|festival|performance"},
-  {"name": "Howler SA", "url": "https://howler.co.za/events"},
-  {"name": "Durban ICC", "url": "https://www.durbanicc.co.za/events/"}
+  {"name": "ECR East Coast Radio", "url": "https://www.ecr.co.za/events/"},
+  {"name": "Ticketpro", "url": "https://www.ticketpros.co.za/events"},
+  {"name": "Howler SA", "url": "https://howler.co.za/events"}
 ]
