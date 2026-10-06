@@ -1,0 +1,39 @@
+{
+  "generated_at": "2026-10-06T10:41:54.054947+02:00",
+  "events": [],
+  "sources": [
+    {
+      "name": "Durban ICC",
+      "url": "https://www.durbanicc.co.za/events/",
+      "ok": false,
+      "events_found": 0,
+      "note": "ConnectionError"
+    },
+    {
+      "name": "Computicket Durban",
+      "url": "https://www.computicket.com/events/durban",
+      "ok": true,
+      "events_found": 0,
+      "note": "",
+      "http": 200
+    },
+    {
+      "name": "Suncoast Events",
+      "url": "https://www.suncoastcasino.co.za/events",
+      "ok": false,
+      "events_found": 0,
+      "note": "unexpected status",
+      "http": 404
+    },
+    {
+      "name": "uShaka Events",
+      "url": "https://www.ushakamarineworld.co.za/events",
+      "ok": true,
+      "events_found": 0,
+      "note": "",
+      "http": 200
+    }
+  ],
+  "ok": false,
+  "note": "No source yielded events yet - tune data/gig_sources.json"
+}
