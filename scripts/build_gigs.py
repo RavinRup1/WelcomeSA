@@ -86,14 +86,21 @@ def main():
             entry["http"] = r.status_code
             if r.status_code == 200:
                 evs = extract_jsonld_events(r.text)
-                # follow same-domain event detail links (listings often lack JSON-LD)
-                host = urlparse(s["url"]).netloc
-                seen_links = []
-                for h in re.findall(r'href="([^"]*(?:event|whats-on|show)[^"]*)"', r.text, re.I):
+                # follow event detail links incl. subdomains (listings often lack JSON-LD)
+                root = urlparse(s["url"]).netloc.split(":")[0]
+                root = ".".join(root.split(".")[-2:])
+                seen_links, all_hrefs = [], []
+                for h in re.findall(r'href="([^"]+)"', r.text, re.I):
+                    all_hrefs.append(h)
+                    if not re.search(r"event|whats-on|show|book|tickets?", h, re.I):
+                        continue
                     u = urljoin(s["url"], h)
-                    if urlparse(u).netloc == host and u not in seen_links:
+                    n = urlparse(u).netloc.split(":")[0]
+                    if (n == root or n.endswith("." + root)) and u not in seen_links:
                         seen_links.append(u)
-                for u in seen_links[:12]:
+                entry["debug_links"] = seen_links[:8]
+                entry["debug_href_sample"] = all_hrefs[:8]
+                for u in seen_links[:20]:
                     try:
                         rr = requests.get(u, headers=H, timeout=30)
                         if rr.status_code == 200:
