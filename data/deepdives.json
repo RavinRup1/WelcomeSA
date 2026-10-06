@@ -1,0 +1,371 @@
+{
+ "version": 1,
+ "updated": "2026-10-06",
+ "author": "Ravin.R & Kimi",
+ "approved_by": "Ravin Rupnarain (Reviews 2-4)",
+ "count": 30,
+ "items": [
+  {
+   "name": "Golden Mile, Durban",
+   "category": "beach",
+   "match": [
+    "Golden Mile, Durban"
+   ],
+   "tagline": "Durban's living room - six kilometres of beach and promenade.",
+   "story": "From uShaka to Suncoast, the Golden Mile is where Durban breathes: Blue Flag swimming beaches, surfers at dawn, joggers, skate park, street food and fishers on the piers. It is the safest, liveliest stretch of city beach in South Africa.",
+   "best": "Early morning for a swim or sunrise walk; late afternoon for the vibe.",
+   "tip": "Swim at North Beach where lifeguards are posted; end the walk at the uShaka end for the full show.",
+   "id": "golden-mile-durban"
+  },
+  {
+   "name": "uMhlanga Rocks Beach",
+   "category": "beach",
+   "match": [
+    "Umhlanga Rocks Lighthouse",
+    "Umhlanga, KwaZulu-Natal"
+   ],
+   "tagline": "Whales from the promenade, coffee in the village.",
+   "story": "The paved promenade runs from the red-and-white lighthouse to the lagoon mouth, and between June and November humpback whales pass so close to shore you can watch them from the path. The village behind the beach is KZN's answer to a Mediterranean strip.",
+   "best": "Whale season (Jun-Nov) mornings; sunsets year-round.",
+   "tip": "Walk lighthouse to lagoon, then breakfast at a village cafe - that pairing is the uMhlanga ritual.",
+   "id": "umhlanga-rocks-beach"
+  },
+  {
+   "name": "Ballito (Willard Beach)",
+   "category": "beach",
+   "match": [
+    "Ballito"
+   ],
+   "tagline": "The family beach with dolphin mornings.",
+   "story": "Ballito's gently sloping beach and famous tidal pools make it the north coast's family favourite, and dolphin pods regularly cruise past close to shore in the early morning. The village promenade has grown into a proper seaside strip of cafes and markets.",
+   "best": "Early morning for dolphins and calm water.",
+   "tip": "The Willard tidal pools are the safest splash zone for small children - the open beach can dump unexpectedly.",
+   "id": "ballito-willard-beach"
+  },
+  {
+   "name": "Umdloti Beach",
+   "category": "beach",
+   "match": [
+    "Umdloti"
+   ],
+   "tagline": "The lagoon village with a natural swimming pool.",
+   "story": "Where the Umdloti River meets the sea sits \"Granny's Pool\", a natural tidal pool protected by rocks, with a laid-back village of eateries overlooking the estuary. Dolphins visit most mornings; turtles nest in season on the quieter stretches.",
+   "best": "Morning swim at the pool, long lunch after.",
+   "tip": "Swim at Granny's Pool, not the open beach - currents are strong. The estuary-side decks have the best views in the village.",
+   "id": "umdloti-beach"
+  },
+  {
+   "name": "Southbroom",
+   "category": "beach",
+   "match": [
+    "Southbroom"
+   ],
+   "tagline": "The south coast's green-and-gold village beach.",
+   "story": "A tree-lined village guarding a lagoon that opens to the sea, Southbroom pairs gentle estuary swimming on one side with surf on the other. It feels like the KZN of fifty years ago - quiet, green, unhurried.",
+   "best": "Holiday season buzz in December; serene out of season.",
+   "tip": "The lagoon side is perfect for a family picnic; the river mouth is at its best around high tide.",
+   "id": "southbroom"
+  },
+  {
+   "name": "Durban Botanic Gardens",
+   "category": "natural",
+   "match": [
+    "Durban Botanic Gardens"
+   ],
+   "tagline": "Africa's oldest surviving botanic garden, in the middle of the city.",
+   "story": "Founded in 1851, the gardens hold one of the world's great cycad collections, a palm avenue, an orchid house and a lake where the city comes to exhale. Entry is free and the lawns are Durban's favourite picnic ground.",
+   "best": "Late afternoon light; Sunday afternoons for people-watching.",
+   "tip": "Grab takeaways and picnic by the lake - and check the events board for the open-air concerts.",
+   "id": "durban-botanic-gardens"
+  },
+  {
+   "name": "Beachwood Mangroves Nature Reserve",
+   "category": "natural",
+   "match": [
+    "Beachwood Mangroves Nature Reserve"
+   ],
+   "tagline": "A boardwalk through a protected mangrove forest, minutes from the city.",
+   "story": "One of the few places on South Africa's east coast where you can walk through an intact mangrove system on raised boardwalks, watching crabs scuttle and estuary birds feed where the Umgeni River meets the sea.",
+   "best": "Low tide, quiet weekday mornings.",
+   "tip": "Binoculars reward you here - the birdlife is the point. Ask about guided walks at the entrance.",
+   "id": "beachwood-mangroves-nature-reserve"
+  },
+  {
+   "name": "Kenneth Stainbank Nature Reserve",
+   "category": "natural",
+   "match": [
+    "Kenneth Stainbank Nature Reserve"
+   ],
+   "tagline": "Yellowwood forest and grassland with trails for every fitness level.",
+   "story": "Tucked into Yellowwood Park, this reserve protects coastal forest, wild grassland and roaming antelope, with a trail network that ranges from gentle family walks to serious mountain-bike routes through the trees.",
+   "best": "Cool morning hours; spring for wildflowers.",
+   "tip": "Start at the reserve office, take a photo of the trail map, and pick the route that matches your morning.",
+   "id": "kenneth-stainbank-nature-reserve"
+  },
+  {
+   "name": "Krantzkloof Nature Reserve",
+   "category": "natural",
+   "match": [
+    "Krantzkloof Nature Reserve"
+   ],
+   "tagline": "A deep gorge and a thundering waterfall above Kloof.",
+   "story": "The Molweni River has carved a spectacular gorge through the escarpment forest, with the falls dropping in stages to a pool far below. Crowned eagles nest on the cliffs and the viewpoints are minutes from the picnic lawns.",
+   "best": "After good rains, when the falls run full; mornings for eagle sightings.",
+   "tip": "The short walk to the main viewpoint is the reward-to-effort champion of KZN reserves - and keep children close, the cliffs are unfenced.",
+   "id": "krantzkloof-nature-reserve"
+  },
+  {
+   "name": "Umhlanga Lagoon Nature Reserve",
+   "category": "natural",
+   "match": [
+    "Umhlanga Lagoon Nature Reserve",
+    "Umhlanga Lagoon"
+   ],
+   "tagline": "Dune forest, a lagoon, and the sea - in one small reserve.",
+   "story": "A boardwalk winds through 26 hectares of coastal dune forest, over a bridged wetland, and out to the lagoon mouth where the water turns gold at sunset. It is the wild counterpoint to uMhlanga's polished promenade, ten minutes' walk away.",
+   "best": "Dawn for birds; sunset for colour.",
+   "tip": "Pair it with the lighthouse promenade walk - wild reserve first, coffee in the village after.",
+   "id": "umhlanga-lagoon-nature-reserve"
+  },
+  {
+   "name": "Suncoast Casino & Entertainment World",
+   "category": "cultural",
+   "tagline": "Durban's beachfront playground, day to night.",
+   "story": "On the Golden Mile, Suncoast mixes casino floors with movies, restaurants, kids' entertainment and a hotel tower - one complex where a whole evening (or rainy day) takes care of itself.",
+   "best": "Evenings for the buzz; Sunday afternoons for families.",
+   "tip": "Park along the beachfront promenade and walk in - you get the Golden Mile and the casino in one stroll.",
+   "match": [
+    "Suncoast Casino and Entertainment World"
+   ],
+   "id": "suncoast-casino-entertainment-world"
+  },
+  {
+   "name": "KwaMuhle Museum",
+   "category": "cultural",
+   "tagline": "The story of Durban's people, told plainly.",
+   "story": "This small but powerful museum traces the city's history through the people who built it - the migrant labour system, forced removals and everyday life under apartheid. Entry is free and it punches far above its size.",
+   "best": "Weekday mornings, when it is quiet.",
+   "tip": "Pair it with the Old Fort next door - together they are an hour of honest Durban history.",
+   "match": [
+    "KwaMuhle Museum"
+   ],
+   "id": "kwamuhle-museum"
+  },
+  {
+   "name": "Phoenix Settlement (Inanda)",
+   "category": "cultural",
+   "tagline": "Where Gandhi forged his philosophy, north of Durban.",
+   "story": "In 1904 Gandhi established this settlement, with its printing press and self-sufficient community - the birthplace of satyagraha. The restored site and museum sit on the Inanda Heritage Route alongside John Dube's Ohlanga Institute.",
+   "best": "Weekends; join an organised heritage-route tour if you can.",
+   "tip": "Don't do it alone - go as the Inanda triangle: Phoenix Settlement, Ohlanga Institute and the original government school sites.",
+   "match": [
+    "Phoenix Settlement (Inanda)"
+   ],
+   "id": "phoenix-settlement-inanda"
+  },
+  {
+   "name": "BAT Centre",
+   "category": "cultural",
+   "tagline": "Harbour-front music, crafts and Durban soul.",
+   "story": "On the Victoria Embankment, the BAT Centre has hosted KZN's musicians and artists for decades - live music most weekends, craft studios, and a restaurant with working-harbour views.",
+   "best": "Friday evenings for live music.",
+   "tip": "Check who's playing before you go - the lineup is the whole reason.",
+   "match": [
+    "BAT Centre"
+   ],
+   "id": "bat-centre"
+  },
+  {
+   "name": "KZNSA Gallery (Glenwood)",
+   "category": "cultural",
+   "tagline": "KZN's contemporary art heartbeat.",
+   "story": "In a converted villa in leafy Glenwood, the KZNSA shows cutting-edge South African art, hosts talks and the First Thursdays buzz - with a much-loved courtyard cafe in the middle.",
+   "best": "Exhibition openings and First Thursdays.",
+   "tip": "The cafe alone justifies the visit - gallery after brunch is the local rhythm.",
+   "match": [
+    "KZNSA Gallery (Glenwood)"
+   ],
+   "id": "kznsa-gallery-glenwood"
+  },
+  {
+   "name": "Isandlwana & Rorke's Drift",
+   "category": "historical",
+   "tagline": "The day the Zulu army changed history - and the night a few held the line.",
+   "story": "On 22 January 1879 the Zulu kingdom won its famous victory at Isandlwana; hours later, a handful of soldiers at Rorke's Drift fought through the night. The battlefields, cairns and memorials remain among the most moving heritage sites in Africa.",
+   "best": "Cool, clear mornings; January anniversaries draw ceremonies.",
+   "tip": "Take a registered battlefield guide - the story is in the ground, and unguided you will walk past it.",
+   "match": [
+    "Isandlwana & Rorke's Drift"
+   ],
+   "id": "isandlwana-rorke-s-drift"
+  },
+  {
+   "name": "The Old Fort, Durban",
+   "category": "historical",
+   "tagline": "The city's oldest surviving building, hidden in plain sight.",
+   "story": "Built in 1842 during Durban's early sieges, the Old Fort predates everything around it - a sandstone reminder of the harbour town's frontier beginnings, quietly sitting beside the city it started.",
+   "best": "Combine with a city walk; any morning.",
+   "tip": "It pairs perfectly with KwaMuhle next door - fifteen minutes for the oldest stone in Durban.",
+   "match": [
+    "The Old Fort, Durban"
+   ],
+   "id": "the-old-fort-durban"
+  },
+  {
+   "name": "KwaDukuza (Stanger)",
+   "category": "historical",
+   "tagline": "King Shaka's royal kraal, on the north coast.",
+   "story": "The town of KwaDukuza stands where Shaka built his great kraal, Dukuza - his memorial and gravesite remain places of pilgrimage, and the heritage around them tells the story of the kingdom that shaped this province.",
+   "best": "Combine with a north coast day drive.",
+   "tip": "Visit the memorial, then continue to Blythedale beach - history morning, sea afternoon.",
+   "match": [
+    "KwaDukuza (Stanger)"
+   ],
+   "id": "kwadukuza-stanger"
+  },
+  {
+   "name": "Durban City Hall",
+   "category": "historical",
+   "tagline": "A 1910 Edwardian palace of marble and music.",
+   "story": "The City Hall's copper dome and marble halls have anchored Durban's civic life for over a century - and inside you'll find the respected Durban Art Gallery, free to visit among the grand staircases.",
+   "best": "Weekday lunch hours; concert evenings when the organ plays.",
+   "tip": "Go for the building, stay for the art gallery upstairs - most locals have never been.",
+   "match": [
+    "Durban City Hall"
+   ],
+   "id": "durban-city-hall"
+  },
+  {
+   "name": "Groutville - Chief Albert Luthuli",
+   "category": "historical",
+   "tagline": "Home of Africa's first Nobel Peace laureate.",
+   "story": "In the sugar-country village of Groutville, Chief Albert Luthuli lived, taught and led - his home and the museum honouring him tell the story of the ANC's moral conscience and the 1960 Peace Prize.",
+   "best": "As part of a north coast heritage loop with KwaDukuza.",
+   "tip": "The Luthuli Museum is small and deeply personal - allow an unhurried hour.",
+   "match": [
+    "Groutville - Chief Albert Luthuli"
+   ],
+   "id": "groutville-chief-albert-luthuli"
+  },
+  {
+   "name": "Moses Mabhida Stadium",
+   "category": "activity",
+   "tagline": "Ride the arch, swing off it, or just marvel at it.",
+   "story": "The 106-metre arch of Durban's 2010 World Cup stadium frames the skyline - a SkyCar rides to the top, the Big Rush swing drops you off it, and stadium tours walk the tunnel the legends used.",
+   "best": "SkyCar at sunset; match days for atmosphere.",
+   "tip": "Even if you skip the paid attractions, the surrounding People's Park is Durban's favourite family lawn.",
+   "match": [
+    "Moses Mabhida Stadium"
+   ],
+   "id": "moses-mabhida-stadium"
+  },
+  {
+   "name": "Valley of a Thousand Hills",
+   "category": "activity",
+   "tagline": "A thousand green folds, minutes from the highway.",
+   "story": "The escarpment west of Durban folds into endless hills - viewpoints, craft stalls, and at Botha's Hill the Phezulu cultural village and safari park where Zulu dancing and reptile encounters share one ridge.",
+   "best": "Late afternoon when the hills turn gold.",
+   "tip": "Do the Phezulu experience, then watch sunset from the roadside viewpoints on the way down.",
+   "match": [
+    "Valley of a Thousand Hills"
+   ],
+   "id": "valley-of-a-thousand-hills"
+  },
+  {
+   "name": "Aliwal Shoal (Umkomaas)",
+   "category": "activity",
+   "tagline": "One of the world's great dive sites, off the south coast.",
+   "story": "This fossilised sand dune reef hosts ragged-tooth sharks in season, turtles, rays and wrecks - regularly listed among the planet's best dive destinations, an hour south of Durban.",
+   "best": "Shark season roughly June to November.",
+   "tip": "Operators run snorkel and baited-shark experiences too - you don't need to be a certified diver to feel the shoal.",
+   "match": [
+    "Aliwal Shoal (Umkomaas)"
+   ],
+   "id": "aliwal-shoal-umkomaas"
+  },
+  {
+   "name": "Giba Gorge (Hillcrest)",
+   "category": "activity",
+   "tagline": "KZN's favourite singletrack, in the upper highway forests.",
+   "story": "A green gorge laced with mountain-bike trails, hiking routes, picnic lawns and the fresh air of the upper highway - Durban's weekend lungs, twenty minutes inland.",
+   "best": "Early weekend mornings before the heat.",
+   "tip": "Snap a photo of the trail map at the office and match the route to your legs - the network looks smaller than it rides.",
+   "match": [
+    "Giba Gorge (Hillcrest)"
+   ],
+   "id": "giba-gorge-hillcrest"
+  },
+  {
+   "name": "The Sardine Run",
+   "category": "activity",
+   "tagline": "The greatest shoal on earth passes this coast.",
+   "story": "Each June and July billions of sardines steam up the KZN south coast pursued by sharks, dolphins, whales and diving birds - a feeding frenzy visible from the shore, and unforgettable from a boat.",
+   "best": "June-July, with local sighting groups for daily positions.",
+   "tip": "Follow the local sighting reports on social media and be ready to drive at short notice - the run waits for no one.",
+   "match": [
+    "The Sardine Run"
+   ],
+   "id": "the-sardine-run"
+  },
+  {
+   "name": "uShaka Marine World",
+   "category": "wildlife",
+   "tagline": "One of the world's great aquariums, on Durban's beachfront.",
+   "story": "Built around a giant shipwreck theme, uShaka's Sea World is among the largest aquariums on Earth - sharks, rays and dolphins, seal and penguin shows, plus the Wet 'n Wild waterpark next door for the adrenaline break.",
+   "best": "Weekday mornings to beat crowds; holiday shows at midday.",
+   "tip": "The combo ticket covering both worlds is the value play - and the dolphin show is the one to plan around.",
+   "match": [
+    "uShaka Marine World"
+   ],
+   "id": "ushaka-marine-world"
+  },
+  {
+   "name": "Hluhluwe-iMfolozi Park",
+   "category": "wildlife",
+   "tagline": "Africa's oldest proclaimed reserve, and the home of the rhino's comeback.",
+   "story": "Proclaimed in 1895, this is where the white rhino was saved from extinction - today it shelters the Big Five across hills and savanna three hours from Durban, self-drivable and gloriously uncrowded.",
+   "best": "Winter dry season (May-Sept) for sightings; gates open at dawn - be first.",
+   "tip": "Pack a thermos and enter at gate-opening: the first two hours are when the cats walk the roads.",
+   "match": [
+    "Hluhluwe-iMfolozi Park"
+   ],
+   "id": "hluhluwe-imfolozi-park"
+  },
+  {
+   "name": "iSimangaliso Wetland Park (St Lucia)",
+   "category": "wildlife",
+   "tagline": "Where hippos own the town and dunes meet the sea.",
+   "story": "A UNESCO World Heritage Site of lakes, wetlands, forests and reef - boat cruises drift past hippo pods and crocs in the estuary, while Cape Vidal offers snorkelling, dunes and beach braais an hour's drive north.",
+   "best": "St Lucia sunset cruise; winter for whale watching offshore.",
+   "tip": "Base yourself in St Lucia village - hippos graze the streets at night, which never stops being strange.",
+   "match": [
+    "iSimangaliso Wetland Park (St Lucia)"
+   ],
+   "id": "isimangaliso-wetland-park-st-lucia"
+  },
+  {
+   "name": "Crocworld Conservation Centre (Scottburgh)",
+   "category": "wildlife",
+   "tagline": "Crocs, raptors and one very old gentleman named Henry.",
+   "story": "On the south coast, Crocworld breeds and conserves Nile crocodiles, flies birds of prey in daily shows, and houses Henry - claimed to be the oldest crocodile in captivity anywhere in the world.",
+   "best": "Show and feeding times - check the board at the gate.",
+   "tip": "Time your visit around the raptor show, then walk the coastal forest trail to the viewing deck over the sea.",
+   "match": [
+    "Crocworld Conservation Centre (Scottburgh)"
+   ],
+   "id": "crocworld-conservation-centre-scottburgh"
+  },
+  {
+   "name": "Umgeni River Bird Park",
+   "category": "wildlife",
+   "tagline": "A river-gorge aviary once famous along the Umgeni.",
+   "story": "Set in a former quarry on the Umgeni River, the bird park was one of Durban's most loved attractions - a free-flight aviary and waterfall gorge. Its operating status has been uncertain in recent years.",
+   "best": "Confirm current status and hours before visiting.",
+   "tip": "If reopened, combine with the Umgeni Beer Hall and Blue Lagoon across the river.",
+   "match": [
+    "Umgeni River Bird Park"
+   ],
+   "id": "umgeni-river-bird-park"
+  }
+ ]
+}
