@@ -27,7 +27,7 @@ OVERRIDES = {}
 MUST_INCLUDE = [
     "uShaka Marine World", "Moses Mabhida Stadium",
     "Suncoast Casino, Hotels & Entertainment",
-    "Durban Natural Science Museum", "Umgeni River Bird Park",
+    "Umgeni River Bird Park",
     "Golden Mile, Durban", "Durban Botanic Gardens",
     "uMhlanga Rocks", "Beachwood Mangroves Nature Reserve",
     "Kenneth Stainbank Nature Reserve",
