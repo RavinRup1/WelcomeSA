@@ -1,5 +1,6 @@
 [
-  {"name": "Durban ICC", "url": "https://www.durbanicc.co.za/events/"},
-  {"name": "Computicket Durban", "url": "https://www.computicket.com/events/durban"},
-  {"name": "uShaka Events", "url": "https://www.ushakamarineworld.co.za/events"}
+  {"name": "Computicket (sitemap)", "url": "https://www.computicket.com/sitemap.xml",
+   "sitemap": true, "url_filter": "event|show|concert|festival|performance"},
+  {"name": "Howler SA", "url": "https://howler.co.za/events"},
+  {"name": "Durban ICC", "url": "https://www.durbanicc.co.za/events/"}
 ]
