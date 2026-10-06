@@ -1,56 +1,40 @@
 {
-  "generated_at": "2026-10-06T10:51:55.246420+02:00",
+  "generated_at": "2026-10-06T10:54:50.776943+02:00",
   "events": [],
   "sources": [
     {
-      "name": "Durban ICC",
-      "url": "https://www.durbanicc.co.za/events/",
-      "ok": false,
-      "events_found": 0,
-      "note": "ConnectionError"
-    },
-    {
-      "name": "Computicket Durban",
-      "url": "https://www.computicket.com/events/durban",
+      "name": "Computicket (sitemap)",
+      "url": "https://www.computicket.com/sitemap.xml",
       "ok": true,
       "events_found": 0,
       "note": "",
-      "http": 200,
-      "debug_links": [
-        "https://content.computicket.com/wl/uploads/ctknewlogo_2227c0ca2c.png",
-        "https://content.computicket.com/bo/0f13010f-d472-4001-a5ad-afd578e2b805.png",
-        "https://content.computicket.com",
-        "https://cf-content.computicket.com"
-      ],
-      "debug_href_sample": [
-        "https://content.computicket.com/wl/uploads/ctknewlogo_2227c0ca2c.png",
-        "/_next/static/chunks/04c6uvqr.rw3l.css",
-        "/_next/static/chunks/08j0-.hnrvsil.js",
-        "https://www.googletagmanager.com/gtag/js?id=G-Y5KMVM7V84",
-        "https://content.computicket.com/bo/0f13010f-d472-4001-a5ad-afd578e2b805.png",
-        "/api/manifest",
-        "https://content.computicket.com",
-        "https://cf-content.computicket.com"
-      ]
+      "debug_links": []
     },
     {
-      "name": "uShaka Events",
-      "url": "https://www.ushakamarineworld.co.za/events",
+      "name": "Howler SA",
+      "url": "https://howler.co.za/events",
       "ok": true,
       "events_found": 0,
       "note": "",
       "http": 200,
       "debug_links": [],
       "debug_href_sample": [
-        "/bitrix/js/ui/design-tokens/dist/ui.design-tokens.min.css?171327662823463",
-        "/bitrix/js/intranet/design-tokens/bitrix24/air-design-tokens.min.css?17539754263744",
-        "/bitrix/js/ui/fonts/opensans/ui.font.opensans.min.css?16620208132320",
-        "/bitrix/js/ui/design-tokens/air/dist/air-design-tokens.min.css?1790840028163306",
-        "/bitrix/js/ui/icon-set/dist/icon-set.bundle.min.css?17822260101877",
-        "/bitrix/js/ui/icon-set/outline/dist/outline.bundle.min.css?1790840028146181",
-        "/bitrix/js/main/popup/dist/main.popup.bundle.min.css?179025696722500",
-        "/bitrix/js/ui/icon-set/actions/dist/actions.bundle.min.css?178222601020123"
+        "/apple-touch-icon.png",
+        "/manifest.json",
+        "/favicon-32x32.png",
+        "https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap",
+        "https://d1as2iufift1z3.cloudfront.net/vite/assets/consumer_portal-DjbXqGTz.css",
+        "https://d1as2iufift1z3.cloudfront.net/vite/assets/chunk-CcFc5KEG.js",
+        "https://d1as2iufift1z3.cloudfront.net/vite/assets/utils-Cb_StTKM.js",
+        "https://d1as2iufift1z3.cloudfront.net/vite/assets/initialisers-B0-XSlUf.js"
       ]
+    },
+    {
+      "name": "Durban ICC",
+      "url": "https://www.durbanicc.co.za/events/",
+      "ok": false,
+      "events_found": 0,
+      "note": "ConnectionError"
     }
   ],
   "ok": false,
