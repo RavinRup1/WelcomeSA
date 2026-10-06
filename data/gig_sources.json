@@ -1,11 +1,7 @@
 [
-  {"name": "Computicket (discover)", "url": "https://www.computicket.com/sitemap.xml",
-   "sitemap": true, "discover": true,
-   "url_filter": "event|show|concert|festival|performance|comedy|expo"},
-  {"name": "ECR (discover)", "url": "https://www.ecr.co.za/robots.txt",
-   "sitemap": true, "discover": true,
-   "url_filter": "event|show|festival|concert"},
-  {"name": "Ticketpro (discover)", "url": "https://www.ticketpros.co.za/robots.txt",
-   "sitemap": true, "discover": true,
-   "url_filter": "event|show|concert|festival"}
+  {"name": "Ticketpro festivals", "url": "https://www.ticketpro.co.za/categories/festivals"},
+  {"name": "Ticketpro concerts", "url": "https://www.ticketpro.co.za/categories/concerts"},
+  {"name": "Durban ICC schedule", "url": "https://icc.co.za/events-schedule/"},
+  {"name": "WhatsOnDurban", "url": "https://www.whatsonindurban.com/events/"},
+  {"name": "Webtickets festivals", "url": "https://webtickets.co.za/v2/category.aspx?itemid=1184158&location=4&when=anytime"}
 ]
