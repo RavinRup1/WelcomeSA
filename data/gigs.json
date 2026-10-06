@@ -1,62 +1,141 @@
 {
-  "generated_at": "2026-10-06T11:05:39.798358+02:00",
-  "events": [],
+  "generated_at": "2026-10-06T11:08:37.649460+02:00",
+  "events": [
+    {
+      "name": "Loftus Season Ticket 2026/27",
+      "start": "2026-07-22T06:00:00.000Z",
+      "end": "2027-06-29T22:00:00.000Z",
+      "venue": "Loftus Versfeld Stadium",
+      "city": "Durban",
+      "source": "Ticketpro festivals",
+      "url": "https://tickets.bullsrugby.co.za/event/loftus-season-pass-2026-27-6g6f1c",
+      "image": "https://s3.eu-central-1.amazonaws.com/yt-s3/7385fb49-7746-46e9-89f2-f2b2eee4a43b.jpg"
+    }
+  ],
   "sources": [
     {
-      "name": "Computicket (discover)",
-      "url": "https://www.computicket.com/sitemap.xml",
+      "name": "Ticketpro festivals",
+      "url": "https://www.ticketpro.co.za/categories/festivals",
       "ok": true,
-      "events_found": 0,
+      "events_found": 1,
       "note": "",
-      "debug_robots_sitemaps": [],
-      "debug_links": [],
-      "debug_sitemap_sample": []
-    },
-    {
-      "name": "ECR (discover)",
-      "url": "https://www.ecr.co.za/robots.txt",
-      "ok": true,
-      "events_found": 0,
-      "note": "",
-      "debug_robots_sitemaps": [
-        "https://ecr.co.za/sitemap.xml"
-      ],
+      "http": 200,
       "debug_links": [
-        "https://m.ecr.co.za/other/add-your-event/",
-        "https://m.ecr.co.za/videos/colour-festival-durban/",
-        "https://m.ecr.co.za/photos/photos-colour-festival-durban/",
-        "https://m.ecr.co.za/photos/photos-big-names-at-the-cape-town-jazz-festival/",
-        "https://m.ecr.co.za/news/sport/photos-hooked-on-the-durban-ski-boat-festival/",
-        "https://m.ecr.co.za/photos/photos-justin-bieber-cape-town-concert/",
-        "https://m.ecr.co.za/photos/justin-biebers-joburg-concert/",
-        "https://m.ecr.co.za/unpublished-articles/lifestyle__old/about-town/trevor-noah-on-the-david-letterman-show/"
+        "https://www.ticketpro.co.za/categories/festivals",
+        "https://www.ticketpro.co.za/assets/admin/event_widget_hints-ad045cfc.css",
+        "https://www.ticketpro.co.za/assets/events-9d324a23.css",
+        "https://www.ticketpro.co.za/assets/controllers/event_filters_controller-a5c6567b.js",
+        "https://www.ticketpro.co.za/assets/controllers/event_pagination_controller-cba011d6.js",
+        "https://www.ticketpro.co.za/assets/controllers/event_widgets_controller-0fa00630.js",
+        "https://www.ticketpro.co.za/events/escape-to-sun-city-for-the-day",
+        "https://www.ticketpro.co.za/events/2026-27-cricket-season"
       ],
-      "debug_sitemap_sample": [
-        "https://www.ecr.co.za/news-sitemap.xml",
-        "https://www.ecr.co.za/sitemap-1.xml",
-        "https://www.ecr.co.za/sitemap-2.xml",
-        "https://www.ecr.co.za/sitemap-3.xml",
-        "https://www.ecr.co.za/sitemap-4.xml",
-        "https://www.ecr.co.za/sitemap-5.xml",
-        "https://www.ecr.co.za/sitemap-6.xml",
-        "https://www.ecr.co.za/sitemap-7.xml",
-        "https://www.ecr.co.za/sitemap-8.xml",
-        "https://www.ecr.co.za/sitemap-9.xml",
-        "https://www.ecr.co.za/sitemap-10.xml",
-        "https://www.ecr.co.za/sitemap-11.xml"
+      "debug_href_sample": [
+        "https://tprocoza.s3.af-south-1.amazonaws.com/icon.png",
+        "https://tprocoza.s3.af-south-1.amazonaws.com/icon.png",
+        "https://tprocoza.s3.af-south-1.amazonaws.com/icon.png",
+        "https://tprocoza.s3.af-south-1.amazonaws.com/icon.png",
+        "https://www.ticketpro.co.za/categories/festivals",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
       ]
     },
     {
-      "name": "Ticketpro (discover)",
-      "url": "https://www.ticketpros.co.za/robots.txt",
+      "name": "Ticketpro concerts",
+      "url": "https://www.ticketpro.co.za/categories/concerts",
+      "ok": true,
+      "events_found": 1,
+      "note": "",
+      "http": 200,
+      "debug_links": [
+        "https://www.ticketpro.co.za/categories/concerts",
+        "https://www.ticketpro.co.za/assets/admin/event_widget_hints-ad045cfc.css",
+        "https://www.ticketpro.co.za/assets/events-9d324a23.css",
+        "https://www.ticketpro.co.za/assets/controllers/event_filters_controller-a5c6567b.js",
+        "https://www.ticketpro.co.za/assets/controllers/event_pagination_controller-cba011d6.js",
+        "https://www.ticketpro.co.za/assets/controllers/event_widgets_controller-0fa00630.js",
+        "https://www.ticketpro.co.za/events/escape-to-sun-city-for-the-day",
+        "https://www.ticketpro.co.za/events/2026-27-cricket-season"
+      ],
+      "debug_href_sample": [
+        "https://tprocoza.s3.af-south-1.amazonaws.com/icon.png",
+        "https://tprocoza.s3.af-south-1.amazonaws.com/icon.png",
+        "https://tprocoza.s3.af-south-1.amazonaws.com/icon.png",
+        "https://tprocoza.s3.af-south-1.amazonaws.com/icon.png",
+        "https://www.ticketpro.co.za/categories/concerts",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      ]
+    },
+    {
+      "name": "Durban ICC schedule",
+      "url": "https://icc.co.za/events-schedule/",
       "ok": true,
       "events_found": 0,
       "note": "",
-      "debug_robots_sitemaps": [],
+      "http": 200,
+      "debug_links": [
+        "https://icc.co.za/wp-content/themes/icc2020/css/newevents.css?t=1",
+        "https://icc.co.za/events-schedule/",
+        "https://icc.co.za/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ficc.co.za%2Fevents-schedule%2F",
+        "https://icc.co.za/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ficc.co.za%2Fevents-schedule%2F&#038;format=xml",
+        "https://icc.co.za/venue/icc/outdoor-event-space/",
+        "https://icc.co.za/venue/dec/outdoor-event-space/",
+        "https://icc.co.za/venue/services/event-downloads/",
+        "https://icc.co.za/experiences/event-packages/"
+      ],
+      "debug_href_sample": [
+        "/FAVICON.png",
+        "https://icc.co.za/wp-content/themes/icc2020/style.css?t=11",
+        "https://icc.co.za/wp-content/themes/icc2020/css/supplier.css",
+        "https://icc.co.za/wp-content/themes/icc2020/css/flexslider.css",
+        "https://icc.co.za/wp-content/themes/icc2020/css/scroll.css",
+        "https://icc.co.za/wp-content/themes/icc2020/css/jquery.bxslider.css",
+        "//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css",
+        "https://icc.co.za/wp-content/themes/icc2020/css/newevents.css?t=1"
+      ]
+    },
+    {
+      "name": "WhatsOnDurban",
+      "url": "https://www.whatsonindurban.com/events/",
+      "ok": true,
+      "events_found": 0,
+      "note": "",
+      "http": 200,
       "debug_links": [],
-      "debug_sitemap_sample": []
+      "debug_href_sample": []
+    },
+    {
+      "name": "Webtickets festivals",
+      "url": "https://webtickets.co.za/v2/category.aspx?itemid=1184158&location=4&when=anytime",
+      "ok": true,
+      "events_found": 0,
+      "note": "",
+      "http": 200,
+      "debug_links": [
+        "https://www.webtickets.co.za/v2/event.aspx?itemid=1593370369",
+        "https://webtickets.co.za/v2/LogoutPOS.aspx?nav=webtickets",
+        "https://webtickets.co.za/v2/MyTickets.aspx",
+        "https://webtickets.co.za/eventmanager/Profiles.aspx",
+        "https://webtickets.co.za/v2/MyEventPasses.aspx",
+        "https://webtickets.co.za/v2/MyWebTickets.aspx",
+        "https://webtickets.co.za/v2/event.aspx?itemid=1604853716",
+        "https://webtickets.co.za/v2/event.aspx?itemid=1586517684"
+      ],
+      "debug_href_sample": [
+        "apple-touch-icon.png",
+        "favicon-32x32.png",
+        "favicon-16x16.png",
+        "site.webmanifest",
+        "safari-pinned-tab.svg",
+        "css/vendor.min.css",
+        "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css",
+        "css/styles.css?v=48"
+      ]
     }
   ],
-  "ok": false,
-  "note": "No source yielded events yet - tune data/gig_sources.json"
+  "ok": true,
+  "note": ""
 }
