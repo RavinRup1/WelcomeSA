@@ -10,95 +10,100 @@
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <style>
-:root{
-  --green:#007A4D; --gold:#FFB612; --red:#E03C31; --blue:#001489;
-  --ink:#1d1d1d; --cream:#FFF8EE; --card:#ffffff; --line:#eadfce; --muted:#6b6b6b;
-}
+:root{--green:#007A4D;--green-d:#005c3a;--gold:#FFB612;--red:#E03C31;--blue:#001489;
+--ink:#1d1d1d;--cream:#FFF8EE;--card:#fff;--line:#eadfce;--muted:#6b6b6b}
 *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
 body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:var(--cream);color:var(--ink)}
 a{color:var(--blue)}
-/* splash */
-#splash{position:fixed;inset:0;z-index:100;background:linear-gradient(160deg,var(--green),#005c3a);display:flex;flex-direction:column;align-items:center;justify-content:center;color:#fff;text-align:center;cursor:pointer;transition:opacity .5s}
+#splash{position:fixed;inset:0;z-index:100;background:linear-gradient(160deg,var(--green),var(--green-d));display:flex;flex-direction:column;align-items:center;justify-content:center;color:#fff;text-align:center;cursor:pointer;transition:opacity .5s}
 #splash.hide{opacity:0;pointer-events:none}
 #splash .word{font-size:2.6rem;font-weight:800;min-height:3.4rem}
-#splash .lang{font-size:1rem;opacity:.85;margin-top:6px}
+#splash .lang{opacity:.85;margin-top:6px}
 #splash .flag{display:flex;gap:5px;margin-bottom:26px}
 #splash .flag span{width:26px;height:8px;border-radius:4px}
 #splash .tap{position:absolute;bottom:calc(env(safe-area-inset-bottom) + 30px);font-size:.8rem;opacity:.7}
 #dots{display:flex;gap:6px;margin-top:22px}
 #dots i{width:7px;height:7px;border-radius:50%;background:rgba(255,255,255,.35)}
 #dots i.on{background:var(--gold)}
-/* header */
 header{position:sticky;top:0;z-index:20;background:var(--green);color:#fff;padding:calc(env(safe-area-inset-top) + 10px) 14px 10px}
 header h1{margin:0;font-size:1.2rem;letter-spacing:.5px}
 header h1 b{color:var(--gold)}
 header .sub{font-size:.7rem;opacity:.85;margin-top:2px}
-/* nav */
 nav{display:flex;gap:6px;padding:10px 14px 4px;position:sticky;top:calc(env(safe-area-inset-top) + 58px);background:var(--cream);z-index:15}
 nav button{flex:1;padding:9px 2px;font-size:.85rem;font-weight:700;border:none;border-radius:10px;background:#e7ddcb;color:var(--muted);cursor:pointer}
 nav button.on{background:var(--green);color:#fff}
-/* explore controls */
-#ctrl{padding:8px 14px}
+/* HERO CAROUSEL */
+#hero{position:relative;height:64vh;min-height:340px;overflow:hidden;background:var(--green-d)}
+.slide{position:absolute;inset:0;opacity:0;transition:opacity .8s ease;cursor:pointer}
+.slide.on{opacity:1}
+.slide img{width:100%;height:100%;object-fit:cover}
+.slide .veil{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0) 30%,rgba(0,0,0,.72))}
+.slide .cap{position:absolute;left:18px;right:18px;bottom:calc(env(safe-area-inset-bottom) + 46px);color:#fff}
+.slide .cap .k{font-size:.68rem;font-weight:800;letter-spacing:1.2px;text-transform:uppercase;color:var(--gold)}
+.slide .cap h2{margin:4px 0 4px;font-size:1.7rem;line-height:1.1;text-shadow:0 2px 8px rgba(0,0,0,.5)}
+.slide .cap p{margin:0;font-size:.85rem;opacity:.92;text-shadow:0 1px 4px rgba(0,0,0,.6);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.ribbon{position:absolute;top:calc(env(safe-area-inset-top) + 12px);left:-32px;transform:rotate(-35deg);background:var(--gold);color:#3a2c00;font-size:.66rem;font-weight:900;letter-spacing:1px;padding:5px 40px;box-shadow:0 2px 6px rgba(0,0,0,.3)}
+#hdots{position:absolute;bottom:14px;left:0;right:0;display:flex;justify-content:center;gap:7px;z-index:5}
+#hdots i{width:8px;height:8px;border-radius:50%;background:rgba(255,255,255,.4);cursor:pointer}
+#hdots i.on{background:var(--gold)}
+/* controls */
+#ctrl{padding:12px 14px 0}
 #q{width:100%;padding:11px 14px;font-size:1rem;border-radius:12px;border:1px solid var(--line);background:#fff;outline:none}
-#chips{display:flex;gap:6px;overflow-x:auto;padding:10px 14px 4px;-webkit-overflow-scrolling:touch}
+#chips{display:flex;gap:6px;overflow-x:auto;padding:10px 14px 6px}
 #chips button{flex:none;padding:7px 13px;font-size:.78rem;font-weight:700;border-radius:20px;border:1px solid var(--line);background:#fff;color:var(--muted);cursor:pointer}
 #chips button.on{background:var(--gold);border-color:var(--gold);color:#3a2c00}
-/* cards */
 main{padding:8px 14px 24px}
-.card{display:flex;gap:12px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:10px;margin-bottom:9px;cursor:pointer}
-.card img{width:86px;height:86px;object-fit:cover;border-radius:10px;flex:none;background:#e7ddcb}
-.card .nophoto{width:86px;height:86px;border-radius:10px;flex:none;background:linear-gradient(140deg,var(--gold),var(--red));display:flex;align-items:center;justify-content:center;font-size:1.7rem}
-.card .body{flex:1;min-width:0}
-.card .name{font-weight:800;font-size:.98rem}
-.card .meta{font-size:.74rem;color:var(--muted);margin-top:3px}
-.card .sum{font-size:.8rem;color:#444;margin-top:4px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-.badge{display:inline-block;font-size:.62rem;font-weight:800;padding:2px 8px;border-radius:12px;background:#e8f3ee;color:var(--green);text-transform:uppercase;letter-spacing:.4px}
+/* photo-first cards */
+.pcard{position:relative;border-radius:16px;overflow:hidden;margin-bottom:12px;cursor:pointer;background:#000;box-shadow:0 2px 10px rgba(0,0,0,.08)}
+.pcard img{width:100%;height:190px;object-fit:cover;display:block}
+.pcard .ov{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0) 35%,rgba(0,0,0,.78))}
+.pcard .tx{position:absolute;left:14px;right:14px;bottom:12px;color:#fff}
+.pcard .tx h3{margin:0 0 3px;font-size:1.15rem;text-shadow:0 1px 6px rgba(0,0,0,.6)}
+.pcard .tx p{margin:0;font-size:.78rem;opacity:.92}
+.pcard .bdg{position:absolute;top:12px;left:12px;font-size:.6rem;font-weight:900;text-transform:uppercase;letter-spacing:.8px;background:rgba(0,0,0,.45);color:var(--gold);padding:4px 10px;border-radius:12px;backdrop-filter:blur(4px)}
 .empty{text-align:center;color:var(--muted);padding:34px 20px;font-size:.9rem}
-/* modal */
+/* sheet */
 #modal{position:fixed;inset:0;z-index:50;background:rgba(0,0,0,.5);display:none;align-items:flex-end}
 #modal.open{display:flex}
-#sheet{background:#fff;width:100%;max-height:88vh;overflow-y:auto;border-radius:20px 20px 0 0;padding:16px 16px calc(env(safe-area-inset-bottom) + 20px)}
-#sheet .x{float:right;font-size:1.3rem;border:none;background:none;cursor:pointer;color:var(--muted)}
-#sheet h2{margin:4px 0 8px;font-size:1.25rem}
-#sheet img.hero{width:100%;max-height:220px;object-fit:cover;border-radius:12px}
-#sheet .meta{font-size:.78rem;color:var(--muted);margin:8px 0}
-#sheet .sum{font-size:.92rem;line-height:1.5}
-#map{height:200px;border-radius:12px;margin:12px 0;background:#e7ddcb}
-.lic{font-size:.68rem;color:var(--muted);margin-top:10px}
+#sheet{background:#fff;width:100%;max-height:92vh;overflow-y:auto;border-radius:20px 20px 0 0;padding-bottom:calc(env(safe-area-inset-bottom) + 20px)}
+#sheet .hero{width:100%;max-height:250px;object-fit:cover}
+#sheet .pad{padding:16px}
+#sheet .x{position:sticky;top:10px;float:right;margin:10px 10px 0 0;width:34px;height:34px;border-radius:50%;border:none;background:rgba(0,0,0,.5);color:#fff;font-size:1.1rem;cursor:pointer;z-index:2}
+#sheet h2{margin:4px 0 6px;font-size:1.4rem}
+#sheet .tag{color:var(--green);font-weight:700;font-size:.95rem;margin-bottom:10px}
+#sheet .story{font-size:.95rem;line-height:1.6;margin-bottom:12px}
+.facts{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:12px}
+.fact{background:var(--cream);border:1px solid var(--line);border-radius:12px;padding:10px 12px}
+.fact .k{font-size:.62rem;font-weight:900;text-transform:uppercase;letter-spacing:.8px;color:var(--red)}
+.fact .v{font-size:.82rem;margin-top:3px;line-height:1.4}
+#map{height:190px;border-radius:12px;background:#e7ddcb}
+.lic{font-size:.66rem;color:var(--muted);margin-top:10px}
 /* gigs */
 .gig{background:var(--card);border:1px solid var(--line);border-left:5px solid var(--gold);border-radius:12px;padding:11px 13px;margin-bottom:9px}
 .gig .d{font-size:.72rem;font-weight:800;color:var(--red);text-transform:uppercase}
 .gig .n{font-weight:800;margin:2px 0}
 .gig .v{font-size:.78rem;color:var(--muted)}
-/* about */
 .about{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;font-size:.86rem;line-height:1.55}
 .about h3{margin:14px 0 6px;font-size:.95rem}
-.about code{background:#f2ecdf;padding:1px 5px;border-radius:5px;font-size:.78rem}
 footer{padding:14px;text-align:center;font-size:.7rem;color:var(--muted)}
-#updated{font-variant-numeric:tabular-nums}
 </style>
 </head>
 <body>
 
 <div id="splash">
-  <div class="flag">
-    <span style="background:#E03C31"></span><span style="background:#FFB612"></span>
-    <span style="background:#007A4D"></span><span style="background:#001489"></span>
-    <span style="background:#fff"></span><span style="background:#141414"></span>
-  </div>
+  <div class="flag"><span style="background:#E03C31"></span><span style="background:#FFB612"></span><span style="background:#007A4D"></span><span style="background:#001489"></span><span style="background:#fff"></span><span style="background:#141414"></span></div>
   <div class="word" id="splashWord">Welcome</div>
   <div class="lang" id="splashLang">English</div>
   <div id="dots"></div>
   <div class="tap">tap anywhere to explore</div>
 </div>
 
-<header>
-  <h1>WELCOME <b>SA</b></h1>
-  <div class="sub">Discover South Africa &middot; <span id="updated">loading&hellip;</span></div>
-</header>
+<header><h1>WELCOME <b>SA</b></h1>
+<div class="sub">South Africa, curated &middot; <span id="updated">loading&hellip;</span></div></header>
 
 <nav>
-  <button data-v="explore" class="on">Explore</button>
+  <button data-v="home" class="on">Today</button>
+  <button data-v="explore">Explore</button>
   <button data-v="gigs">Gigs</button>
   <button data-v="about">About</button>
 </nav>
@@ -107,131 +112,136 @@ footer{padding:14px;text-align:center;font-size:.7rem;color:var(--muted)}
 
 <div id="modal"><div id="sheet"></div></div>
 
-<footer>
-  Data: Wikipedia (CC BY-SA) + event sources &middot; <a href="data/ATTRIBUTION.md">Attribution</a><br>
-  Built by Ravin Rupnarain &amp; Kimi &middot; updates itself daily
-</footer>
+<footer>Built by <b>Ravin.R &amp; Kimi</b> &middot; data: Wikipedia (CC BY-SA) + event sources &middot; <a href="data/ATTRIBUTION.md">Attribution</a></footer>
 
 <script>
-const LANGS = [
-  ["Welcome","English"],["Sawubona","isiZulu"],["Molo","isiXhosa"],["Welkom","Afrikaans"],
-  ["Dumela","Sepedi"],["Dumela","Setswana"],["Dumela","Sesotho"],["Avuxeni","Xitsonga"],
-  ["Sawubona","siSwati"],["Ndaa / Aa","Tshivenda"],["Lotjani","isiNdebele"],["\u{1F91F}","SASL"]
-];
-const esc = s => (s||"").replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-let ATT=null, GIGS=null, VIEW="explore", CAT="all", map=null;
+const LANGS=[["Welcome","English"],["Sawubona","isiZulu"],["Molo","isiXhosa"],["Welkom","Afrikaans"],["Dumela","Sepedi"],["Dumela","Setswana"],["Dumela","Sesotho"],["Avuxeni","Xitsonga"],["Sawubona","siSwati"],["Ndaa / Aa","Tshivenda"],["Lotjhani","isiNdebele"],["\u{1F91F}","SASL"]];
+const esc=s=>(s||"").replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const norm=s=>((s||"").toLowerCase().replace(/[^a-z0-9 ]/g,"").replace(/\s+/g," ").trim());
+let ATT=null,GIGS=null,DD=null,VIEW="home",CAT="all",CUR=[],map=null,slideTimer=null;
 
-/* splash */
-(function(){
-  const seen = localStorage.getItem("wsa_splash");
-  if (seen && Date.now()-+seen < 864e5) { document.getElementById("splash").classList.add("hide"); return; }
-  const dots = document.getElementById("dots");
-  LANGS.forEach((_,i)=>{ const d=document.createElement("i"); if(!i) d.className="on"; dots.appendChild(d); });
-  let i=0;
-  const w=document.getElementById("splashWord"), l=document.getElementById("splashLang");
-  const iv=setInterval(()=>{
-    i=(i+1)%LANGS.length;
-    w.textContent=LANGS[i][0]; l.textContent=LANGS[i][1];
-    [...dots.children].forEach((d,j)=>d.classList.toggle("on",j===i));
-    if(i===LANGS.length-1){ clearInterval(iv); setTimeout(()=>close(),1600); }
-  },900);
-  function close(){ document.getElementById("splash").classList.add("hide");
-    localStorage.setItem("wsa_splash", Date.now()); }
-  document.getElementById("splash").addEventListener("click", ()=>{ clearInterval(iv); close(); });
-})();
+(function(){const seen=localStorage.getItem("wsa_splash");
+if(seen&&Date.now()-+seen<864e5){document.getElementById("splash").classList.add("hide");return;}
+const dots=document.getElementById("dots");
+LANGS.forEach((_,i)=>{const d=document.createElement("i");if(!i)d.className="on";dots.appendChild(d);});
+let i=0;const w=document.getElementById("splashWord"),l=document.getElementById("splashLang");
+const iv=setInterval(()=>{i=(i+1)%LANGS.length;w.textContent=LANGS[i][0];l.textContent=LANGS[i][1];
+[...dots.children].forEach((d,j)=>d.classList.toggle("on",j===i));
+if(i===LANGS.length-1){clearInterval(iv);setTimeout(close,1500);}},900);
+function close(){document.getElementById("splash").classList.add("hide");localStorage.setItem("wsa_splash",Date.now());}
+document.getElementById("splash").addEventListener("click",()=>{clearInterval(iv);close();});})();
 
+function findAtt(d){
+  const names=(d.match&&d.match.length?d.match:[d.name]).map(norm);
+  const list=(ATT&&ATT.attractions)||[];
+  for(const n of names){const hit=list.find(a=>norm(a.name)===n);if(hit)return hit;}
+  for(const n of names){const hit=list.find(a=>norm(a.name).includes(n)||n.includes(norm(a.name)));if(hit)return hit;}
+  return null;
+}
+function curated(){ // Ravin's rule: ONLY listings with photos
+  if(!DD||!DD.items)return[];
+  return DD.items.map(d=>({d,a:findAtt(d)}))
+    .filter(x=>x.a&&x.a.image)
+    .map(x=>({id:x.d.id,name:x.d.name,cat:x.d.category,tag:x.d.tagline,story:x.d.story,
+      best:x.d.best,tip:x.d.tip,img:x.a.image,lat:x.a.lat,lng:x.a.lng,
+      src:x.a.source_url,lic:x.a.license}));
+}
 async function load(){
-  try {
-    const [a,g] = await Promise.all([
-      fetch("data/attractions.json",{cache:"no-store"}).then(r=>r.ok?r.json():null),
-      fetch("data/gigs.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).catch(()=>null)
-    ]);
-    ATT=a; GIGS=g;
-    if(a && a.generated_at){
-      const d=new Date(a.generated_at);
-      document.getElementById("updated").textContent =
-        new Intl.DateTimeFormat("en-ZA",{day:"2-digit",month:"short"}).format(d);
-    } else document.getElementById("updated").textContent="data pending";
-  } catch(e){ document.getElementById("updated").textContent="offline"; }
+  try{
+    const[dd,a,g]=await Promise.all([
+      fetch("data/deepdives.json",{cache:"no-store"}).then(r=>r.ok?r.json():null),
+      fetch("data/attractions.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).catch(()=>null),
+      fetch("data/gigs.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).catch(()=>null)]);
+    DD=dd;ATT=a;GIGS=g;CUR=curated();
+    const stamp=(a&&a.generated_at)||(dd&&dd.updated);
+    document.getElementById("updated").textContent=stamp?("updated "+String(stamp).slice(0,10)):"data pending";
+  }catch(e){document.getElementById("updated").textContent="offline";}
   render();
 }
-
 const CATS=[["all","All"],["natural","Nature"],["cultural","Culture"],["historical","History"],["beach","Beaches"],["wildlife","Wildlife"],["activity","Activities"]];
+
+function todayIndex(){const n=CUR.length;if(!n)return 0;
+  const day=Math.floor(Date.now()/864e5);return day%n;}
 
 function render(){
   const v=document.getElementById("view");
-  if(VIEW==="explore"){
-    const list=(ATT&&ATT.attractions)||[];
+  clearInterval(slideTimer);
+  if(VIEW==="home"){
+    if(!CUR.length){v.innerHTML='<div class="empty">Curated picks are on their way.</div>';return;}
+    const ti=todayIndex();
+    const order=[...CUR.slice(ti),...CUR.slice(0,ti)]; // today first
+    v.innerHTML='<div id="hero">'+order.map((c,i)=>
+      '<div class="slide'+(i===0?" on":"")+'" data-i="'+i+'">'+
+      (i===0?'<div class="ribbon">Today\u2019s highlight</div>':'')+
+      '<img src="'+esc(c.img)+'" alt="" loading="'+(i===0?"eager":"lazy")+'">'+
+      '<div class="veil"></div><div class="cap"><div class="k">'+esc(c.cat)+'</div>'+
+      '<h2>'+esc(c.name)+'</h2><p>'+esc(c.tag)+'</p></div></div>').join("")+
+      '<div id="hdots">'+order.map((_,i)=>'<i data-i="'+i+'" class="'+(i===0?"on":"")+'"></i>').join("")+'</div></div>';
+    const slides=[...v.querySelectorAll(".slide")],dots=[...v.querySelectorAll("#hdots i")];
+    let cur=0;
+    const go=n=>{slides[cur].classList.remove("on");dots[cur].classList.remove("on");
+      cur=(n+slides.length)%slides.length;slides[cur].classList.add("on");dots[cur].classList.add("on");};
+    dots.forEach(d=>d.onclick=e=>{e.stopPropagation();go(+d.dataset.i);restart();});
+    slides.forEach(s=>s.onclick=()=>openDD(order[+s.dataset.i]));
+    const restart=()=>{clearInterval(slideTimer);slideTimer=setInterval(()=>go(cur+1),6000);};
+    restart();
+    // swipe
+    let x0=null;const hero=v.querySelector("#hero");
+    hero.addEventListener("touchstart",e=>x0=e.touches[0].clientX,{passive:true});
+    hero.addEventListener("touchend",e=>{if(x0===null)return;const dx=e.changedTouches[0].clientX-x0;
+      if(Math.abs(dx)>40)go(cur+(dx<0?1:-1));x0=null;restart();},{passive:true});
+  }
+  else if(VIEW==="explore"){
     const q=(document.getElementById("q")?.value||"").toLowerCase();
-    let shown=list.filter(a=>CAT==="all"||a.category===CAT);
-    if(q) shown=shown.filter(a=>(a.name+" "+(a.summary||"")).toLowerCase().includes(q));
-    v.innerHTML =
-      '<div id="ctrl"><input id="q" type="search" placeholder="Search places in South Africa\u2026" value="'+esc(q)+'"></div>'+
-      '<div id="chips">'+CATS.map(([k,label])=>'<button data-c="'+k+'" class="'+(CAT===k?"on":"")+'">'+label+'</button>').join("")+'</div>'+
-      (shown.length? shown.map(cardHtml).join("") :
-        '<div class="empty">'+(list.length?"Nothing matches - try another search.":"The explorer is warming up - data arrives after the first robot run.")+'</div>');
-    document.getElementById("q").addEventListener("input", render);
-    document.querySelectorAll("#chips button").forEach(b=>b.onclick=()=>{CAT=b.dataset.c; render();});
-    v.querySelectorAll(".card").forEach((c,i)=>c.onclick=()=>openDetail(shown[i]));
+    let shown=CUR.filter(c=>CAT==="all"||c.cat===CAT);
+    if(q)shown=shown.filter(c=>(c.name+" "+c.tag+" "+c.story).toLowerCase().includes(q));
+    v.innerHTML='<div id="ctrl"><input id="q" type="search" placeholder="Search the curated list\u2026" value="'+esc(q)+'"></div>'+
+    '<div id="chips">'+CATS.map(([k,l])=>'<button data-c="'+k+'" class="'+(CAT===k?"on":"")+'">'+l+'</button>').join("")+'</div>'+
+    (shown.length?shown.map((c,i)=>'<div class="pcard" data-i="'+i+'"><img src="'+esc(c.img)+'" alt="" loading="lazy">'+
+      '<div class="ov"></div><span class="bdg">'+esc(c.cat)+'</span>'+
+      '<div class="tx"><h3>'+esc(c.name)+'</h3><p>'+esc(c.tag)+'</p></div></div>').join("")
+      :'<div class="empty">Nothing here yet - try another category.</div>');
+    document.getElementById("q").addEventListener("input",render);
+    v.querySelectorAll("#chips button").forEach(b=>b.onclick=()=>{CAT=b.dataset.c;render();});
+    v.querySelectorAll(".pcard").forEach(p=>p.onclick=()=>openDD(shown[+p.dataset.i]));
   }
   else if(VIEW==="gigs"){
     const evs=(GIGS&&GIGS.events)||[];
-    v.innerHTML = evs.length
-      ? evs.map(e=>{
-          const d=e.start?new Date(e.start):null;
-          const ds=d?new Intl.DateTimeFormat("en-ZA",{weekday:"short",day:"2-digit",month:"short",hour:"2-digit",minute:"2-digit"}).format(d):"";
-          return '<div class="gig"><div class="d">'+esc(ds)+'</div><div class="n">'+esc(e.name)+'</div>'+
-                 '<div class="v">'+esc(e.venue||"")+(e.url?' &middot; <a href="'+esc(e.url)+'" target="_blank" rel="noopener">tickets/info</a>':'')+
-                 ' &middot; via '+esc(e.source)+'</div></div>';
-        }).join("")
-      : '<div class="empty">The gig guide is warming up - event sources are connected and the robot is tuning in more. Check back soon.</div>';
+    v.innerHTML=evs.length?evs.map(e=>{const d=e.start?new Date(e.start):null;
+      const ds=d?new Intl.DateTimeFormat("en-ZA",{weekday:"short",day:"2-digit",month:"short",hour:"2-digit",minute:"2-digit"}).format(d):"";
+      return '<div class="gig"><div class="d">'+esc(ds)+'</div><div class="n">'+esc(e.name)+'</div>'+
+      '<div class="v">'+esc(e.venue||"")+(e.url?' &middot; <a href="'+esc(e.url)+'" target="_blank" rel="noopener">tickets/info</a>':'')+' &middot; '+esc(e.source)+'</div></div>';}).join("")
+      :'<div class="empty">The gig guide is warming up - sources are connected, more events tuning in.</div>';
   }
-  else {
-    v.innerHTML = '<div class="about">'+
-      '<h3>Welcome SA</h3>A community-built showcase of South Africa: places to see, gigs to catch.'+
-      '<h3>Data &amp; licences</h3>Places: <code>Wikipedia</code> contributors, CC BY-SA 4.0 - every entry links to its article. Events: venue and ticketing listings (Ticketpro, Durban ICC, WhatsOnDurban, Webtickets). Maps: (c) <code>OpenStreetMap</code> contributors, ODbL.'+
-      '<h3>Colophon</h3>Built by Ravin Rupnarain &amp; Kimi. Robot updates data daily. Free forever, no logins.'+
-      '</div>';
+  else{
+    v.innerHTML='<div class="about"><h3>Welcome SA</h3>A hand-picked showcase of South Africa - the places worth your time, one highlight a day.'+
+    '<h3>The curation</h3>Every listing is chosen and approved by a human curator (no infinite lists, no filler). Currently showing <b>'+CUR.length+'</b> curated places with photography - the full approved set grows in batches.'+
+    '<h3>Data &amp; licences</h3>Text and images: Wikipedia contributors, CC BY-SA 4.0 (each entry links to its article). Events: Ticketpro, Durban ICC, WhatsOnDurban, Webtickets listings. Maps: &copy; OpenStreetMap contributors, ODbL.'+
+    '<h3>Colophon</h3>Built by <b>Ravin.R &amp; Kimi</b>. Robot refreshes data daily. Free, no logins, made in Durban.</div>';
   }
 }
-
-function cardHtml(a){
-  return '<div class="card">'+
-    (a.image?'<img src="'+esc(a.image)+'" alt="" loading="lazy">':'<div class="nophoto">\u{1F3D4}\uFE0F</div>')+
-    '<div class="body"><div class="name">'+esc(a.name)+' <span class="badge">'+esc(a.category)+'</span></div>'+
-    '<div class="meta">'+esc(a.province)+(a.lat?"":" &middot; map coming")+'</div>'+
-    '<div class="sum">'+esc(a.summary||"")+'</div></div></div>';
-}
-
-function openDetail(a){
+function openDD(c){
   const sh=document.getElementById("sheet");
-  sh.innerHTML='<button class="x" onclick="closeDetail()">\u2715</button>'+
-    (a.image?'<img class="hero" src="'+esc(a.image)+'">':'')+
-    '<h2>'+esc(a.name)+'</h2>'+
-    '<div class="meta"><span class="badge">'+esc(a.category)+'</span> &middot; '+esc(a.province)+'</div>'+
-    '<div class="sum">'+esc(a.summary||"")+'</div>'+
-    '<div id="map"></div>'+
-    (a.lat?'' :'<div class="empty">Map location being added.</div>')+
-    '<a href="'+esc(a.source_url)+'" target="_blank" rel="noopener">Read more on Wikipedia</a>'+
-    '<div class="lic">'+esc(a.license||"Wikipedia contributors, CC BY-SA 4.0")+'</div>';
+  sh.innerHTML='<button class="x" onclick="closeDD()">\u2715</button>'+
+   (c.img?'<img class="hero" src="'+esc(c.img)+'">':'')+'<div class="pad">'+
+   '<h2>'+esc(c.name)+'</h2><div class="tag">'+esc(c.tag)+'</div>'+
+   '<div class="story">'+esc(c.story)+'</div>'+
+   '<div class="facts"><div class="fact"><div class="k">Best time</div><div class="v">'+esc(c.best||"")+'</div></div>'+
+   '<div class="fact"><div class="k">Insider tip</div><div class="v">'+esc(c.tip||"")+'</div></div></div>'+
+   (c.lat?'<div id="map"></div>':'')+
+   '<a href="'+esc(c.src)+'" target="_blank" rel="noopener">Read more on Wikipedia</a>'+
+   '<div class="lic">'+esc(c.lic||"Wikipedia contributors, CC BY-SA 4.0")+'</div></div>';
   document.getElementById("modal").classList.add("open");
-  if(a.lat){
-    setTimeout(()=>{
-      map=L.map("map",{scrollWheelZoom:false}).setView([a.lat,a.lng],13);
-      L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:19,
-        attribution:'&copy; OpenStreetMap contributors'}).addTo(map);
-      L.marker([a.lat,a.lng]).addTo(map);
-    },150);
-  }
+  if(c.lat)setTimeout(()=>{map=L.map("map",{scrollWheelZoom:false}).setView([c.lat,c.lng],13);
+    L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:19,attribution:"&copy; OpenStreetMap contributors"}).addTo(map);
+    L.marker([c.lat,c.lng]).addTo(map);},150);
 }
-function closeDetail(){ document.getElementById("modal").classList.remove("open"); if(map){map.remove();map=null;} }
-document.getElementById("modal").addEventListener("click",e=>{ if(e.target.id==="modal") closeDetail(); });
-
+function closeDD(){document.getElementById("modal").classList.remove("open");if(map){map.remove();map=null;}}
+document.getElementById("modal").addEventListener("click",e=>{if(e.target.id==="modal")closeDD();});
 document.querySelectorAll("nav button").forEach(b=>b.onclick=()=>{
   document.querySelectorAll("nav button").forEach(x=>x.classList.remove("on"));
-  b.classList.add("on"); VIEW=b.dataset.v; render(); window.scrollTo({top:0});
-});
-if("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js");
+  b.classList.add("on");VIEW=b.dataset.v;render();window.scrollTo({top:0});});
+if("serviceWorker" in navigator)navigator.serviceWorker.register("sw.js");
 load();
 </script>
 </body>
