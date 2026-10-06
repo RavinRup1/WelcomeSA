@@ -1,0 +1,7 @@
+Master knowledge base for this project lives in the private
+KBstorage repo. Read, in order:
+  INDEX.txt -> 00-PROTOCOL-SHARED.txt -> 01-PROTOCOL-KBSTORAGE.txt
+  -> 23-PROJECT-welcomesa-KB.txt -> 24-PROJECT-welcomesa-PROTOCOL.txt
+  -> 25-PROJECT-welcomesa-NEXT_TASKS.txt
+This repo is public: no KB content, secrets, or personal info here -
+pointer only.
