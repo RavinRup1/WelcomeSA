@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-06T10:41:28.679571+02:00",
+  "generated_at": "2026-10-06T10:48:27.121426+02:00",
   "province": "KwaZulu-Natal",
-  "count": 86,
+  "count": 87,
   "attractions": [
     {
       "id": "arbor-park",
@@ -143,6 +143,19 @@
       "lng": 31.00666667,
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Durban_Botanic_Gardens_new_entrance_04_09_2010.JPG/500px-Durban_Botanic_Gardens_new_entrance_04_09_2010.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Durban_Botanic_Gardens",
+      "license": "Text+image: Wikipedia contributors, CC BY-SA 4.0",
+      "added": "2026-10-06"
+    },
+    {
+      "id": "durban-metropolitan-open-space-system",
+      "name": "Durban Metropolitan Open Space System",
+      "summary": "The Durban Metropolitan Open Space System (D'MOSS) is a system of green corridors in the city of Durban, South Africa.   Implemented in 1982, the system links a number of significant conservation sites and nature reserves, allowing a path for the free movement of fauna and flora.  ",
+      "province": "KwaZulu-Natal",
+      "category": "cultural",
+      "lat": null,
+      "lng": null,
+      "image": null,
+      "source_url": "https://en.wikipedia.org/wiki/Durban_Metropolitan_Open_Space_System",
       "license": "Text+image: Wikipedia contributors, CC BY-SA 4.0",
       "added": "2026-10-06"
     },
@@ -1125,8 +1138,8 @@
   "must_include_check": {
     "uShaka Marine World": "UShaka Marine World",
     "Moses Mabhida Stadium": "Moses Mabhida Stadium",
-    "Suncoast Casino, Hotels & Entertainment": null,
-    "Durban Natural Science Museum": null,
+    "Suncoast Casino, Hotels & Entertainment": "Suncoast Casino and Entertainment World",
+    "Durban Natural Science Museum": "Durban Metropolitan Open Space System",
     "Umgeni River Bird Park": "Umgeni River Bird Park",
     "Golden Mile, Durban": "Golden Mile, Durban",
     "Durban Botanic Gardens": "Durban Botanic Gardens",
@@ -1134,10 +1147,7 @@
     "Beachwood Mangroves Nature Reserve": "Beachwood Mangroves Nature Reserve",
     "Kenneth Stainbank Nature Reserve": "Kenneth Stainbank Nature Reserve"
   },
-  "must_include_missing": [
-    "Suncoast Casino, Hotels & Entertainment",
-    "Durban Natural Science Museum"
-  ],
+  "must_include_missing": [],
   "category_errors": {},
   "ok": true
 }
