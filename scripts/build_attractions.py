@@ -19,6 +19,10 @@ DATA = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data")
 OUT = os.path.join(DATA, "attractions.json")
 ATTR = os.path.join(DATA, "ATTRIBUTION.md")
 
+# Manual overrides for the must-include gate: display name -> exact
+# Wikipedia title. Ravin decides these (local knowledge wins).
+OVERRIDES = {}
+
 # Ravin's must-include list (the M1 quality gate)
 MUST_INCLUDE = [
     "uShaka Marine World", "Moses Mabhida Stadium",
@@ -142,7 +146,7 @@ def main():
     # 2. must-include gate: make sure each is present (search if missing)
     check = {}
     for want in MUST_INCLUDE:
-        hit = want if want in titles else search_title(want)
+        hit = OVERRIDES.get(want) or (want if want in titles else search_title(want))
         check[want] = hit
         if hit:
             titles.add(hit)
