@@ -47,12 +47,13 @@ def extract_jsonld_events(html):
 
 
 def sitemap_urls(url, pattern, cap=25):
-    """Fetch a sitemap (or sitemap index), return detail URLs matching pattern."""
+    """Fetch a sitemap (or sitemap index). Returns (matches, raw sample)."""
     try:
         r = requests.get(url, headers=H, timeout=40)
         if r.status_code != 200:
-            return []
+            return [], []
         locs = re.findall(r"<loc>(.*?)</loc>", r.text)
+        sample = locs[:12]
         urls = []
         for loc in locs:
             if "sitemap" in loc.lower() and not re.search(pattern, loc, re.I):
@@ -67,9 +68,9 @@ def sitemap_urls(url, pattern, cap=25):
                 urls.append(loc)
             if len(urls) >= cap:
                 break
-        return urls[:cap]
+        return urls[:cap], sample
     except Exception:
-        return []
+        return [], []
 
 
 def norm(ev, source):
@@ -109,9 +110,10 @@ def main():
         try:
             from urllib.parse import urljoin, urlparse
             if s.get("sitemap"):
-                urls = sitemap_urls(s["url"],
-                                    s.get("url_filter", "event|show|concert|festival"))
+                urls, sample = sitemap_urls(s["url"],
+                                            s.get("url_filter", "event|show|concert|festival"))
                 entry["debug_links"] = urls[:8]
+                entry["debug_sitemap_sample"] = sample
                 evs = []
                 for u in urls:
                     try:
