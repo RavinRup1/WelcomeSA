@@ -29,20 +29,30 @@ DEFAULT_SOURCES = [
 
 
 def extract_jsonld_events(html):
+    """All schema.org Events in JSON-LD blocks - handles ItemList and @graph."""
     events = []
+
+    def walk(node):
+        if isinstance(node, dict):
+            t = node.get("@type")
+            if t == "Event":
+                events.append(node)
+            if t == "ItemList":
+                for el in node.get("itemListElement", []):
+                    walk(el.get("item", el))
+            for v in node.values():
+                if isinstance(v, (dict, list)):
+                    walk(v)
+        elif isinstance(node, list):
+            for x in node:
+                walk(x)
+
     for block in re.findall(r'<script[^>]*type=["\']application/ld\+json["\'][^>]*>(.*?)</script>',
                             html, re.S | re.I):
         try:
-            data = json.loads(unescape(block.strip()))
+            walk(json.loads(unescape(block.strip())))
         except Exception:
             continue
-        items = data if isinstance(data, list) else [data]
-        for item in items:
-            if isinstance(item, dict) and item.get("@type") == "Event":
-                events.append(item)
-            if isinstance(item, dict) and "@graph" in item:
-                events += [x for x in item["@graph"]
-                           if isinstance(x, dict) and x.get("@type") == "Event"]
     return events
 
 
