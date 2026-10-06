@@ -110,8 +110,25 @@ def main():
         try:
             from urllib.parse import urljoin, urlparse
             if s.get("sitemap"):
-                urls, sample = sitemap_urls(s["url"],
-                                            s.get("url_filter", "event|show|concert|festival"))
+                pattern = s.get("url_filter", "event|show|concert|festival")
+                urls, sample = sitemap_urls(s["url"], pattern)
+                if not urls and s.get("discover"):
+                    root = urlparse(s["url"]).scheme + "://" + urlparse(s["url"]).netloc
+                    try:
+                        rb = requests.get(root + "/robots.txt", headers=H, timeout=30)
+                        smaps = re.findall(r"(?im)^sitemap:\s*(\S+)", rb.text)
+                        entry["debug_robots_sitemaps"] = smaps[:6]
+                        for sm in smaps[:4]:
+                            u2, s2 = sitemap_urls(sm, pattern)
+                            urls += u2
+                            if not sample:
+                                sample = s2
+                            time.sleep(1)
+                            if len(urls) >= 25:
+                                break
+                    except Exception:
+                        pass
+                urls = urls[:25]
                 entry["debug_links"] = urls[:8]
                 entry["debug_sitemap_sample"] = sample
                 evs = []
