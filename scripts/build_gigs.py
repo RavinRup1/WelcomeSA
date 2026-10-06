@@ -46,6 +46,32 @@ def extract_jsonld_events(html):
     return events
 
 
+def sitemap_urls(url, pattern, cap=25):
+    """Fetch a sitemap (or sitemap index), return detail URLs matching pattern."""
+    try:
+        r = requests.get(url, headers=H, timeout=40)
+        if r.status_code != 200:
+            return []
+        locs = re.findall(r"<loc>(.*?)</loc>", r.text)
+        urls = []
+        for loc in locs:
+            if "sitemap" in loc.lower() and not re.search(pattern, loc, re.I):
+                try:
+                    rr = requests.get(loc, headers=H, timeout=30)
+                    urls += [u for u in re.findall(r"<loc>(.*?)</loc>", rr.text)
+                             if re.search(pattern, u, re.I)]
+                except Exception:
+                    pass
+                time.sleep(1)
+            elif re.search(pattern, loc, re.I):
+                urls.append(loc)
+            if len(urls) >= cap:
+                break
+        return urls[:cap]
+    except Exception:
+        return []
+
+
 def norm(ev, source):
     loc = ev.get("location") or {}
     if isinstance(loc, dict):
@@ -82,6 +108,25 @@ def main():
                  "note": ""}
         try:
             from urllib.parse import urljoin, urlparse
+            if s.get("sitemap"):
+                urls = sitemap_urls(s["url"],
+                                    s.get("url_filter", "event|show|concert|festival"))
+                entry["debug_links"] = urls[:8]
+                evs = []
+                for u in urls:
+                    try:
+                        rr = requests.get(u, headers=H, timeout=30)
+                        if rr.status_code == 200:
+                            evs += extract_jsonld_events(rr.text)
+                    except Exception:
+                        pass
+                    time.sleep(1)
+                entry["ok"] = True
+                entry["events_found"] = len(evs)
+                all_events += [norm(e, s["name"]) for e in evs]
+                report.append(entry)
+                time.sleep(2)
+                continue
             r = requests.get(s["url"], headers=H, timeout=40)
             entry["http"] = r.status_code
             if r.status_code == 200:
