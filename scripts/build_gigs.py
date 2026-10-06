@@ -81,10 +81,26 @@ def main():
         entry = {"name": s["name"], "url": s["url"], "ok": False, "events_found": 0,
                  "note": ""}
         try:
+            from urllib.parse import urljoin, urlparse
             r = requests.get(s["url"], headers=H, timeout=40)
             entry["http"] = r.status_code
             if r.status_code == 200:
                 evs = extract_jsonld_events(r.text)
+                # follow same-domain event detail links (listings often lack JSON-LD)
+                host = urlparse(s["url"]).netloc
+                seen_links = []
+                for h in re.findall(r'href="([^"]*(?:event|whats-on|show)[^"]*)"', r.text, re.I):
+                    u = urljoin(s["url"], h)
+                    if urlparse(u).netloc == host and u not in seen_links:
+                        seen_links.append(u)
+                for u in seen_links[:12]:
+                    try:
+                        rr = requests.get(u, headers=H, timeout=30)
+                        if rr.status_code == 200:
+                            evs += extract_jsonld_events(rr.text)
+                    except Exception:
+                        pass
+                    time.sleep(1)
                 entry["ok"], entry["events_found"] = True, len(evs)
                 all_events += [norm(e, s["name"]) for e in evs]
             else:
@@ -94,7 +110,15 @@ def main():
         report.append(entry)
         time.sleep(2)  # polite between sources
 
-    all_events = [e for e in all_events if e["name"]]
+    seen = set()
+    uniq = []
+    for e in all_events:
+        if e["name"]:
+            k = (e["name"], e["start"], e["venue"])
+            if k not in seen:
+                seen.add(k)
+                uniq.append(e)
+    all_events = uniq
     all_events.sort(key=lambda e: e["start"])
 
     prev = {}
