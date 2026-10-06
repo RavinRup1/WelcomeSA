@@ -73,8 +73,23 @@ def category_members(cat):
 
 
 def search_title(name):
-    d = wiki({"action": "opensearch", "search": name, "limit": 1, "namespace": 0})
-    return d[1][0] if d and len(d) == 4 and d[1] else None
+    """Multi-attempt: full name, then shorter variants, then full-text search."""
+    variants = [name, name.split(",")[0], " ".join(name.split()[:3])]
+    for v in dict.fromkeys(variants):
+        try:
+            d = wiki({"action": "opensearch", "search": v, "limit": 5, "namespace": 0})
+            if d and len(d) == 4 and d[1]:
+                return d[1][0]
+        except Exception:
+            pass
+        time.sleep(1)
+    try:
+        d = wiki({"action": "query", "list": "search", "srsearch": f'"{name}"',
+                  "srlimit": 1})
+        hits = d["query"]["search"]
+        return hits[0]["title"] if hits else None
+    except Exception:
+        return None
 
 
 def fetch_pages(titles):
