@@ -89,8 +89,8 @@ def _gemini_json(prompt):
 
 def main():
     os.makedirs(DATA, exist_ok=True)
-    if fresh_out(OUT, 14):
-        print("projects: fresh (<14 days), skipping")
+    if fresh_out(OUT, 30):
+        print("projects: fresh (<30 days), skipping")
         return
     seeds = DEFAULT_SEED
     if os.path.exists(SEED):
