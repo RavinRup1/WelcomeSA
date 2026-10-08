@@ -110,38 +110,106 @@ def strip_html(html):
     return re.sub(r"\s+", " ", t).strip()
 
 
-def gemini_deepdive(ev, material):
-    """Grounded deep-dive written by Gemini from the event's own page text.
-    Returns dict or None (no key / no material / failure)."""
+KZN_CITIES = ["durban", "umhlanga", "ballito", "umdloti", "pietermaritzburg",
+              "st lucia", "stanger", "kwadukuza", "richards bay", "empangeni",
+              "newcastle", "ladysmith", "port shepstone", "margate", "southbroom",
+              "umkomaas", "scottburgh", "amanzimtoti", "tongaat", "verulam",
+              "hillcrest", "kloof", "westville", "pinetown", "glenwood",
+              "bluff", "inanda", "botha\u2019s hill", "durban north", "isipingo"]
+OUT_PROVINCE = ["johannesburg", "pretoria", "loftus", "gauteng", "cape town",
+                "western cape", "gqeberha", "port elizabeth", "bloemfontein",
+                "east london", "nelspruit", "mbombela", "polokwane", "kimberley",
+                "stellenbosch", "soweto", "sandton", "midrand"]
+
+
+def gate0_kzn(ev, material):
+    """Deterministic location gate: event must be provably in KwaZulu-Natal."""
+    text = ((material or "") + " " + (ev.get("venue") or "")).lower()
+    in_kzn = any(c in text for c in KZN_CITIES)
+    out = any(c in text for c in OUT_PROVINCE)
+    if out and not in_kzn:
+        return False
+    return in_kzn
+
+
+def _gemini_json(prompt):
     key = os.environ.get("GEMINI_API_KEY")
-    if not key or not material or len(material) < 80:
+    if not key:
         return None
-    prompt = (
-        "You write for Welcome SA, a South African events guide. "
-        "Using ONLY the material below (never invent facts), return a JSON object with:\n"
-        '- "deepdive": 2-3 warm, plain sentences about the event and its appeal.\n'
-        '- "why_go": one short sentence - who will love this.\n'
-        '- "good_to_know": one practical sentence from the material (time, venue, tickets).\n'
-        "Plain English, no exclamation marks.\n\n"
-        f"EVENT: {ev.get('name')} | venue: {ev.get('venue')} | start: {ev.get('start')}\n"
-        f"MATERIAL:\n{material[:4500]}\n\nReturn ONLY valid JSON."
-    )
     try:
         r = requests.post(
-            f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={key}",
+            "https://generativelanguage.googleapis.com/v1beta/models/"
+            "gemini-2.0-flash:generateContent?key=" + key,
             json={"contents": [{"parts": [{"text": prompt}]}],
                   "generationConfig": {"responseMimeType": "application/json",
-                                       "temperature": 0.4}},
+                                       "temperature": 0.3}},
             timeout=70)
         if r.status_code != 200:
             print("gemini http", r.status_code)
             return None
-        txt = r.json()["candidates"][0]["content"]["parts"][0]["text"]
-        d = json.loads(txt)
-        return {k: str(d.get(k, "")).strip() for k in ("deepdive", "why_go", "good_to_know")} or None
+        return json.loads(r.json()["candidates"][0]["content"]["parts"][0]["text"])
     except Exception as e:
         print("gemini failed:", type(e).__name__)
         return None
+
+
+def ai_writer(ev, material):
+    d = _gemini_json(
+        "You write for Welcome SA, a KwaZulu-Natal events guide. Using ONLY the "
+        "material below (never invent facts), return JSON with:\n"
+        '- "deepdive": 2-3 warm, plain sentences about the event and its appeal.\n'
+        '- "why_go": one short sentence - who will love this.\n'
+        '- "good_to_know": one practical sentence from the material.\n'
+        "Plain English, no exclamation marks.\n\n"
+        f"EVENT: {ev.get('name')} | venue: {ev.get('venue')} | start: {ev.get('start')}\n"
+        f"MATERIAL:\n{material[:4500]}")
+    if not d:
+        return None
+    return {k: str(d.get(k, "")).strip() for k in ("deepdive", "why_go", "good_to_know")}
+
+
+def ai_critic(ev, material, draft):
+    return _gemini_json(
+        "You are a strict fact-checker for a KZN events guide. Check:\n"
+        "1. Is the venue/city genuinely in KwaZulu-Natal?\n"
+        "2. Is the event date in the future?\n"
+        "3. Does the DRAFT claim anything not supported by the MATERIAL?\n"
+        'Return JSON: {"in_kzn": true/false, "date_future": true/false, '
+        '"invented": "none or the claim", "verdict": "PASS" or "FAIL", '
+        '"issues": "one short sentence"}\n\n'
+        f"EVENT: {ev.get('name')} | venue: {ev.get('venue')} | start: {ev.get('start')}\n"
+        f"MATERIAL:\n{material[:3000]}\n\nDRAFT:\n"
+        + json.dumps(draft)[:1500])
+
+
+def ai_judge(ev, draft, critic):
+    critic = critic or {}
+    return _gemini_json(
+        "You are the final editor. Decide SERVE or DROP. Rules: DROP if in_kzn is "
+        "false, or date_future is false, or invented claims are serious. If only "
+        'minor issues, SERVE. Return JSON: {"decision": "SERVE" or "DROP", '
+        '"reason": "short sentence", "fixed_venue": "or empty", '
+        '"fixed_city": "or empty"}.\n\n'
+        f"EVENT: {ev.get('name')} at {ev.get('venue')}\n"
+        f"CRITIC: {json.dumps(critic)[:800]}")
+
+
+def jury(ev, material):
+    """Gate 0 -> Writer -> Critic -> Judge. Returns (event_or_None, drop_reason)."""
+    if not gate0_kzn(ev, material):
+        return None, "gate0: not confirmed KZN"
+    draft = ai_writer(ev, material)
+    if not draft:
+        return None, "writer unavailable (no AI key?)"
+    critic = ai_critic(ev, material, draft) or {}
+    judge = ai_judge(ev, draft, critic) or {}
+    if str(judge.get("decision", "")).upper() == "SERVE":
+        ev.update(draft)
+        if judge.get("fixed_venue"):
+            ev["venue"] = judge["fixed_venue"]
+        return ev, None
+    reason = judge.get("reason") or critic.get("issues") or "rejected by jury"
+    return None, "jury: " + str(reason)[:120]
 
 
 def main():
@@ -234,18 +302,21 @@ def main():
         report.append(entry)
         time.sleep(2)  # polite between sources
 
-    # --- Phase A: grounded AI deep-dives (max 15 events per run) ---
-    llm_done = 0
+    # --- Gate 0 + three-agent jury (max 15 served per run; when in doubt, drop) ---
+    served, dropped = [], []
     for e in all_events:
-        if llm_done >= 15:
+        if len(served) >= 15:
             break
         material = page_texts.get(e.get("url") or "", "")
-        dd = gemini_deepdive(e, material)
-        if dd:
-            e.update(dd)
-            llm_done += 1
-            time.sleep(2)
-    print(f"deep-dives written by AI: {llm_done}")
+        ok, why = jury(e, material)
+        time.sleep(2)
+        if ok:
+            served.append(e)
+        else:
+            dropped.append({"name": e.get("name"), "source": e.get("source"),
+                            "reason": why})
+    print(f"jury: {len(served)} served, {len(dropped)} dropped")
+    all_events = served
 
     seen = set()
     uniq = []
@@ -269,6 +340,7 @@ def main():
     doc = {
         "generated_at": NOW.isoformat(),
         "events": all_events or prev.get("events", []),
+        "dropped": dropped[-20:],
         "sources": report,
         "ok": bool(working),
         "note": ("" if working else
