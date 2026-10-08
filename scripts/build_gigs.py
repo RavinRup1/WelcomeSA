@@ -303,6 +303,9 @@ def main():
         time.sleep(2)  # polite between sources
 
     print("AI key visible to robot:", bool(os.environ.get("GEMINI_API_KEY")))
+    if os.environ.get("GEMINI_API_KEY"):
+        st = _gemini_json('Reply with JSON: {"ok": true}')
+        print("gemini self-test:", bool(st and st.get("ok")))
     # --- Gate 0 + three-agent jury (max 15 served per run; when in doubt, drop) ---
     served, dropped = [], []
     for e in all_events:
