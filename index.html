@@ -15,16 +15,6 @@
 *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
 body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:var(--cream);color:var(--ink)}
 a{color:var(--blue)}
-#splash{position:fixed;inset:0;z-index:100;background:linear-gradient(160deg,var(--green),var(--green-d));display:flex;flex-direction:column;align-items:center;justify-content:center;color:#fff;text-align:center;cursor:pointer;transition:opacity .5s}
-#splash.hide{opacity:0;pointer-events:none}
-#splash .word{font-size:2.6rem;font-weight:800;min-height:3.4rem}
-#splash .lang{opacity:.85;margin-top:6px}
-#splash .flag{display:flex;gap:5px;margin-bottom:26px}
-#splash .flag span{width:26px;height:8px;border-radius:4px}
-#splash .tap{position:absolute;bottom:calc(env(safe-area-inset-bottom) + 30px);font-size:.8rem;opacity:.7}
-#dots{display:flex;gap:6px;margin-top:22px}
-#dots i{width:7px;height:7px;border-radius:50%;background:rgba(255,255,255,.35)}
-#dots i.on{background:var(--gold)}
 header{position:sticky;top:0;z-index:20;background:var(--green);color:#fff;padding:calc(env(safe-area-inset-top) + 10px) 14px 10px}
 header h1{margin:0;font-size:1.2rem;letter-spacing:.5px}
 header h1 b{color:var(--gold)}
@@ -34,6 +24,11 @@ nav button{flex:1;padding:9px 2px;font-size:.85rem;font-weight:700;border:none;b
 nav button.on{background:var(--green);color:#fff}
 /* HERO CAROUSEL */
 #hero{position:relative;height:64vh;min-height:340px;overflow:hidden;background:var(--green-d)}
+.flagbar{height:5px;background:linear-gradient(90deg,#E03C31 0 17%,#FFB612 17% 33%,#007A4D 33% 67%,#001489 67% 83%,#fff 83% 92%,#141414 92%)}
+.langwash{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;pointer-events:none;z-index:2}
+.langwash span{font-size:26vw;font-weight:900;color:rgba(255,255,255,.09);letter-spacing:.02em;text-transform:uppercase;white-space:nowrap;transition:opacity 1.2s ease;line-height:1}
+@media(min-width:720px){.langwash span{font-size:12rem}}
+.slide .cap{z-index:3}
 .slide{position:absolute;inset:0;opacity:0;transition:opacity .8s ease;cursor:pointer}
 .slide.on{opacity:1}
 .slide img{width:100%;height:100%;object-fit:cover}
@@ -90,16 +85,9 @@ footer{padding:14px;text-align:center;font-size:.7rem;color:var(--muted)}
 </head>
 <body>
 
-<div id="splash">
-  <div class="flag"><span style="background:#E03C31"></span><span style="background:#FFB612"></span><span style="background:#007A4D"></span><span style="background:#001489"></span><span style="background:#fff"></span><span style="background:#141414"></span></div>
-  <div class="word" id="splashWord">Welcome</div>
-  <div class="lang" id="splashLang">English</div>
-  <div id="dots"></div>
-  <div class="tap">tap anywhere to explore</div>
-</div>
-
 <header><h1>WELCOME <b>SA</b></h1>
 <div class="sub">South Africa, curated &middot; <span id="updated">loading&hellip;</span></div></header>
+<div class="flagbar"></div>
 
 <nav>
   <button data-v="home" class="on">Today</button>
@@ -116,20 +104,14 @@ footer{padding:14px;text-align:center;font-size:.7rem;color:var(--muted)}
 
 <script>
 const LANGS=[["Welcome","English"],["Sawubona","isiZulu"],["Molo","isiXhosa"],["Welkom","Afrikaans"],["Dumela","Sepedi"],["Dumela","Setswana"],["Dumela","Sesotho"],["Avuxeni","Xitsonga"],["Sawubona","siSwati"],["Ndaa / Aa","Tshivenda"],["Lotjhani","isiNdebele"],["\u{1F91F}","SASL"]];
+(function(){const lw=document.getElementById("lw");if(!lw)return;let li=0;
+setInterval(()=>{lw.style.opacity=0;setTimeout(()=>{li=(li+1)%LANGS.length;
+lw.textContent=LANGS[li][0];lw.style.opacity=1;},1200);},4200);})();
 const esc=s=>(s||"").replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const norm=s=>((s||"").toLowerCase().replace(/[^a-z0-9 ]/g,"").replace(/\s+/g," ").trim());
 let ATT=null,GIGS=null,DD=null,VIEW="home",CAT="all",CUR=[],map=null,slideTimer=null;
 
-(function(){const seen=localStorage.getItem("wsa_splash");
-if(seen&&Date.now()-+seen<864e5){document.getElementById("splash").classList.add("hide");return;}
-const dots=document.getElementById("dots");
-LANGS.forEach((_,i)=>{const d=document.createElement("i");if(!i)d.className="on";dots.appendChild(d);});
-let i=0;const w=document.getElementById("splashWord"),l=document.getElementById("splashLang");
-const iv=setInterval(()=>{i=(i+1)%LANGS.length;w.textContent=LANGS[i][0];l.textContent=LANGS[i][1];
-[...dots.children].forEach((d,j)=>d.classList.toggle("on",j===i));
-if(i===LANGS.length-1){clearInterval(iv);setTimeout(close,1500);}},900);
-function close(){document.getElementById("splash").classList.add("hide");localStorage.setItem("wsa_splash",Date.now());}
-document.getElementById("splash").addEventListener("click",()=>{clearInterval(iv);close();});})();
+
 
 function findAtt(d){
   const names=(d.match&&d.match.length?d.match:[d.name]).map(norm);
@@ -170,7 +152,7 @@ function render(){
     if(!CUR.length){v.innerHTML='<div class="empty">Curated picks are on their way.</div>';return;}
     const ti=todayIndex();
     const order=[...CUR.slice(ti),...CUR.slice(0,ti)]; // today first
-    v.innerHTML='<div id="hero">'+order.map((c,i)=>
+    v.innerHTML='<div id="hero"><div class="langwash"><span id="lw">Welcome</span></div>'+order.map((c,i)=>
       '<div class="slide'+(i===0?" on":"")+'" data-i="'+i+'">'+
       (i===0?'<div class="ribbon">Today\u2019s highlight</div>':'')+
       '<img src="'+esc(c.img)+'" alt="" loading="'+(i===0?"eager":"lazy")+'">'+
@@ -183,7 +165,7 @@ function render(){
       cur=(n+slides.length)%slides.length;slides[cur].classList.add("on");dots[cur].classList.add("on");};
     dots.forEach(d=>d.onclick=e=>{e.stopPropagation();go(+d.dataset.i);restart();});
     slides.forEach(s=>s.onclick=()=>openDD(order[+s.dataset.i]));
-    const restart=()=>{clearInterval(slideTimer);slideTimer=setInterval(()=>go(cur+1),6000);};
+    const restart=()=>{clearInterval(slideTimer);slideTimer=setInterval(()=>go(cur+1),4500);};
     restart();
     // swipe
     let x0=null;const hero=v.querySelector("#hero");
