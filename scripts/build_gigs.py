@@ -6,6 +6,22 @@ so we can tune without code changes. Writes data/gigs.json."""
 
 import json, os, re, sys, time
 from datetime import datetime
+
+def fresh_out(path, days):
+    """Self-throttle: skip if output younger than `days` unless FORCE=1."""
+    if os.environ.get("FORCE") == "1":
+        return False
+    if os.path.exists(path):
+        try:
+            d = json.load(open(path))
+            ts = d.get("generated_at") or d.get("updated")
+            if ts:
+                age = (NOW - datetime.fromisoformat(ts)).total_seconds()
+                return age < days * 86400
+        except Exception:
+            pass
+    return False
+
 from html import unescape
 from zoneinfo import ZoneInfo
 
@@ -225,6 +241,9 @@ def jury(ev, material):
 
 def main():
     os.makedirs(DATA, exist_ok=True)
+    if fresh_out(OUT, 1):
+        print("gigs: fresh (<1 day), skipping")
+        return
     sources = DEFAULT_SOURCES
     if os.path.exists(SRC):
         try:
