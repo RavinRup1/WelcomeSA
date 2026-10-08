@@ -1,17 +1,6 @@
 {
-  "generated_at": "2026-10-08T04:49:12.387673+02:00",
-  "events": [
-    {
-      "name": "Loftus Season Ticket 2026/27",
-      "start": "2026-07-22T06:00:00.000Z",
-      "end": "2027-06-29T22:00:00.000Z",
-      "venue": "Loftus Versfeld Stadium",
-      "city": "Durban",
-      "source": "Ticketpro festivals",
-      "url": "https://tickets.bullsrugby.co.za/event/loftus-season-pass-2026-27-6g6f1c",
-      "image": "https://s3.eu-central-1.amazonaws.com/yt-s3/7385fb49-7746-46e9-89f2-f2b2eee4a43b.jpg"
-    }
-  ],
+  "generated_at": "2026-10-08T04:56:20.888346+02:00",
+  "events": [],
   "dropped": [
     {
       "name": "Loftus Season Ticket 2026/27",
