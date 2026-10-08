@@ -343,7 +343,9 @@ def main():
     working = [r for r in report if r["ok"] and r["events_found"] > 0]
     doc = {
         "generated_at": NOW.isoformat(),
-        "events": all_events or prev.get("events", []),
+        # carry forward only when NO source worked; an empty jury result is truth
+        "events": all_events if all_events else (
+            prev.get("events", []) if not any(s.get("ok") for s in report) else []),
         "dropped": dropped[-20:],
         "sources": report,
         "ok": bool(working),
