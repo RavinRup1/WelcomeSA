@@ -104,6 +104,46 @@ def norm(ev, source):
     }
 
 
+def strip_html(html):
+    t = re.sub(r"<script.*?</script>|<style.*?</style>", " ", html, flags=re.S | re.I)
+    t = re.sub(r"<[^>]+>", " ", t)
+    return re.sub(r"\s+", " ", t).strip()
+
+
+def gemini_deepdive(ev, material):
+    """Grounded deep-dive written by Gemini from the event's own page text.
+    Returns dict or None (no key / no material / failure)."""
+    key = os.environ.get("GEMINI_API_KEY")
+    if not key or not material or len(material) < 80:
+        return None
+    prompt = (
+        "You write for Welcome SA, a South African events guide. "
+        "Using ONLY the material below (never invent facts), return a JSON object with:\n"
+        '- "deepdive": 2-3 warm, plain sentences about the event and its appeal.\n'
+        '- "why_go": one short sentence - who will love this.\n'
+        '- "good_to_know": one practical sentence from the material (time, venue, tickets).\n'
+        "Plain English, no exclamation marks.\n\n"
+        f"EVENT: {ev.get('name')} | venue: {ev.get('venue')} | start: {ev.get('start')}\n"
+        f"MATERIAL:\n{material[:4500]}\n\nReturn ONLY valid JSON."
+    )
+    try:
+        r = requests.post(
+            f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={key}",
+            json={"contents": [{"parts": [{"text": prompt}]}],
+                  "generationConfig": {"responseMimeType": "application/json",
+                                       "temperature": 0.4}},
+            timeout=70)
+        if r.status_code != 200:
+            print("gemini http", r.status_code)
+            return None
+        txt = r.json()["candidates"][0]["content"]["parts"][0]["text"]
+        d = json.loads(txt)
+        return {k: str(d.get(k, "")).strip() for k in ("deepdive", "why_go", "good_to_know")} or None
+    except Exception as e:
+        print("gemini failed:", type(e).__name__)
+        return None
+
+
 def main():
     os.makedirs(DATA, exist_ok=True)
     sources = DEFAULT_SOURCES
@@ -114,6 +154,7 @@ def main():
             pass
 
     all_events, report = [], []
+    page_texts = {}
     for s in sources:
         entry = {"name": s["name"], "url": s["url"], "ok": False, "events_found": 0,
                  "note": ""}
@@ -147,6 +188,7 @@ def main():
                         rr = requests.get(u, headers=H, timeout=30)
                         if rr.status_code == 200:
                             evs += extract_jsonld_events(rr.text)
+                            page_texts[u] = strip_html(rr.text)
                     except Exception:
                         pass
                     time.sleep(1)
@@ -179,6 +221,7 @@ def main():
                         rr = requests.get(u, headers=H, timeout=30)
                         if rr.status_code == 200:
                             evs += extract_jsonld_events(rr.text)
+                            page_texts[u] = strip_html(rr.text)
                     except Exception:
                         pass
                     time.sleep(1)
@@ -190,6 +233,19 @@ def main():
             entry["note"] = type(e).__name__
         report.append(entry)
         time.sleep(2)  # polite between sources
+
+    # --- Phase A: grounded AI deep-dives (max 15 events per run) ---
+    llm_done = 0
+    for e in all_events:
+        if llm_done >= 15:
+            break
+        material = page_texts.get(e.get("url") or "", "")
+        dd = gemini_deepdive(e, material)
+        if dd:
+            e.update(dd)
+            llm_done += 1
+            time.sleep(2)
+    print(f"deep-dives written by AI: {llm_done}")
 
     seen = set()
     uniq = []
