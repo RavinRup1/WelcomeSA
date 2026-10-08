@@ -136,21 +136,32 @@ def _gemini_json(prompt):
     key = os.environ.get("GEMINI_API_KEY")
     if not key:
         return None
+    # discover live models, prefer flash variants, then fallbacks
+    models = ["gemini-2.0-flash", "gemini-2.5-flash", "gemini-1.5-flash"]
     try:
-        r = requests.post(
-            "https://generativelanguage.googleapis.com/v1beta/models/"
-            "gemini-2.0-flash:generateContent?key=" + key,
-            json={"contents": [{"parts": [{"text": prompt}]}],
-                  "generationConfig": {"responseMimeType": "application/json",
-                                       "temperature": 0.3}},
-            timeout=70)
-        if r.status_code != 200:
-            print("gemini http", r.status_code)
-            return None
-        return json.loads(r.json()["candidates"][0]["content"]["parts"][0]["text"])
-    except Exception as e:
-        print("gemini failed:", type(e).__name__)
-        return None
+        lr = requests.get("https://generativelanguage.googleapis.com/v1beta/models?key=" + key,
+                          timeout=40)
+        if lr.status_code == 200:
+            ids = [m["name"].split("/")[-1] for m in lr.json().get("models", [])]
+            flash = [i for i in ids if "flash" in i.lower() and "vision" not in i.lower()]
+            models = list(dict.fromkeys((flash or ids)[:3] + models))
+    except Exception:
+        pass
+    for model in models:
+        try:
+            r = requests.post(
+                f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={key}",
+                json={"contents": [{"parts": [{"text": prompt}]}],
+                      "generationConfig": {"responseMimeType": "application/json",
+                                           "temperature": 0.3}},
+                timeout=70)
+            if r.status_code == 200:
+                print("gemini ok via", model)
+                return json.loads(r.json()["candidates"][0]["content"]["parts"][0]["text"])
+            print("gemini http", r.status_code, "model", model)
+        except Exception as e:
+            print("gemini failed:", type(e).__name__)
+    return None
 
 
 def ai_writer(ev, material):
