@@ -93,6 +93,8 @@ footer{padding:14px;text-align:center;font-size:.7rem;color:var(--muted)}
   <button data-v="home" class="on">Today</button>
   <button data-v="explore">Explore</button>
   <button data-v="gigs">Gigs</button>
+  <button data-v="news">News</button>
+  <button data-v="projects">Projects</button>
   <button data-v="about">About</button>
 </nav>
 
@@ -109,7 +111,7 @@ setInterval(()=>{lw.style.opacity=0;setTimeout(()=>{li=(li+1)%LANGS.length;
 lw.textContent=LANGS[li][0];lw.style.opacity=1;},1200);},4200);})();
 const esc=s=>(s||"").replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const norm=s=>((s||"").toLowerCase().replace(/[^a-z0-9 ]/g,"").replace(/\s+/g," ").trim());
-let ATT=null,GIGS=null,DD=null,VIEW="home",CAT="all",CUR=[],map=null,slideTimer=null;
+let ATT=null,GIGS=null,DD=null,NEWS=null,PROJ=null,VIEW="home",CAT="all",PROV="all",CUR=[],map=null,slideTimer=null;
 
 
 
@@ -126,21 +128,24 @@ function curated(){ // Ravin's rule: ONLY listings with photos
     .filter(x=>x.a&&x.a.image)
     .map(x=>({id:x.d.id,name:x.d.name,cat:x.d.category,tag:x.d.tagline,story:x.d.story,
       best:x.d.best,tip:x.d.tip,img:x.a.image,lat:x.a.lat,lng:x.a.lng,
-      src:x.a.source_url,lic:x.a.license}));
+      src:x.a.source_url,lic:x.a.license,prov:x.a.province}));
 }
 async function load(){
   try{
-    const[dd,a,g]=await Promise.all([
+    const[dd,a,g,n,pj]=await Promise.all([
       fetch("data/deepdives.json",{cache:"no-store"}).then(r=>r.ok?r.json():null),
       fetch("data/attractions.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).catch(()=>null),
-      fetch("data/gigs.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).catch(()=>null)]);
-    DD=dd;ATT=a;GIGS=g;CUR=curated();
+      fetch("data/gigs.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).catch(()=>null),
+      fetch("data/news.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).catch(()=>null),
+      fetch("data/projects.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).catch(()=>null)]);
+    DD=dd;ATT=a;GIGS=g;NEWS=n;PROJ=pj;CUR=curated();
     const stamp=(a&&a.generated_at)||(dd&&dd.updated);
     document.getElementById("updated").textContent=stamp?("updated "+String(stamp).slice(0,10)):"data pending";
   }catch(e){document.getElementById("updated").textContent="offline";}
   render();
 }
 const CATS=[["all","All"],["natural","Nature"],["cultural","Culture"],["historical","History"],["beach","Beaches"],["wildlife","Wildlife"],["activity","Activities"]];
+const PROVS=[["all","All provinces"],["KwaZulu-Natal","KZN"],["Gauteng","Gauteng"],["Western Cape","Western Cape"],["South Africa","National"]];
 
 function todayIndex(){const n=CUR.length;if(!n)return 0;
   const day=Math.floor(Date.now()/864e5);return day%n;}
@@ -175,16 +180,18 @@ function render(){
   }
   else if(VIEW==="explore"){
     const q=(document.getElementById("q")?.value||"").toLowerCase();
-    let shown=CUR.filter(c=>CAT==="all"||c.cat===CAT);
+    let shown=CUR.filter(c=>(CAT==="all"||c.cat===CAT)&&(PROV==="all"||c.prov===PROV));
     if(q)shown=shown.filter(c=>(c.name+" "+c.tag+" "+c.story).toLowerCase().includes(q));
     v.innerHTML='<div id="ctrl"><input id="q" type="search" placeholder="Search the curated list\u2026" value="'+esc(q)+'"></div>'+
     '<div id="chips">'+CATS.map(([k,l])=>'<button data-c="'+k+'" class="'+(CAT===k?"on":"")+'">'+l+'</button>').join("")+'</div>'+
+    '<div id="chips">'+PROVS.map(([k,l])=>'<button data-p="'+k+'" class="'+(PROV===k?"on":"")+'">'+l+'</button>').join("")+'</div>'+
     (shown.length?shown.map((c,i)=>'<div class="pcard" data-i="'+i+'"><img src="'+esc(c.img)+'" alt="" loading="lazy">'+
       '<div class="ov"></div><span class="bdg">'+esc(c.cat)+'</span>'+
       '<div class="tx"><h3>'+esc(c.name)+'</h3><p>'+esc(c.tag)+'</p></div></div>').join("")
       :'<div class="empty">Nothing here yet - try another category.</div>');
     document.getElementById("q").addEventListener("input",render);
-    v.querySelectorAll("#chips button").forEach(b=>b.onclick=()=>{CAT=b.dataset.c;render();});
+    v.querySelectorAll("#chips button[data-c]").forEach(b=>b.onclick=()=>{CAT=b.dataset.c;render();});
+    v.querySelectorAll("#chips button[data-p]").forEach(b=>b.onclick=()=>{PROV=b.dataset.p;render();});
     v.querySelectorAll(".pcard").forEach(p=>p.onclick=()=>openDD(shown[+p.dataset.i]));
   }
   else if(VIEW==="gigs"){
@@ -194,6 +201,16 @@ function render(){
       return '<div class="gig"><div class="d">'+esc(ds)+'</div><div class="n">'+esc(e.name)+'</div>'+
       '<div class="v">'+esc(e.venue||"")+(e.url?' &middot; <a href="'+esc(e.url)+'" target="_blank" rel="noopener">tickets/info</a>':'')+' &middot; '+esc(e.source)+'</div></div>';}).join("")
       :'<div class="empty">The gig guide is warming up - sources are connected, more events tuning in.</div>';
+  }
+  else if(VIEW==="news"){
+    const st=(NEWS&&NEWS.stories)||[];
+    v.innerHTML=st.length?st.map(s=>'<div class="gig"><div class="d">'+esc(s.source)+'</div><div class="n">'+esc(s.title)+'</div><div class="v">'+esc(s.summary)+(s.url?' &middot; <a href="'+esc(s.url)+'" target="_blank" rel="noopener">read at source</a>':'')+'</div>'+(s.angle?'<div class="v" style="color:var(--green);font-style:italic">'+esc(s.angle)+'</div>':'')+'</div>').join("")
+      :'<div class="empty">The news desk opens after the first morning run.</div>';
+  }
+  else if(VIEW==="projects"){
+    const ps=(PROJ&&PROJ.projects)||[];
+    v.innerHTML=ps.length?ps.map(p=>'<div class="gig"><div class="d">'+esc(p.sector||"")+' &middot; '+esc(p.province||"")+'</div><div class="n">'+esc(p.name)+'</div><div class="v">'+esc(p.what||"")+'</div>'+(p.why?'<div class="v" style="color:var(--green);font-style:italic">'+esc(p.why)+'</div>':'')+(p.status?'<div class="v">Status: '+esc(p.status)+'</div>':'')+(p.source_url?'<div class="v"><a href="'+esc(p.source_url)+'" target="_blank" rel="noopener">source</a></div>':'')+'</div>').join("")
+      :'<div class="empty">The projects pillar arrives with the next two-weekly run.</div>';
   }
   else{
     v.innerHTML='<div class="about"><h3>Welcome SA</h3>A hand-picked showcase of South Africa - the places worth your time, one highlight a day.'+
