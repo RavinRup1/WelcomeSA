@@ -19,6 +19,7 @@ jobs:
       - name: Collect all four pillars
         run: |
           python scripts/build_attractions.py
+          python scripts/build_dives.py
           python scripts/build_gigs.py
           python scripts/build_news.py
           python scripts/build_projects.py
