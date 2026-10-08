@@ -1,2 +1,16 @@
 [
+  {"name": "Lesotho Highlands Water Project (Phase II)", "match": ["Lesotho Highlands Water Project"],
+   "province": "Free State / Lesotho", "sector": "Water"},
+  {"name": "Msikaba Bridge", "match": ["Msikaba Bridge"],
+   "province": "Eastern Cape", "sector": "Transport"},
+  {"name": "Mtentu Bridge", "match": ["Mtentu Bridge"],
+   "province": "Eastern Cape", "sector": "Transport"},
+  {"name": "Umzimvubu Dam", "match": ["Umzimvubu Dam"],
+   "province": "Eastern Cape", "sector": "Water"},
+  {"name": "Durban Dig-Out Port", "match": ["Port of Durban"],
+   "province": "KwaZulu-Natal", "sector": "Ports"},
+  {"name": "Gautrain Network Expansion", "match": ["Gautrain"],
+   "province": "Gauteng", "sector": "Rail"},
+  {"name": "N2 Wild Coast Toll Road", "match": ["N2 (South Africa)"],
+   "province": "Eastern Cape / KZN", "sector": "Roads"}
 ]
