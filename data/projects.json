@@ -1,0 +1,86 @@
+{
+  "generated_at": "2026-10-08T13:25:56.353123+02:00",
+  "note": "Statuses as per latest available sources; Ravin can extend data/projects_seed.json anytime.",
+  "projects": [
+    {
+      "name": "Lesotho Highlands Water Project (Phase II)",
+      "province": "Free State / Lesotho",
+      "sector": "Water",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Katse_dam_intake_tower.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "source_url": "https://en.wikipedia.org/wiki/Lesotho_Highlands_Water_Project",
+      "what": "The Lesotho Highlands Water Project (LHWP) is an ongoing water supply project with a hydropower component, developed in partnership between the governments of Lesotho and South Africa.",
+      "why": "It provides South Africa with water for the Vaal River System.",
+      "status": "ongoing",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "Msikaba Bridge",
+      "province": "Eastern Cape",
+      "sector": "Transport",
+      "image": null,
+      "source_url": "https://en.wikipedia.org/wiki/Msikaba_Bridge",
+      "what": "The Msikaba Bridge is a cable-stayed steel deck bridge spanning the Msikaba River, near Lusikisiki in the Eastern Cape of South Africa.",
+      "why": "It forms part of the N2 Wild Coast road project, which aims to improve travel time between Durban and East London for heavy freight vehicles.",
+      "status": "under construction",
+      "lat": -31.29585278,
+      "lng": 29.79326111
+    },
+    {
+      "name": "Mtentu Bridge",
+      "province": "Eastern Cape",
+      "sector": "Transport",
+      "image": null,
+      "source_url": "https://en.wikipedia.org/wiki/Mtentu_Bridge",
+      "what": "The Mtentu Bridge is a multi span box girder bridge spanning the Mtentu River, near Lundini in the Eastern Cape of South Africa.",
+      "why": "It forms part of the N2 Wild Coast road project, which aims to improve travel time between Durban and East London for heavy freight vehicles.",
+      "status": "currently under construction",
+      "lat": -31.17888889,
+      "lng": 29.92833333
+    },
+    {
+      "name": "Umzimvubu Dam",
+      "province": "Eastern Cape",
+      "sector": "Water",
+      "image": null,
+      "source_url": "https://en.wikipedia.org/wiki/Umzimvubu_Dam"
+    },
+    {
+      "name": "Durban Dig-Out Port",
+      "province": "KwaZulu-Natal",
+      "sector": "Ports",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Durban_harbor.jpg/960px-Durban_harbor.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source_url": "https://en.wikipedia.org/wiki/Port_of_Durban",
+      "what": "The Durban Dig-Out Port project is associated with the Port of Durban, which is the largest and busiest shipping terminal in sub-Saharan Africa.",
+      "why": "Its significance for South Africa lies in the Port of Durban being the largest and busiest shipping terminal in sub-Saharan Africa, handling substantial cargo and container volumes.",
+      "status": "status not stated in source",
+      "lat": -29.8732,
+      "lng": 31.0245
+    },
+    {
+      "name": "Gautrain Network Expansion",
+      "province": "Gauteng",
+      "sector": "Rail",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Gautrain...%2C_O_R_Tambo_Intl_Airport_South_Africa.jpg/960px-Gautrain...%2C_O_R_Tambo_Intl_Airport_South_Africa.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source_url": "https://en.wikipedia.org/wiki/Gautrain",
+      "what": "The provided material describes the existing Gautrain system, not the Gautrain Network Expansion project.",
+      "why": "The material does not provide information on why the Gautrain Network Expansion project matters for South Africa.",
+      "status": "status not stated in source",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "N2 Wild Coast Toll Road",
+      "province": "Eastern Cape / KZN",
+      "sector": "Roads",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Map_of_the_N2_%28South_Africa%29_with_labels.svg/960px-Map_of_the_N2_%28South_Africa%29_with_labels.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source_url": "https://en.wikipedia.org/wiki/N2_(South_Africa)",
+      "what": "The N2 Wild Coast Toll Road project involves realigning a section of the N2 national route from Port Shepstone to Mthatha, which will combine with the existing N2 route from Mthatha to East London to form the Wild Coast Toll Route.",
+      "why": "This project matters for South Africa as it is expected to reduce the length of a significant national route by 85 kilometres.",
+      "status": "status not stated in source",
+      "lat": null,
+      "lng": null
+    }
+  ],
+  "ok": true
+}
