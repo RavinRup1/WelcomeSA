@@ -302,6 +302,7 @@ def main():
         report.append(entry)
         time.sleep(2)  # polite between sources
 
+    print("AI key visible to robot:", bool(os.environ.get("GEMINI_API_KEY")))
     # --- Gate 0 + three-agent jury (max 15 served per run; when in doubt, drop) ---
     served, dropped = [], []
     for e in all_events:
