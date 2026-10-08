@@ -113,7 +113,7 @@ lw.textContent=LANGS[li][0];lw.style.color=LANGS[li][2];lw.style.opacity=1;
 if(lwl){lwl.textContent=LANGS[li][1];lwl.style.opacity=1;}},1200);},4200);})();
 const esc=s=>(s||"").replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const norm=s=>((s||"").toLowerCase().replace(/[^a-z0-9 ]/g,"").replace(/\s+/g," ").trim());
-let ATT=null,GIGS=null,DD=null,NEWS=null,PROJ=null,VIEW="home",CAT="all",PROV="all",CUR=[],map=null,slideTimer=null;
+let ATT=null,GIGS=null,DD=null,NEWS=null,PROJ=null,DV=null,VIEW="home",CAT="all",PROV="all",CUR=[],map=null,slideTimer=null;
 
 
 
@@ -134,13 +134,14 @@ function curated(){ // Ravin's rule: ONLY listings with photos
 }
 async function load(){
   try{
-    const[dd,a,g,n,pj]=await Promise.all([
+    const[dd,a,g,n,pj,dv]=await Promise.all([
       fetch("data/deepdives.json",{cache:"no-store"}).then(r=>r.ok?r.json():null),
       fetch("data/attractions.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).catch(()=>null),
       fetch("data/gigs.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).catch(()=>null),
       fetch("data/news.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).catch(()=>null),
-      fetch("data/projects.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).catch(()=>null)]);
-    DD=dd;ATT=a;GIGS=g;NEWS=n;PROJ=pj;CUR=curated();
+      fetch("data/projects.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).catch(()=>null),
+      fetch("data/dives.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).catch(()=>null)]);
+    DD=dd;ATT=a;GIGS=g;NEWS=n;PROJ=pj;DV=dv;CUR=curated();
     const stamp=(a&&a.generated_at)||(dd&&dd.updated);
     document.getElementById("updated").textContent=stamp?("updated "+String(stamp).slice(0,10)):"data pending";
   }catch(e){document.getElementById("updated").textContent="offline";}
@@ -223,10 +224,17 @@ function render(){
 }
 function openDD(c){
   const sh=document.getElementById("sheet");
+  let rv=null;
+  if(DV&&DV.dives){const names=[c.name,...(c.match||[])].map(norm);
+    rv=DV.dives.find(d=>names.includes(norm(d.name)));}
   sh.innerHTML='<button class="x" onclick="closeDD()">\u2715</button>'+
    (c.img?'<img class="hero" src="'+esc(c.img)+'">':'')+'<div class="pad">'+
    '<h2>'+esc(c.name)+'</h2><div class="tag">'+esc(c.tag)+'</div>'+
    '<div class="story">'+esc(c.story)+'</div>'+
+   (rv&&rv.story&&norm(rv.story)!==norm(c.story)?
+   '<div class="tag" style="margin-top:.7rem">The fuller picture</div><div class="story">'+esc(rv.story)+'</div>'+
+   '<div class="facts"><div class="fact"><div class="k">Best time</div><div class="v">'+esc(rv.best||'')+'</div></div>'+
+   '<div class="fact"><div class="k">Insider tip</div><div class="v">'+esc(rv.tip||'')+'</div></div></div>':'')+
    '<div class="facts"><div class="fact"><div class="k">Best time</div><div class="v">'+esc(c.best||"")+'</div></div>'+
    '<div class="fact"><div class="k">Insider tip</div><div class="v">'+esc(c.tip||"")+'</div></div></div>'+
    (c.lat?'<div id="map"></div>':'')+
