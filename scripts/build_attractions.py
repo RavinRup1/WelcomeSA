@@ -6,6 +6,22 @@ on failure keeps previous data and stamps the error."""
 
 import json, os, re, sys, time
 from datetime import datetime, timezone
+
+def fresh_out(path, days):
+    """Self-throttle: skip if output younger than `days` unless FORCE=1."""
+    if os.environ.get("FORCE") == "1":
+        return False
+    if os.path.exists(path):
+        try:
+            d = json.load(open(path))
+            ts = d.get("generated_at") or d.get("updated")
+            if ts:
+                age = (NOW - datetime.fromisoformat(ts)).total_seconds()
+                return age < days * 86400
+        except Exception:
+            pass
+    return False
+
 from zoneinfo import ZoneInfo
 
 import requests
@@ -34,18 +50,27 @@ MUST_INCLUDE = [
 ]
 
 CATEGORIES = {
-    "Category:Tourist attractions in KwaZulu-Natal": None,
-    "Category:Tourist attractions in Durban": None,
-    "Category:Beaches of KwaZulu-Natal": "beach",
-    "Category:Nature reserves in KwaZulu-Natal": "natural",
-    "Category:Museums in KwaZulu-Natal": "cultural",
-    "Category:Sports venues in KwaZulu-Natal": "activity",
-    "Category:Parks in KwaZulu-Natal": "natural",
-    "Category:Botanical gardens in South Africa": "natural",
-    "Category:Aquaria in South Africa": "wildlife",
-    "Category:Zoos in South Africa": "wildlife",
-    "Category:Casinos in South Africa": "cultural",
-    "Category:Amusement parks in South Africa": "activity",
+    "Category:Tourist attractions in KwaZulu-Natal": ("KwaZulu-Natal", None),
+    "Category:Tourist attractions in Durban": ("KwaZulu-Natal", None),
+    "Category:Beaches of KwaZulu-Natal": ("KwaZulu-Natal", "beach"),
+    "Category:Nature reserves in KwaZulu-Natal": ("KwaZulu-Natal", "natural"),
+    "Category:Museums in KwaZulu-Natal": ("KwaZulu-Natal", "cultural"),
+    "Category:Sports venues in KwaZulu-Natal": ("KwaZulu-Natal", "activity"),
+    "Category:Parks in KwaZulu-Natal": ("KwaZulu-Natal", "natural"),
+    "Category:Botanical gardens in South Africa": ("South Africa", "natural"),
+    "Category:Aquaria in South Africa": ("South Africa", "wildlife"),
+    "Category:Zoos in South Africa": ("South Africa", "wildlife"),
+    "Category:Casinos in South Africa": ("South Africa", "cultural"),
+    "Category:Amusement parks in South Africa": ("South Africa", "activity"),
+    "Category:Tourist attractions in Gauteng": ("Gauteng", None),
+    "Category:Tourist attractions in Johannesburg": ("Gauteng", None),
+    "Category:Tourist attractions in Pretoria": ("Gauteng", None),
+    "Category:Museums in Johannesburg": ("Gauteng", "cultural"),
+    "Category:Tourist attractions in the Western Cape": ("Western Cape", None),
+    "Category:Tourist attractions in Cape Town": ("Western Cape", None),
+    "Category:Museums in Cape Town": ("Western Cape", "cultural"),
+    "Category:Beaches of the Western Cape": ("Western Cape", "beach"),
+    "Category:Nature reserves in the Western Cape": ("Western Cape", "natural"),
 }
 
 
@@ -130,13 +155,18 @@ def categorize(title, in_cats):
 
 def main():
     os.makedirs(DATA, exist_ok=True)
+    if fresh_out(OUT, 14):
+        print("attractions: fresh (<14 days), skipping")
+        return
     # 1. breadth: category walk
     titles, in_cats = set(), {}
     cat_errors = {}
-    for cat, forced in CATEGORIES.items():
+    prov_of = {}
+    for cat, (prov, forced) in CATEGORIES.items():
         try:
             for t in category_members(cat):
                 titles.add(t)
+                prov_of.setdefault(t, prov)
                 if forced:
                     in_cats.setdefault(cat, set()).add(t)
         except Exception as e:
@@ -168,7 +198,7 @@ def main():
             "id": re.sub(r"[^a-z0-9]+", "-", title.lower()).strip("-"),
             "name": title,
             "summary": summary,
-            "province": "KwaZulu-Natal",
+            "province": prov_of.get(title, "South Africa"),
             "category": categorize(title, in_cats),
             "lat": coord.get("lat"), "lng": coord.get("lon"),
             "image": (pg.get("thumbnail") or {}).get("source"),
