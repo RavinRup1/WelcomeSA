@@ -1,7 +1,7 @@
 name: welcomesa-robot
 on:
   schedule:
-    - cron: '23 03 * * *'
+    - cron: '27 07 * * *'
   workflow_dispatch:
 permissions:
   contents: write
@@ -16,10 +16,12 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install requests
-      - name: Collect attractions + gigs
+      - name: Collect all four pillars
         run: |
           python scripts/build_attractions.py
           python scripts/build_gigs.py
+          python scripts/build_news.py
+          python scripts/build_projects.py
       - name: Commit data
         run: |
           git config user.name "stack-robot"
