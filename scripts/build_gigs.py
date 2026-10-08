@@ -302,7 +302,8 @@ def main():
         report.append(entry)
         time.sleep(2)  # polite between sources
 
-    print("AI key visible to robot:", bool(os.environ.get("GEMINI_API_KEY")))
+    _k = os.environ.get("GEMINI_API_KEY")
+    print(f"AI key diagnostic: present={'GEMINI_API_KEY' in os.environ} length={len(_k) if _k else 0}")
     if os.environ.get("GEMINI_API_KEY"):
         st = _gemini_json('Reply with JSON: {"ok": true}')
         print("gemini self-test:", bool(st and st.get("ok")))
