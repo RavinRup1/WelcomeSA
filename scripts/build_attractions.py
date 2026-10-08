@@ -155,8 +155,8 @@ def categorize(title, in_cats):
 
 def main():
     os.makedirs(DATA, exist_ok=True)
-    if fresh_out(OUT, 14):
-        print("attractions: fresh (<14 days), skipping")
+    if fresh_out(OUT, 30):
+        print("attractions: fresh (<30 days), skipping")
         return
     # 1. breadth: category walk
     titles, in_cats = set(), {}
