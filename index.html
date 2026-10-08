@@ -25,9 +25,10 @@ nav button.on{background:var(--green);color:#fff}
 /* HERO CAROUSEL */
 #hero{position:relative;height:64vh;min-height:340px;overflow:hidden;background:var(--green-d)}
 .flagbar{height:5px;background:linear-gradient(90deg,#E03C31 0 17%,#FFB612 17% 33%,#007A4D 33% 67%,#001489 67% 83%,#fff 83% 92%,#141414 92%)}
-.langwash{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;pointer-events:none;z-index:2}
-.langwash span{font-size:26vw;font-weight:900;color:rgba(255,255,255,.09);letter-spacing:.02em;text-transform:uppercase;white-space:nowrap;transition:opacity 1.2s ease;line-height:1}
-@media(min-width:720px){.langwash span{font-size:12rem}}
+.langwash{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.5rem;pointer-events:none;z-index:2}
+.langwash #lw{font-size:26vw;font-weight:900;color:rgba(255,255,255,.30);letter-spacing:.02em;text-transform:uppercase;white-space:nowrap;transition:opacity 1.2s ease;line-height:1}
+#lwl{font-size:.85rem;font-weight:700;color:rgba(255,255,255,.85);letter-spacing:.18em;text-transform:uppercase;transition:opacity 1.2s ease;padding:.25rem .7rem;border:1px solid rgba(255,255,255,.25);border-radius:999px;background:rgba(0,0,0,.25)}
+@media(min-width:720px){.langwash #lw{font-size:12rem}}
 .slide .cap{z-index:3}
 .slide{position:absolute;inset:0;opacity:0;transition:opacity .8s ease;cursor:pointer}
 .slide.on{opacity:1}
@@ -105,10 +106,11 @@ footer{padding:14px;text-align:center;font-size:.7rem;color:var(--muted)}
 <footer>Built by <b>Ravin.R &amp; Kimi</b> &middot; data: Wikipedia (CC BY-SA) + event sources &middot; <a href="data/ATTRIBUTION.md">Attribution</a></footer>
 
 <script>
-const LANGS=[["Welcome","English"],["Sawubona","isiZulu"],["Molo","isiXhosa"],["Welkom","Afrikaans"],["Dumela","Sepedi"],["Dumela","Setswana"],["Dumela","Sesotho"],["Avuxeni","Xitsonga"],["Sawubona","siSwati"],["Ndaa / Aa","Tshivenda"],["Lotjhani","isiNdebele"],["\u{1F91F}","SASL"]];
-(function(){const lw=document.getElementById("lw");if(!lw)return;let li=0;
-setInterval(()=>{lw.style.opacity=0;setTimeout(()=>{li=(li+1)%LANGS.length;
-lw.textContent=LANGS[li][0];lw.style.opacity=1;},1200);},4200);})();
+const LANGS=[["Welcome to SA","English","rgba(0,122,77,.30)"],["Wamukelekile eSA","isiZulu","rgba(255,182,18,.32)"],["Wamkelekile eSA","isiXhosa","rgba(224,60,49,.30)"],["Welkom in SA","Afrikaans","rgba(0,20,137,.40)"],["O amogetswe SA","Sepedi","rgba(0,122,77,.30)"],["O amogetswe SA","Setswana","rgba(255,182,18,.32)"],["O amohetswe SA","Sesotho","rgba(224,60,49,.30)"],["U amukeriwile SA","Xitsonga","rgba(0,20,137,.40)"],["Wemukelekile SA","siSwati","rgba(0,122,77,.30)"],["Vha amukanyiwa vha SA","Tshivenda","rgba(255,182,18,.32)"],["Wamukelekile eSA","isiNdebele","rgba(224,60,49,.30)"],["\u{1F91F} Welcome to SA","SASL","rgba(255,182,18,.32)"]];
+(function(){const lw=document.getElementById("lw"),lwl=document.getElementById("lwl");if(!lw)return;let li=0;
+setInterval(()=>{lw.style.opacity=0;if(lwl)lwl.style.opacity=0;setTimeout(()=>{li=(li+1)%LANGS.length;
+lw.textContent=LANGS[li][0];lw.style.color=LANGS[li][2];lw.style.opacity=1;
+if(lwl){lwl.textContent=LANGS[li][1];lwl.style.opacity=1;}},1200);},4200);})();
 const esc=s=>(s||"").replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const norm=s=>((s||"").toLowerCase().replace(/[^a-z0-9 ]/g,"").replace(/\s+/g," ").trim());
 let ATT=null,GIGS=null,DD=null,NEWS=null,PROJ=null,VIEW="home",CAT="all",PROV="all",CUR=[],map=null,slideTimer=null;
@@ -157,7 +159,7 @@ function render(){
     if(!CUR.length){v.innerHTML='<div class="empty">Curated picks are on their way.</div>';return;}
     const ti=todayIndex();
     const order=[...CUR.slice(ti),...CUR.slice(0,ti)]; // today first
-    v.innerHTML='<div id="hero"><div class="langwash"><span id="lw">Welcome</span></div>'+order.map((c,i)=>
+    v.innerHTML='<div id="hero"><div class="langwash"><span id="lw" style="color:rgba(0,122,77,.30)">Welcome to SA</span><span id="lwl">English</span></div>'+order.map((c,i)=>
       '<div class="slide'+(i===0?" on":"")+'" data-i="'+i+'">'+
       (i===0?'<div class="ribbon">Today\u2019s highlight</div>':'')+
       '<img src="'+esc(c.img)+'" alt="" loading="'+(i===0?"eager":"lazy")+'">'+
