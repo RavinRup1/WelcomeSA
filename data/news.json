@@ -1,0 +1,59 @@
+{
+  "generated_at": "2026-10-10T00:41:01.440602+02:00",
+  "stories": [],
+  "dropped": [
+    {
+      "title": "Police use tear gas, stun grenades as anti-immigration prote",
+      "source": "IOL",
+      "reason": "rejected"
+    },
+    {
+      "title": "Pieter CoetzÃ© shatters 50m backstroke world record to lead ",
+      "source": "IOL",
+      "reason": "rejected"
+    },
+    {
+      "title": "Grand Old Lady Kingsmead deserved better but Durban snubbed ",
+      "source": "IOL",
+      "reason": "rejected"
+    }
+  ],
+  "feeds": [
+    {
+      "name": "Good Things Guy",
+      "url": "https://www.goodthingsguy.com/feed/",
+      "ok": false,
+      "stories": 0,
+      "http": 403
+    },
+    {
+      "name": "EWN",
+      "url": "https://ewn.co.za/rss",
+      "ok": false,
+      "stories": 0,
+      "http": 404
+    },
+    {
+      "name": "Daily Maverick",
+      "url": "https://www.dailymaverick.co.za/feed/",
+      "ok": false,
+      "stories": 0,
+      "http": 403
+    },
+    {
+      "name": "IOL",
+      "url": "https://www.iol.co.za/rss",
+      "ok": true,
+      "stories": 30,
+      "http": 200
+    },
+    {
+      "name": "SABC News",
+      "url": "https://www.sabcnews.com/sabcnews/feed/",
+      "ok": true,
+      "stories": 10,
+      "http": 200
+    }
+  ],
+  "ok": true
+}
