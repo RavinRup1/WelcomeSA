@@ -39,6 +39,34 @@ ATTR = os.path.join(DATA, "ATTRIBUTION.md")
 # Wikipedia title. Ravin decides these (local knowledge wins).
 OVERRIDES = {}
 
+# Ravin's 30 approved curated picks that the CATEGORY WALK misses (Batch 1,
+# approved 6 Oct). The 8 Oct multi-province regen silently dropped 21 of them
+# (Ravin caught the symptom: every carousel tap felt the same). This list makes
+# the robot fetch them DIRECTLY from Wikipedia every run - curated content can
+# never be lost to a regen again. Ravin catch -> system fix.
+CURATED_EXTRA = {
+    "Ballito (Willard Beach)": ("Ballito", "beach"),
+    "Umdloti Beach": ("Umdloti", "beach"),
+    "Southbroom": ("Southbroom", "beach"),
+    "Krantzkloof Nature Reserve": ("Krantzkloof Nature Reserve", "natural"),
+    "KwaMuhle Museum": ("KwaMuhle Museum", "historical"),
+    "Phoenix Settlement (Inanda)": ("Phoenix Settlement", "historical"),
+    "BAT Centre": ("BAT Centre", "cultural"),
+    "KZNSA Gallery (Glenwood)": ("KZNSA", "cultural"),
+    "Isandlwana & Rorke's Drift": ("Isandlwana", "historical"),
+    "The Old Fort, Durban": ("Old Fort", "historical"),
+    "KwaDukuza (Stanger)": ("KwaDukuza", "historical"),
+    "Durban City Hall": ("Durban City Hall", "historical"),
+    "Groutville - Chief Albert Luthuli": ("Groutville", "historical"),
+    "Valley of a Thousand Hills": ("Valley of a Thousand Hills", "natural"),
+    "Aliwal Shoal (Umkomaas)": ("Aliwal Shoal", "wildlife"),
+    "Giba Gorge (Hillcrest)": ("Giba Gorge", "activity"),
+    "The Sardine Run": ("Sardine run", "wildlife"),
+    "Hluhluwe-iMfolozi Park": ("Hluhluwe\u2013iMfolozi Park", "wildlife"),
+    "iSimangaliso Wetland Park (St Lucia)": ("iSimangaliso Wetland Park", "natural"),
+    "Crocworld Conservation Centre (Scottburgh)": ("Crocworld", "wildlife"),
+}
+
 # Ravin's must-include list (the M1 quality gate)
 MUST_INCLUDE = [
     "uShaka Marine World", "Moses Mabhida Stadium",
@@ -162,6 +190,7 @@ def main():
     titles, in_cats = set(), {}
     cat_errors = {}
     prov_of = {}
+    forced_cat = {}
     for cat, (prov, forced) in CATEGORIES.items():
         try:
             for t in category_members(cat):
@@ -182,6 +211,16 @@ def main():
             titles.add(hit)
     missing = [w for w, h in check.items() if not h]
 
+    # 2b. curated extras: direct fetch every run (regen-proof, Ravin catch 8 Oct)
+    extra_check = {}
+    for want, (wiki_name, cat) in CURATED_EXTRA.items():
+        hit = OVERRIDES.get(want) or (wiki_name if wiki_name in titles else search_title(wiki_name))
+        extra_check[want] = hit
+        if hit:
+            titles.add(hit)
+            prov_of[hit] = "KwaZulu-Natal"
+            forced_cat[hit] = cat
+
     # 3. fetch page data
     pages = fetch_pages(sorted(titles))
 
@@ -199,7 +238,7 @@ def main():
             "name": title,
             "summary": summary,
             "province": prov_of.get(title, "South Africa"),
-            "category": categorize(title, in_cats),
+            "category": forced_cat.get(title) or categorize(title, in_cats),
             "lat": coord.get("lat"), "lng": coord.get("lon"),
             "image": (pg.get("thumbnail") or {}).get("source"),
             "source_url": "https://en.wikipedia.org/wiki/" + title.replace(" ", "_"),
@@ -220,6 +259,7 @@ def main():
         "count": len(attractions),
         "attractions": attractions or prev.get("attractions", []),
         "must_include_check": {w: h for w, h in check.items()},
+        "curated_extra_check": extra_check,
         "must_include_missing": missing,
         "category_errors": cat_errors,
         "ok": bool(attractions),
