@@ -150,6 +150,7 @@ def search_title(name):
 def fetch_pages(titles):
     """Batch-fetch intro extract, coordinates, thumbnail for <=20 titles."""
     pages = {}
+    req_map = {}
     for i in range(0, len(titles), 20):
         batch = titles[i:i + 20]
         d = wiki({"action": "query", "prop": "extracts|coordinates|pageimages",
@@ -158,20 +159,24 @@ def fetch_pages(titles):
                   "titles": "|".join(batch)})
         for pid, pg in d["query"]["pages"].items():
             pages[pg["title"]] = pg
+        for red in d["query"].get("redirects", []):
+            req_map.setdefault(norm(red["to"]), set()).add(red["from"])
+        for t in batch:
+            req_map.setdefault(norm(t), set()).add(t)
         time.sleep(1)  # polite
     # retry stubs: pages whose intro extract came back empty (some redirects/short
     # articles have no exintro) - take the lead of the full plain-text extract
     nointro = [t for t, pg in pages.items() if not (pg.get("extract") or "").strip()]
-    if nointro:
+    for i in range(0, len(nointro), 20):
         d = wiki({"action": "query", "prop": "extracts", "explaintext": 1,
                   "exchars": "900", "redirects": 1,
-                  "titles": "|".join(nointro[:20])})
+                  "titles": "|".join(nointro[i:i + 20])})
         for pid, pg in d.get("query", {}).get("pages", {}).items():
             key = next((t for t in pages if norm(t) == norm(pg.get("title", ""))), None)
             if key and not (pages[key].get("extract") or "").strip():
                 pages[key]["extract"] = pg.get("extract") or ""
         time.sleep(1)
-    return pages
+    return pages, req_map
 
 
 def norm(s):
@@ -267,7 +272,7 @@ def main():
             extra_alias.setdefault(hit, []).append(want)
 
     # 3. fetch page data
-    pages = fetch_pages(sorted(titles))
+    pages, req_map = fetch_pages(sorted(titles))
 
     # 4. build records
     attractions = []
@@ -297,8 +302,9 @@ def main():
             "license": "Text: Wikipedia, CC BY-SA 4.0. Image: " + img_lic,
             "added": NOW.date().isoformat(),
         })
+        requested = req_map.get(norm(title), set())
         for k, v in extra_alias.items():
-            if norm(k) == norm(title):
+            if norm(k) == norm(title) or norm(k) in {norm(t) for t in requested}:
                 attractions[-1]["aliases"] = v
                 break
 
