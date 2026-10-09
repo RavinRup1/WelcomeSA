@@ -1,5 +1,5 @@
 /* Welcome SA service worker - offline shell, fresh data when online */
-const CACHE = "welcome-sa-v3";
+const CACHE = "welcome-sa-v4";
 const SHELL = ["./", "index.html", "manifest.webmanifest"];
 
 self.addEventListener("install", e => {
