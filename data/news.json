@@ -1,0 +1,59 @@
+{
+  "generated_at": "2026-10-10T00:36:50.095565+02:00",
+  "stories": [],
+  "dropped": [
+    {
+      "title": "Police use tear gas, stun grenades as anti-immigration prote",
+      "source": "IOL",
+      "reason": "The story describes public unrest, not national progress, and the summary omits crucial details about the nature of the "
+    },
+    {
+      "title": "Natal Indian Congress Legacy Foundation celebrates Justice N",
+      "source": "IOL",
+      "reason": "rejected"
+    },
+    {
+      "title": "Who is Navi Pillay? From apartheid-era lawyer to Nobel Peace",
+      "source": "IOL",
+      "reason": "short"
+    }
+  ],
+  "feeds": [
+    {
+      "name": "Good Things Guy",
+      "url": "https://www.goodthingsguy.com/feed/",
+      "ok": false,
+      "stories": 0,
+      "http": 403
+    },
+    {
+      "name": "EWN",
+      "url": "https://ewn.co.za/rss",
+      "ok": false,
+      "stories": 0,
+      "http": 404
+    },
+    {
+      "name": "Daily Maverick",
+      "url": "https://www.dailymaverick.co.za/feed/",
+      "ok": false,
+      "stories": 0,
+      "http": 403
+    },
+    {
+      "name": "IOL",
+      "url": "https://www.iol.co.za/rss",
+      "ok": true,
+      "stories": 30,
+      "http": 200
+    },
+    {
+      "name": "SABC News",
+      "url": "https://www.sabcnews.com/sabcnews/feed/",
+      "ok": true,
+      "stories": 10,
+      "http": 200
+    }
+  ],
+  "ok": true
+}
