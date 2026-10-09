@@ -167,10 +167,16 @@ def fetch_pages(titles):
                   "exchars": "900", "redirects": 1,
                   "titles": "|".join(nointro[:20])})
         for pid, pg in d.get("query", {}).get("pages", {}).items():
-            if pg.get("title") in pages and not (pages[pg["title"]].get("extract") or "").strip():
-                pages[pg["title"]]["extract"] = pg.get("extract") or ""
+            key = next((t for t in pages if norm(t) == norm(pg.get("title", ""))), None)
+            if key and not (pages[key].get("extract") or "").strip():
+                pages[key]["extract"] = pg.get("extract") or ""
         time.sleep(1)
     return pages
+
+
+def norm(s):
+    """lowercase alphanumeric+spaces key for tolerant title matching"""
+    return re.sub(r"\s+", " ", re.sub(r"[^a-z0-9 ]", "", (s or "").lower())).strip()
 
 
 def commons_image(query):
@@ -291,8 +297,10 @@ def main():
             "license": "Text: Wikipedia, CC BY-SA 4.0. Image: " + img_lic,
             "added": NOW.date().isoformat(),
         })
-        if title in extra_alias:
-            attractions[-1]["aliases"] = extra_alias[title]
+        for k, v in extra_alias.items():
+            if norm(k) == norm(title):
+                attractions[-1]["aliases"] = v
+                break
 
     prev = {}
     if os.path.exists(OUT):
