@@ -269,7 +269,11 @@ def main():
             titles.add(hit)
             prov_of[hit] = "KwaZulu-Natal"
             forced_cat[hit] = cat
-            extra_alias.setdefault(hit, []).append(want)
+            extra_alias.setdefault(hit, [])
+            if want not in extra_alias[hit]:
+                extra_alias[hit].append(want)
+            if wiki_name not in extra_alias[hit]:
+                extra_alias[hit].append(wiki_name)
 
     # 3. fetch page data
     pages, req_map = fetch_pages(sorted(titles))
