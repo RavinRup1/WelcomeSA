@@ -120,7 +120,7 @@ let ATT=null,GIGS=null,DD=null,NEWS=null,PROJ=null,DV=null,VIEW="home",CAT="all"
 function findAtt(d){
   const names=(d.match&&d.match.length?d.match:[d.name]).map(norm);
   const list=(ATT&&ATT.attractions)||[];
-  for(const n of names){const hit=list.find(a=>norm(a.name)===n);if(hit)return hit;}
+  for(const n of names){const hit=list.find(a=>norm(a.name)===n||(a.aliases||[]).some(al=>norm(al)===n));if(hit)return hit;}
   for(const n of names){const hit=list.find(a=>norm(a.name).includes(n)||n.includes(norm(a.name)));if(hit)return hit;}
   return null;
 }
