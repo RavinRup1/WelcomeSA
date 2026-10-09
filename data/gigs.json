@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T08:34:03.577350+02:00",
+  "generated_at": "2026-10-09T16:40:38.042798+02:00",
   "events": [],
   "dropped": [
     {
@@ -11,6 +11,21 @@
       "name": "Loftus Season Ticket 2026/27",
       "source": "Ticketpro concerts",
       "reason": "gate0: not confirmed KZN"
+    },
+    {
+      "name": "12th Annual Fund Raiser Golf Day",
+      "source": "WhatsOnDurban",
+      "reason": "writer unavailable (no AI key?)"
+    },
+    {
+      "name": "SHONGWENI MOTOR SHOW",
+      "source": "WhatsOnDurban",
+      "reason": "writer unavailable (no AI key?)"
+    },
+    {
+      "name": "Professional Speakers Association of Southern Africa Annual Convention 2026",
+      "source": "WhatsOnDurban",
+      "reason": "writer unavailable (no AI key?)"
     }
   ],
   "sources": [
@@ -102,11 +117,29 @@
       "name": "WhatsOnDurban",
       "url": "https://www.whatsonindurban.com/events/",
       "ok": true,
-      "events_found": 0,
+      "events_found": 3,
       "note": "",
       "http": 200,
-      "debug_links": [],
-      "debug_href_sample": []
+      "debug_links": [
+        "https://www.whatsonindurban.com/events/",
+        "https://www.whatsonindurban.com/events/?ical=1",
+        "https://www.whatsonindurban.com/wp-json/tribe/events/v1/",
+        "https://www.whatsonindurban.com/whats-on-durban/",
+        "https://www.whatsonindurban.com/events",
+        "https://www.whatsonindurban.com/submit-your-event/",
+        "https://www.whatsonindurban.com/events/list/",
+        "https://www.whatsonindurban.com/events/month/"
+      ],
+      "debug_href_sample": [
+        "https://gmpg.org/xfn/11",
+        "https://www.whatsonindurban.com/events/",
+        "https://www.whatsonindurban.com/events/?ical=1",
+        "https://www.whatsonindurban.com/wp-json/",
+        "https://www.whatsonindurban.com/wp-json/tribe/events/v1/",
+        "https://www.whatsonindurban.com/wp-content/uploads/2017/02/cropped-favicon-woi-32x32.png",
+        "https://www.whatsonindurban.com/wp-content/uploads/2017/02/cropped-favicon-woi-192x192.png",
+        "https://www.whatsonindurban.com/wp-content/uploads/2017/02/cropped-favicon-woi-180x180.png"
+      ]
     },
     {
       "name": "Webtickets festivals",
@@ -133,7 +166,7 @@
         "safari-pinned-tab.svg",
         "css/vendor.min.css",
         "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css",
-        "css/styles.css?v=48"
+        "css/styles.css?v=83"
       ]
     }
   ],

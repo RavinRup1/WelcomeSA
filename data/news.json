@@ -1,40 +1,7 @@
 {
-  "generated_at": "2026-10-08T13:19:52.467828+02:00",
-  "stories": [
-    {
-      "title": "Simon Harmer credits Proteas appetite for the fight ahead of Australia rematch in Durban",
-      "summary": "Simon Harmer emphasizes the Proteas' strong desire to compete, particularly as they prepare for a series against Australia in Durban. He highlights the team's collective resilience and their ability to excel when faced with challenges.",
-      "angle": "This showcases the Proteas' admirable team spirit and determination.",
-      "source": "IOL",
-      "url": "https://iol.co.za/sport/cricket/proteas/2026-10-08-simon-harmer-credits-proteas-appetite-for-the-fight-ahead-of-australia-rematch-in-durban/",
-      "published": "Thu, 08 Oct 2026 11:15:00 GMT"
-    },
-    {
-      "title": "Coconut Jam Cake",
-      "summary": "A delightful recipe for Coconut Jam Cake has been shared. This offers a wonderful opportunity to enjoy a classic treat.",
-      "angle": "This recipe encourages home baking and culinary enjoyment.",
-      "source": "IOL",
-      "url": "https://iol.co.za/thepost/features/2026-10-08-coconut-jam-cake/",
-      "published": "Thu, 08 Oct 2026 11:10:00 GMT"
-    }
-  ],
-  "dropped": [
-    {
-      "title": "Samsung forecasts 780% profit jump as AI boom fuels chip dem",
-      "source": "IOL",
-      "reason": "rejected"
-    },
-    {
-      "title": "Durban uncle sentenced to life for repeatedly raping niece (",
-      "source": "IOL",
-      "reason": "rejected"
-    },
-    {
-      "title": "Jon Rahm quits LIV Golf over 'unacceptable' terms amid tour ",
-      "source": "IOL",
-      "reason": "rejected"
-    }
-  ],
+  "generated_at": "2026-10-09T16:44:52.974742+02:00",
+  "stories": [],
+  "dropped": [],
   "feeds": [
     {
       "name": "Good Things Guy",
@@ -48,7 +15,7 @@
       "url": "https://ewn.co.za/rss",
       "ok": false,
       "stories": 0,
-      "http": 200
+      "http": 404
     },
     {
       "name": "Daily Maverick",
