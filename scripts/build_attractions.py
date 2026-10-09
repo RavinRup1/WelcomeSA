@@ -184,28 +184,44 @@ def norm(s):
     return re.sub(r"\s+", " ", re.sub(r"[^a-z0-9 ]", "", (s or "").lower())).strip()
 
 
-def commons_image(query):
+def commons_image(queries):
     """Fallback when a Wikipedia article has no lead image: search Wikimedia
-    Commons for a usable photo (licence noted per-file, see descriptionurl)."""
-    try:
-        d = requests.get("https://commons.wikimedia.org/w/api.php", params={
-            "action": "query", "format": "json", "list": "search",
-            "srsearch": query, "srnamespace": "6", "srlimit": "4"},
-            headers=H, timeout=30).json()
-        for hit in d.get("query", {}).get("search", []):
-            t = hit["title"]
-            if not t.lower().endswith((".jpg", ".jpeg", ".png", ".webp")):
-                continue
-            di = requests.get("https://commons.wikimedia.org/w/api.php", params={
-                "action": "query", "format": "json", "titles": t,
-                "prop": "imageinfo", "iiprop": "url", "iiurlwidth": "800"},
+    Commons for a usable photo. A candidate counts only if its FILE NAME
+    carries at least min(2, available) significant words of the place name -
+    learned 10 Oct the hard way: fulltext search served "KZNSA_women's_400m.jpg"
+    (an athletics meet) for the KZNSA ART GALLERY."""
+    stop = {"south", "africa", "kwazulu", "natal"}
+
+    def sig(q):
+        return [w for w in re.sub(r"[^a-z0-9 ]", "", q.lower()).split()
+                if len(w) >= 5 and w not in stop]
+
+    for query in queries:
+        words = sig(query)
+        if not words:
+            continue
+        try:
+            d = requests.get("https://commons.wikimedia.org/w/api.php", params={
+                "action": "query", "format": "json", "list": "search",
+                "srsearch": query, "srnamespace": "6", "srlimit": "8"},
                 headers=H, timeout=30).json()
-            for _pid, pg in di.get("query", {}).get("pages", {}).items():
-                ii = (pg.get("imageinfo") or [{}])[0]
-                if ii.get("thumburl"):
-                    return ii["thumburl"]
-    except Exception:
-        pass
+            for hit in d.get("query", {}).get("search", []):
+                t = hit["title"]
+                if not t.lower().endswith((".jpg", ".jpeg", ".png", ".webp")):
+                    continue
+                fn = t.lower()
+                if sum(1 for w in words if w in fn) < min(2, len(words)):
+                    continue
+                di = requests.get("https://commons.wikimedia.org/w/api.php", params={
+                    "action": "query", "format": "json", "titles": t,
+                    "prop": "imageinfo", "iiprop": "url", "iiurlwidth": "800"},
+                    headers=H, timeout=30).json()
+                for _pid, pg in di.get("query", {}).get("pages", {}).items():
+                    ii = (pg.get("imageinfo") or [{}])[0]
+                    if ii.get("thumburl"):
+                        return ii["thumburl"]
+        except Exception:
+            pass
     return None
 
 
@@ -290,7 +306,8 @@ def main():
         img = (pg.get("thumbnail") or {}).get("source")
         img_lic = "Wikipedia, CC BY-SA 4.0"
         if not img:
-            cimg = commons_image(title.split("(")[0].strip())
+            names_q = [title.split("(")[0].strip()] + sorted(req_map.get(norm(title), set()))
+            cimg = commons_image(names_q)
             if cimg:
                 img = cimg
                 img_lic = "Wikimedia Commons - see file page for its licence"
