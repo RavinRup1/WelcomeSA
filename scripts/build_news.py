@@ -65,22 +65,33 @@ def fresh_out(path, days):
     return False
 
 
+_WORKING_MODEL = [None]   # once a model answers, stick to it for the whole run
+
+
 def _gemini_json(prompt):
     key = os.environ.get("GEMINI_API_KEY")
     if not key:
         return None
     # discover live models, prefer flash variants (pattern proven across the
-    # other robots - hardcoded model names rot when the free tier renames)
-    models = ["gemini-2.0-flash", "gemini-2.5-flash", "gemini-1.5-flash"]
-    try:
-        lr = requests.get("https://generativelanguage.googleapis.com/v1beta/models?key=" + key,
-                          timeout=40)
-        if lr.status_code == 200:
-            ids = [m["name"].split("/")[-1] for m in lr.json().get("models", [])]
-            flash = [i for i in ids if "flash" in i.lower() and "vision" not in i.lower()]
-            models = list(dict.fromkeys((flash or ids)[:3] + models))
-    except Exception:
-        pass
+    # other robots - hardcoded model names rot when the free tier renames).
+    # Free tier is per-minute rate limited: remember the first model that
+    # works and stop hammering the rest (learned 10 Oct - the model loop
+    # fired ~600 requests in 2 min and everything 429'd -> 0 stories).
+    models = []
+    if _WORKING_MODEL[0]:
+        models = [_WORKING_MODEL[0]]
+    else:
+        models = ["gemini-2.5-flash", "gemini-flash-latest"]
+        try:
+            lr = requests.get("https://generativelanguage.googleapis.com/v1beta/models?key=" + key,
+                              timeout=40)
+            if lr.status_code == 200:
+                ids = [m["name"].split("/")[-1] for m in lr.json().get("models", [])]
+                flash = [i for i in ids if "flash" in i.lower() and "vision" not in i.lower()
+                         and "tts" not in i.lower()]
+                models = list(dict.fromkeys(models[:1] + (flash or ids)[:2]))
+        except Exception:
+            pass
     for model in models:
         try:
             r = requests.post(
@@ -92,6 +103,7 @@ def _gemini_json(prompt):
                 timeout=70)
             if r.status_code == 200:
                 print("gemini ok via", model)
+                _WORKING_MODEL[0] = model
                 return json.loads(r.json()["candidates"][0]["content"]["parts"][0]["text"])
             print("gemini http", r.status_code, "model", model)
         except Exception as e:
@@ -164,7 +176,7 @@ def main():
         except Exception as e:
             entry["note"] = type(e).__name__
         report.append(entry)
-        time.sleep(2)
+        time.sleep(4)  # stay kind to the free tier (429 flood lesson, 10 Oct)
 
     served, dropped = [], []
     seen = set()
