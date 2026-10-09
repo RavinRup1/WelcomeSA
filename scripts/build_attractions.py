@@ -46,15 +46,15 @@ OVERRIDES = {}
 # never be lost to a regen again. Ravin catch -> system fix.
 CURATED_EXTRA = {
     "Ballito (Willard Beach)": ("Ballito", "beach"),
-    "Umdloti Beach": ("Umdloti", "beach"),
+    "Umdloti Beach": ("Umdloti Beach", "beach"),
     "Southbroom": ("Southbroom", "beach"),
     "Krantzkloof Nature Reserve": ("Krantzkloof Nature Reserve", "natural"),
-    "KwaMuhle Museum": ("KwaMuhle Museum", "historical"),
+    "KwaMuhle Museum": ("Kwa Muhle Museum", "historical"),
     "Phoenix Settlement (Inanda)": ("Phoenix Settlement", "historical"),
     "BAT Centre": ("BAT Centre", "cultural"),
     "KZNSA Gallery (Glenwood)": ("KZNSA", "cultural"),
     "Isandlwana & Rorke's Drift": ("Isandlwana", "historical"),
-    "The Old Fort, Durban": ("Old Fort", "historical"),
+    "The Old Fort, Durban": ("Old Fort (Durban)", "historical"),
     "KwaDukuza (Stanger)": ("KwaDukuza", "historical"),
     "Durban City Hall": ("Durban City Hall", "historical"),
     "Groutville - Chief Albert Luthuli": ("Groutville", "historical"),
@@ -156,12 +156,37 @@ def fetch_pages(titles):
         batch = titles[i:i + 20]
         d = wiki({"action": "query", "prop": "extracts|coordinates|pageimages",
                   "exintro": 1, "explaintext": 1, "exchars": "600",
-                  "colimit": "max", "pithumbsize": 500,
+                  "colimit": "max", "pithumbsize": 500, "redirects": 1,
                   "titles": "|".join(batch)})
         for pid, pg in d["query"]["pages"].items():
             pages[pg["title"]] = pg
         time.sleep(1)  # polite
     return pages
+
+
+def commons_image(query):
+    """Fallback when a Wikipedia article has no lead image: search Wikimedia
+    Commons for a usable photo (licence noted per-file, see descriptionurl)."""
+    try:
+        d = requests.get("https://commons.wikimedia.org/w/api.php", params={
+            "action": "query", "format": "json", "list": "search",
+            "srsearch": query, "srnamespace": "6", "srlimit": "4"},
+            headers=H, timeout=30).json()
+        for hit in d.get("query", {}).get("search", []):
+            t = hit["title"]
+            if not t.lower().endswith((".jpg", ".jpeg", ".png", ".webp")):
+                continue
+            di = requests.get("https://commons.wikimedia.org/w/api.php", params={
+                "action": "query", "format": "json", "titles": t,
+                "prop": "imageinfo", "iiprop": "url", "iiurlwidth": "800"},
+                headers=H, timeout=30).json()
+            for _pid, pg in di.get("query", {}).get("pages", {}).items():
+                ii = (pg.get("imageinfo") or [{}])[0]
+                if ii.get("thumburl"):
+                    return ii["thumburl"]
+    except Exception:
+        pass
+    return None
 
 
 def categorize(title, in_cats):
@@ -233,6 +258,13 @@ def main():
             continue
         summary = extract.split("\n")[0][:400]
         coord = (pg.get("coordinates") or [{}])[0]
+        img = (pg.get("thumbnail") or {}).get("source")
+        img_lic = "Wikipedia, CC BY-SA 4.0"
+        if not img:
+            cimg = commons_image(title.split("(")[0].strip())
+            if cimg:
+                img = cimg
+                img_lic = "Wikimedia Commons - see file page for its licence"
         attractions.append({
             "id": re.sub(r"[^a-z0-9]+", "-", title.lower()).strip("-"),
             "name": title,
@@ -240,9 +272,9 @@ def main():
             "province": prov_of.get(title, "South Africa"),
             "category": forced_cat.get(title) or categorize(title, in_cats),
             "lat": coord.get("lat"), "lng": coord.get("lon"),
-            "image": (pg.get("thumbnail") or {}).get("source"),
+            "image": img,
             "source_url": "https://en.wikipedia.org/wiki/" + title.replace(" ", "_"),
-            "license": "Text+image: Wikipedia contributors, CC BY-SA 4.0",
+            "license": "Text: Wikipedia, CC BY-SA 4.0. Image: " + img_lic,
             "added": NOW.date().isoformat(),
         })
 
