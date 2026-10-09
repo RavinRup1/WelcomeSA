@@ -191,7 +191,7 @@ def commons_image(query):
 
 def categorize(title, in_cats):
     for cat, forced in in_cats.items():
-        if forced and title in cat:
+        if isinstance(forced, str) and title in forced:
             return forced
     t = title.lower()
     for k, v in [("beach", "beach"), ("museum", "cultural"), ("gallery", "cultural"),
