@@ -1,0 +1,43 @@
+{
+  "generated_at": "2026-10-10T01:22:23.201127+02:00",
+  "stories": [],
+  "dropped": [],
+  "feeds": [
+    {
+      "name": "Good Things Guy",
+      "url": "https://www.goodthingsguy.com/feed/",
+      "ok": false,
+      "stories": 0,
+      "http": 403
+    },
+    {
+      "name": "EWN",
+      "url": "https://ewn.co.za/rss",
+      "ok": false,
+      "stories": 0,
+      "http": 404
+    },
+    {
+      "name": "Daily Maverick",
+      "url": "https://www.dailymaverick.co.za/feed/",
+      "ok": false,
+      "stories": 0,
+      "http": 403
+    },
+    {
+      "name": "IOL",
+      "url": "https://www.iol.co.za/rss",
+      "ok": true,
+      "stories": 30,
+      "http": 200
+    },
+    {
+      "name": "SABC News",
+      "url": "https://www.sabcnews.com/sabcnews/feed/",
+      "ok": true,
+      "stories": 10,
+      "http": 200
+    }
+  ],
+  "ok": true
+}
