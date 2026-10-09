@@ -49,7 +49,6 @@ CURATED_EXTRA = {
     "Umdloti Beach": ("Umdloti Beach", "beach"),
     "Southbroom": ("Southbroom", "beach"),
     "Krantzkloof Nature Reserve": ("Krantzkloof Nature Reserve", "natural"),
-    "KwaMuhle Museum": ("Kwa Muhle Museum", "historical"),
     "Phoenix Settlement (Inanda)": ("Phoenix Settlement", "historical"),
     "BAT Centre": ("BAT Centre", "cultural"),
     "KZNSA Gallery (Glenwood)": ("KZNSA", "cultural"),
@@ -64,7 +63,6 @@ CURATED_EXTRA = {
     "The Sardine Run": ("Sardine run", "wildlife"),
     "Hluhluwe-iMfolozi Park": ("Hluhluwe\u2013iMfolozi Park", "wildlife"),
     "iSimangaliso Wetland Park (St Lucia)": ("iSimangaliso Wetland Park", "natural"),
-    "Crocworld Conservation Centre (Scottburgh)": ("Crocworld", "wildlife"),
 }
 
 # Ravin's must-include list (the M1 quality gate)
@@ -161,6 +159,17 @@ def fetch_pages(titles):
         for pid, pg in d["query"]["pages"].items():
             pages[pg["title"]] = pg
         time.sleep(1)  # polite
+    # retry stubs: pages whose intro extract came back empty (some redirects/short
+    # articles have no exintro) - take the lead of the full plain-text extract
+    nointro = [t for t, pg in pages.items() if not (pg.get("extract") or "").strip()]
+    if nointro:
+        d = wiki({"action": "query", "prop": "extracts", "explaintext": 1,
+                  "exchars": "900", "redirects": 1,
+                  "titles": "|".join(nointro[:20])})
+        for pid, pg in d.get("query", {}).get("pages", {}).items():
+            if pg.get("title") in pages and not (pages[pg["title"]].get("extract") or "").strip():
+                pages[pg["title"]]["extract"] = pg.get("extract") or ""
+        time.sleep(1)
     return pages
 
 
@@ -237,14 +246,19 @@ def main():
     missing = [w for w, h in check.items() if not h]
 
     # 2b. curated extras: direct fetch every run (regen-proof, Ravin catch 8 Oct)
+    JUNK_TITLES = {"BabyCenter", "Crossworld"}   # search fallback can grab these; never serve them
     extra_check = {}
+    extra_alias = {}
     for want, (wiki_name, cat) in CURATED_EXTRA.items():
         hit = OVERRIDES.get(want) or (wiki_name if wiki_name in titles else search_title(wiki_name))
+        if hit in JUNK_TITLES:
+            hit = None
         extra_check[want] = hit
         if hit:
             titles.add(hit)
             prov_of[hit] = "KwaZulu-Natal"
             forced_cat[hit] = cat
+            extra_alias.setdefault(hit, []).append(want)
 
     # 3. fetch page data
     pages = fetch_pages(sorted(titles))
@@ -277,6 +291,8 @@ def main():
             "license": "Text: Wikipedia, CC BY-SA 4.0. Image: " + img_lic,
             "added": NOW.date().isoformat(),
         })
+        if title in extra_alias:
+            attractions[-1]["aliases"] = extra_alias[title]
 
     prev = {}
     if os.path.exists(OUT):
