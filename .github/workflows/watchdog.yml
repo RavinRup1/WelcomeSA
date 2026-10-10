@@ -4,6 +4,7 @@ on:
     - cron: '53 * * * *'
   workflow_dispatch:
 permissions:
+  issues: write
   actions: write
   contents: read
 jobs:
