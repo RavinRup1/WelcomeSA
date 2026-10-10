@@ -205,7 +205,34 @@ def main():
                                           (critic or {}).get("issues") or "rejected")[:120]})
     print(f"news jury: {len(served)} served, {len(dropped)} dropped")
 
+    fallback = False
+    if not served and cand:
+        # OPTION B (Ravin, 10 Oct): never ship a zero news pillar. If the
+        # jury serves nothing (quota exhaustion, strict judges), pass
+        # headlines through RAW with clear source labels. The polished jury
+        # stays the preferred path whenever it can run.
+        fallback = True
+        seen_fb = set()
+        for it in cand:
+            if len(served) >= 6:
+                break
+            if not it.get("title") or not it.get("link"):
+                continue
+            k = it["link"].split("?")[0]
+            if k in seen_fb:
+                continue
+            seen_fb.add(k)
+            served.append({"title": it["title"],
+                           "summary": (it.get("raw") or "")[:300],
+                           "angle": "",
+                           "source": it["source"],
+                           "url": it["link"],
+                           "published": it.get("published", ""),
+                           "raw": True})
+        print(f"news fallback: {len(served)} raw headlines passed through")
+
     doc = {"generated_at": NOW.isoformat(),
+           "fallback": fallback,
            "stories": served,
            "dropped": dropped[-20:],
            "feeds": report,
