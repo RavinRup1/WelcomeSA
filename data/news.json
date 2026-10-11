@@ -1,7 +1,79 @@
 {
-  "generated_at": "2026-10-10T01:22:23.201127+02:00",
-  "stories": [],
-  "dropped": [],
+  "generated_at": "2026-10-11T16:12:14.211540+02:00",
+  "fallback": true,
+  "stories": [
+    {
+      "title": "âIâll shoot you in the faceâ: Stellenbosch officers clash with residents",
+      "summary": "âIâll shoot you in the faceâ: Stellenbosch officers clash with residents https://iol.co.za/capeargus/news/2026-10-11-ill-shoot-you-in-the-face-stellenbosch-officers-clash-with-residents/ Rasaad Adams The Tactical Response Unit was deployed alongside the Red Ants during Saturdayâs clash with ",
+      "angle": "",
+      "source": "IOL",
+      "url": "https://iol.co.za/capeargus/news/2026-10-11-ill-shoot-you-in-the-face-stellenbosch-officers-clash-with-residents/",
+      "published": "Sun, 11 Oct 2026 14:00:00 GMT",
+      "raw": true
+    },
+    {
+      "title": "Ragavan and Govender convicted in Gupta-linked mine rehabilitation funds case",
+      "summary": "Ragavan and Govender convicted in Gupta-linked mine rehabilitation funds case https://iol.co.za/thepost/news/2026-10-11-ragavan-and-govender-convicted-in-gupta-linked-mine-rehabilitation-funds-case/ Sinenhlanhla.masilela@iol.co.za (Sinenhlanhla Masilela) File Ronica Ragavan and Pushpaveni Govender w",
+      "angle": "",
+      "source": "IOL",
+      "url": "https://iol.co.za/thepost/news/2026-10-11-ragavan-and-govender-convicted-in-gupta-linked-mine-rehabilitation-funds-case/",
+      "published": "Sun, 11 Oct 2026 14:00:00 GMT",
+      "raw": true
+    },
+    {
+      "title": "Parliamentary data reveals rise in mental health patients in regional hospitals",
+      "summary": "Parliamentary data reveals rise in mental health patients in regional hospitals https://iol.co.za/capetimes/news/2026-10-11-parliamentary-data-reveals-rise-in-mental-health-patients-in-regional-hospitals/ Supplied Mental health care includes assessment, treatment and referral between hospitals and c",
+      "angle": "",
+      "source": "IOL",
+      "url": "https://iol.co.za/capetimes/news/2026-10-11-parliamentary-data-reveals-rise-in-mental-health-patients-in-regional-hospitals/",
+      "published": "Sun, 11 Oct 2026 14:00:00 GMT",
+      "raw": true
+    },
+    {
+      "title": "Boy, 9, drowns at Kleinmond Lagoon",
+      "summary": "Boy, 9, drowns at Kleinmond Lagoon https://iol.co.za/capeargus/news/2026-10-11-boy-9-drowns-at-kleinmond-lagoon/ NSRI TRAGEDY: Kleinmond Lagoon A nine-year-old boy died after being found underwater at Kleinmond Main Beach Lagoon on Saturday afternoon, despite efforts by bystanders, NSRI medics and p",
+      "angle": "",
+      "source": "IOL",
+      "url": "https://iol.co.za/capeargus/news/2026-10-11-boy-9-drowns-at-kleinmond-lagoon/",
+      "published": "Sun, 11 Oct 2026 13:52:00 GMT",
+      "raw": true
+    },
+    {
+      "title": "Nine-year-old boy dies after drowning at Kleinmond Main Beach Lagoon",
+      "summary": "Nine-year-old boy dies after drowning at Kleinmond Main Beach Lagoon https://iol.co.za/news/south-africa/2026-10-11-nine-year-old-boy-dies-after-drowning-at-kleinmond-main-beach-lagoon/ yasmine.jacobs@iol.co.za (Yasmine Jacobs) File A nine-year-old boy has died following a drowning incident in Klein",
+      "angle": "",
+      "source": "IOL",
+      "url": "https://iol.co.za/news/south-africa/2026-10-11-nine-year-old-boy-dies-after-drowning-at-kleinmond-main-beach-lagoon/",
+      "published": "Sun, 11 Oct 2026 13:39:00 GMT",
+      "raw": true
+    },
+    {
+      "title": "Seabelo Senatlaâs backflip and Stormersâ power make for a perfect âMen in Blackâ tribute",
+      "summary": "Seabelo Senatlaâs backflip and Stormersâ power make for a perfect âMen in Blackâ tribute https://iol.co.za/sport/rugby/urc/2026-10-11-seabelo-senatlas-backflip-and-stormers-power-make-for-a-perfect-men-in-black-tribute/ Stormers Rugby Stormers winger Seabelo Senatla celebrates scoring the fi",
+      "angle": "",
+      "source": "IOL",
+      "url": "https://iol.co.za/sport/rugby/urc/2026-10-11-seabelo-senatlas-backflip-and-stormers-power-make-for-a-perfect-men-in-black-tribute/",
+      "published": "Sun, 11 Oct 2026 13:30:00 GMT",
+      "raw": true
+    }
+  ],
+  "dropped": [
+    {
+      "title": "âIâll shoot you in the faceâ: Stellenbosch officers cl",
+      "source": "IOL",
+      "reason": "Not positive"
+    },
+    {
+      "title": "Ragavan and Govender convicted in Gupta-linked mine rehabili",
+      "source": "IOL",
+      "reason": "Not positive"
+    },
+    {
+      "title": "Parliamentary data reveals rise in mental health patients in",
+      "source": "IOL",
+      "reason": "rejected"
+    }
+  ],
   "feeds": [
     {
       "name": "Good Things Guy",
