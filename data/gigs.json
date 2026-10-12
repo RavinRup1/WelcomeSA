@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T20:29:09.745424+02:00",
+  "generated_at": "2026-10-12T18:50:35.940794+02:00",
   "events": [],
   "dropped": [
     {
@@ -123,7 +123,7 @@
         "https://webtickets.co.za/v2/MyEventPasses.aspx",
         "https://webtickets.co.za/v2/MyWebTickets.aspx",
         "https://webtickets.co.za/v2/event.aspx?itemid=1586517684",
-        "https://webtickets.co.za/v2/event.aspx?itemid=1604350623"
+        "https://webtickets.co.za/v2/event.aspx?itemid=1605247963"
       ],
       "debug_href_sample": [
         "apple-touch-icon.png",
