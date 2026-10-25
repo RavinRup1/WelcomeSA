@@ -1,91 +1,60 @@
 {
-  "generated_at": "2026-10-24T14:09:30.618498+02:00",
-  "fallback": true,
+  "generated_at": "2026-10-25T14:42:54.324709+02:00",
+  "fallback": false,
   "stories": [
     {
-      "title": "March and MarchâVOP partnership divides eThekwini",
-      "summary": "March and MarchâVOP partnership divides eThekwini https://iol.co.za/sunday-tribune/news/2026-10-24-march-and-marchvop-partnership-divides-ethekwini/ Sibonelo Ngcobo eThekwini groups divided over March and March Movement-VOP partnership following a community meeting in Phoenix. Political parties an",
-      "angle": "",
+      "title": "Xaba finally wins an Absa Run Your City race in 2026",
+      "summary": "Glenrose Xaba has achieved a significant victory in the inaugural Mangaung 10K race. The Boxer Athletic Club star successfully held off a strong international competitor to secure her win in Bloemfontein.",
+      "angle": "This is good news as it highlights a South African athlete's success on a national stage.",
       "source": "IOL",
-      "url": "https://iol.co.za/sunday-tribune/news/2026-10-24-march-and-marchvop-partnership-divides-ethekwini/",
-      "published": "Sat, 24 Oct 2026 12:00:00 GMT",
-      "raw": true
-    },
-    {
-      "title": "WATCH: How to save your dry breyani - simple tricks to bring back the flavour",
-      "summary": "WATCH: How to save your dry breyani - simple tricks to bring back the flavour https://iol.co.za/lifestyle/food-drink/2026-10-24-watch-how-to-save-your-dry-breyani-simple-tricks-to-bring-back-the-flavour/ oluthando.keteyi@iol.co.za (Oluthando Keteyi) Pexels/Saveurs Secretes Breyani is a dish that alm",
-      "angle": "",
-      "source": "IOL",
-      "url": "https://iol.co.za/lifestyle/food-drink/2026-10-24-watch-how-to-save-your-dry-breyani-simple-tricks-to-bring-back-the-flavour/",
-      "published": "Sat, 24 Oct 2026 12:00:00 GMT",
-      "raw": true
-    },
-    {
-      "title": "Durban man jailed after fake salary slips secured Porsche and VW Golf finance",
-      "summary": "Durban man jailed after fake salary slips secured Porsche and VW Golf finance https://iol.co.za/thepost/news/2026-10-24-durban-man-jailed-after-fake-salary-slips-secured-porsche-and-vw-golf-finance/ zainul.dawood@iol.co.za (Zainul Dawood) Durban Court file Munsamy Padayachee was sentenced to 5 years",
-      "angle": "",
-      "source": "IOL",
-      "url": "https://iol.co.za/thepost/news/2026-10-24-durban-man-jailed-after-fake-salary-slips-secured-porsche-and-vw-golf-finance/",
-      "published": "Sat, 24 Oct 2026 12:00:00 GMT",
-      "raw": true
-    },
-    {
-      "title": "South Africaâs long commute: how distance keeps workers poor",
-      "summary": "South Africaâs long commute: how distance keeps workers poor https://iol.co.za/thepost/opinion/2026-10-24-south-africas-long-commute-how-distance-keeps-workers-poor/ Matthews Baloyi For millions of South Africans, the daily journey to work is costly, unsafe and increasingly long. The countryâs h",
-      "angle": "",
-      "source": "IOL",
-      "url": "https://iol.co.za/thepost/opinion/2026-10-24-south-africas-long-commute-how-distance-keeps-workers-poor/",
-      "published": "Sat, 24 Oct 2026 11:00:00 GMT",
-      "raw": true
-    },
-    {
-      "title": "Umlazi SASSA office closed over safety concerns",
-      "summary": "Umlazi SASSA office closed over safety concerns https://iol.co.za/sunday-tribune/news/2026-10-24-umlazi-sassa-office-closed-over-safety-concerns/ Sibonelo Ngcobo SASSA closes Umlazi W-Section office after safety prohibition notice. Grant applicants have been redirected to nearby SASSA offices after ",
-      "angle": "",
-      "source": "IOL",
-      "url": "https://iol.co.za/sunday-tribune/news/2026-10-24-umlazi-sassa-office-closed-over-safety-concerns/",
-      "published": "Sat, 24 Oct 2026 11:00:00 GMT",
-      "raw": true
-    },
-    {
-      "title": "Moist banana cake recipe ready in 30 minutes",
-      "summary": "Moist banana cake recipe ready in 30 minutes https://iol.co.za/thepost/news/2026-10-24-moist-banana-cake-recipe-ready-in-30-minutes/ Keenan Blake Banana cake Use four ripe bananas to make this simple banana cake. Use four ripe bananas to make this simple banana cake. Read the full article Sat, 24 Oc",
-      "angle": "",
-      "source": "IOL",
-      "url": "https://iol.co.za/thepost/news/2026-10-24-moist-banana-cake-recipe-ready-in-30-minutes/",
-      "published": "Sat, 24 Oct 2026 10:39:00 GMT",
-      "raw": true
+      "url": "https://iol.co.za/sport/athletics/teamsa/2026-10-25-xaba-finally-wins-an-absa-run-your-city-race-in-2026/",
+      "published": "Sun, 25 Oct 2026 12:39:00 GMT"
     }
   ],
   "dropped": [
     {
-      "title": "March and MarchâVOP partnership divides eThekwini",
+      "title": "Two arrested after 121kg abalone haul worth R161,000 seized ",
       "source": "IOL",
-      "reason": "Condition for SERVE not met."
+      "reason": "positive is false"
     },
     {
-      "title": "WATCH: How to save your dry breyani - simple tricks to bring",
+      "title": "Iraola backs âfull gasâ Liverpool approach ahead of Brig",
+      "source": "IOL",
+      "reason": "Not about South Africa"
+    },
+    {
+      "title": "VF Plus candidate contesting all 41 Msunduzi wards could tri",
+      "source": "IOL",
+      "reason": "positive is false"
+    },
+    {
+      "title": "Durban port delays threaten Diwali stock and raise prices fo",
+      "source": "IOL",
+      "reason": "positive is false"
+    },
+    {
+      "title": "Yellow Level 2 thunderstorm warning issued for eThekwini",
       "source": "IOL",
       "reason": "short"
     },
     {
-      "title": "Moist banana cake recipe ready in 30 minutes",
+      "title": "Madlanga Commission Scorecard: Is the NPA Being Shielded fro",
       "source": "IOL",
-      "reason": "Not positive and not about SA"
+      "reason": "Not positive and not accurate."
     },
     {
-      "title": "Russia and Africa: energy cooperation for sustainable develo",
+      "title": "Stormers youngster Yaqeen Ahmed set for No 10 role against U",
       "source": "IOL",
-      "reason": "short"
+      "reason": "None."
     },
     {
-      "title": "Learn how to make your own madeira cake",
-      "source": "IOL",
-      "reason": "short"
+      "title": "Western Cape water department urges responsible water use",
+      "source": "SABC News",
+      "reason": "rejected"
     },
     {
-      "title": "The final climb to Polly Shorts: political parties are runni",
-      "source": "IOL",
+      "title": "Ramaphosa urges Soweto youth to apply for available opportun",
+      "source": "SABC News",
       "reason": "rejected"
     }
   ],
