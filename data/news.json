@@ -1,59 +1,59 @@
 {
-  "generated_at": "2026-10-25T14:42:54.324709+02:00",
+  "generated_at": "2026-10-26T16:28:13.287839+02:00",
   "fallback": false,
   "stories": [
     {
-      "title": "Xaba finally wins an Absa Run Your City race in 2026",
-      "summary": "Glenrose Xaba has achieved a significant victory in the inaugural Mangaung 10K race. The Boxer Athletic Club star successfully held off a strong international competitor to secure her win in Bloemfontein.",
-      "angle": "This is good news as it highlights a South African athlete's success on a national stage.",
+      "title": "ICBA Africa on advancing evidence-based dialogue on low and no-calorie sweeteners across Africa",
+      "summary": "ICBA Africa is leading discussions on low and no-calorie sweeteners across several African nations. These roundtables aim to advance evidence-based dialogue within the beverage industry.",
+      "angle": "This initiative promotes informed discussions on important health-related topics across the continent.",
       "source": "IOL",
-      "url": "https://iol.co.za/sport/athletics/teamsa/2026-10-25-xaba-finally-wins-an-absa-run-your-city-race-in-2026/",
-      "published": "Sun, 25 Oct 2026 12:39:00 GMT"
+      "url": "https://iol.co.za/the-star/partnered/2026-10-26-icba-africa-on-advancing-evidence-based-dialogue-on-low-and-no-calorie-sweeteners-across-africa/",
+      "published": "Mon, 26 Oct 2026 13:45:00 GMT"
     }
   ],
   "dropped": [
     {
-      "title": "Two arrested after 121kg abalone haul worth R161,000 seized ",
+      "title": "R115m wall hits a wall: 94% oppose Cape Town proposal",
       "source": "IOL",
       "reason": "positive is false"
     },
     {
-      "title": "Iraola backs âfull gasâ Liverpool approach ahead of Brig",
-      "source": "IOL",
-      "reason": "Not about South Africa"
-    },
-    {
-      "title": "VF Plus candidate contesting all 41 Msunduzi wards could tri",
+      "title": "Jayden-Lee Meek: Fourth witness takes the stand",
       "source": "IOL",
       "reason": "positive is false"
     },
     {
-      "title": "Durban port delays threaten Diwali stock and raise prices fo",
+      "title": "Mandeni councillor removed from office after misconduct inve",
       "source": "IOL",
-      "reason": "positive is false"
+      "reason": "Not positive and not accurate"
     },
     {
-      "title": "Yellow Level 2 thunderstorm warning issued for eThekwini",
+      "title": "Bumper avocado harvest in Yunnan's Menglian expected to repl",
       "source": "IOL",
       "reason": "short"
     },
     {
-      "title": "Madlanga Commission Scorecard: Is the NPA Being Shielded fro",
+      "title": "Trump says Norwegian immigrants not welcome in US following ",
       "source": "IOL",
-      "reason": "Not positive and not accurate."
+      "reason": "The summary omits the main subject of the headline and material (Trump's statement on immigrants) and frames a negative "
     },
     {
-      "title": "Stormers youngster Yaqeen Ahmed set for No 10 role against U",
-      "source": "IOL",
-      "reason": "None."
-    },
-    {
-      "title": "Western Cape water department urges responsible water use",
+      "title": "Court views more CCTV footage of alleged gunmen at AKA murde",
       "source": "SABC News",
       "reason": "rejected"
     },
     {
-      "title": "Ramaphosa urges Soweto youth to apply for available opportun",
+      "title": "IEC’s efforts to counter disinformation praised",
+      "source": "SABC News",
+      "reason": "rejected"
+    },
+    {
+      "title": "Bronkhorstspruit gastrointestinal cases rises to 833",
+      "source": "SABC News",
+      "reason": "Headline is not positive."
+    },
+    {
+      "title": "Officer in Gqeberha allegedly shoots wife, turns gun on hims",
       "source": "SABC News",
       "reason": "rejected"
     }
