@@ -1,61 +1,51 @@
 {
-  "generated_at": "2026-10-26T16:28:13.287839+02:00",
+  "generated_at": "2026-10-28T16:12:36.478501+02:00",
   "fallback": false,
   "stories": [
     {
-      "title": "ICBA Africa on advancing evidence-based dialogue on low and no-calorie sweeteners across Africa",
-      "summary": "ICBA Africa is leading discussions on low and no-calorie sweeteners across several African nations. These roundtables aim to advance evidence-based dialogue within the beverage industry.",
-      "angle": "This initiative promotes informed discussions on important health-related topics across the continent.",
+      "title": "Chocolate-dipped Crunchies recipe for a sweet twist on a South African favourite",
+      "summary": "A beloved South African teatime snack, Crunchies, gets a delightful new twist. This recipe offers chocolate-dipped crunchies, complete with practical tips for preparation and storage.",
+      "angle": "This recipe celebrates and enhances a beloved South African culinary tradition.",
       "source": "IOL",
-      "url": "https://iol.co.za/the-star/partnered/2026-10-26-icba-africa-on-advancing-evidence-based-dialogue-on-low-and-no-calorie-sweeteners-across-africa/",
-      "published": "Mon, 26 Oct 2026 13:45:00 GMT"
+      "url": "https://iol.co.za/lifestyle/food-drink/2026-10-28-chocolate-dipped-crunchies-recipe-for-a-sweet-twist-on-a-south-african-favourite/",
+      "published": "Wed, 28 Oct 2026 14:09:00 GMT"
     }
   ],
   "dropped": [
     {
-      "title": "R115m wall hits a wall: 94% oppose Cape Town proposal",
-      "source": "IOL",
-      "reason": "positive is false"
-    },
-    {
-      "title": "Jayden-Lee Meek: Fourth witness takes the stand",
-      "source": "IOL",
-      "reason": "positive is false"
-    },
-    {
-      "title": "Mandeni councillor removed from office after misconduct inve",
-      "source": "IOL",
-      "reason": "Not positive and not accurate"
-    },
-    {
-      "title": "Bumper avocado harvest in Yunnan's Menglian expected to repl",
+      "title": "President Cyril Ramaphosa condemns KZN violence targeting fo",
       "source": "IOL",
       "reason": "short"
     },
     {
-      "title": "Trump says Norwegian immigrants not welcome in US following ",
+      "title": "Inflation set to hit 5% by year-end as fuel price hikes take",
       "source": "IOL",
-      "reason": "The summary omits the main subject of the headline and material (Trump's statement on immigrants) and frames a negative "
+      "reason": "rejected"
     },
     {
-      "title": "Court views more CCTV footage of alleged gunmen at AKA murde",
+      "title": "LIVE : IEC officially launches Results Operations Centre",
       "source": "SABC News",
       "reason": "rejected"
     },
     {
-      "title": "IEC’s efforts to counter disinformation praised",
+      "title": "Shebe Maburna rejects claims he paid officials to drop assau",
       "source": "SABC News",
-      "reason": "rejected"
+      "reason": "short"
     },
     {
-      "title": "Bronkhorstspruit gastrointestinal cases rises to 833",
+      "title": "DA calls on President Ramaphosa to resolve Police Ministry s",
       "source": "SABC News",
-      "reason": "Headline is not positive."
+      "reason": "short"
     },
     {
-      "title": "Officer in Gqeberha allegedly shoots wife, turns gun on hims",
+      "title": "Six foreign nationals arrested for illegal mining in Mpumala",
       "source": "SABC News",
-      "reason": "rejected"
+      "reason": "The story details law enforcement action against crime, which is not considered genuinely positive national progress und"
+    },
+    {
+      "title": "Mashatile takes ANC campaign trail to greater Johannesburg",
+      "source": "SABC News",
+      "reason": "short"
     }
   ],
   "feeds": [
