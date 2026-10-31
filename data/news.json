@@ -1,99 +1,17 @@
 {
-  "generated_at": "2026-10-29T16:33:25.784056+02:00",
-  "fallback": true,
+  "generated_at": "2026-10-31T15:49:17.015125+02:00",
+  "fallback": false,
   "stories": [
     {
-      "title": "Cornubia to deliver 460 permanent homes by mid-2027 as KZN flood survivors await relocation",
-      "summary": "Cornubia to deliver 460 permanent homes by mid-2027 as KZN flood survivors await relocation https://iol.co.za/news/south-africa/2026-10-29-cornubia-to-deliver-460-permanent-homes-by-mid-2027-as-kzn-flood-survivors-await-relocation/ Sibonelo Ngcobo / ANA studios President Cyril Ramaphosa said 460 per",
-      "angle": "",
+      "title": "Proteas dethrone Australia at Newlands to be crowned undisputed Kings of Test cricket",
+      "summary": "The Proteas secured an epic 176-run victory at Newlands on Saturday. This triumph crowned them World Test Champions and secured the golden mace.",
+      "angle": "This achievement signifies national sporting excellence and progress for South Africa.",
       "source": "IOL",
-      "url": "https://iol.co.za/news/south-africa/2026-10-29-cornubia-to-deliver-460-permanent-homes-by-mid-2027-as-kzn-flood-survivors-await-relocation/",
-      "published": "Thu, 29 Oct 2026 14:28:00 GMT",
-      "raw": true
-    },
-    {
-      "title": "Gabon oil rig disaster: Three bodies found in sunken platform",
-      "summary": "Gabon oil rig disaster: Three bodies found in sunken platform https://iol.co.za/news/africa/2026-10-29-gabon-oil-rig-disaster-three-bodies-found-in-sunken-platform/ AFP Three bodies have been found in the wreckage of a sunken Gabon oil rig, while at least one person remains missing after the disaste",
-      "angle": "",
-      "source": "IOL",
-      "url": "https://iol.co.za/news/africa/2026-10-29-gabon-oil-rig-disaster-three-bodies-found-in-sunken-platform/",
-      "published": "Thu, 29 Oct 2026 14:27:00 GMT",
-      "raw": true
-    },
-    {
-      "title": "Mkhwanazi proposed as national head of the Hawks",
-      "summary": "Mkhwanazi proposed as national head of the Hawks https://iol.co.za/thepost/news/2026-10-29-mkhwanazi-proposed-as-national-head-of-the-hawks/ Kamogelo.moichela@iol.co.za (Kamogelo Moichela) Tumi Pakkies Independent Newspapers Acting Police Minister Firoz Cachalia has submitted a Cabinet memorandum pr",
-      "angle": "",
-      "source": "IOL",
-      "url": "https://iol.co.za/thepost/news/2026-10-29-mkhwanazi-proposed-as-national-head-of-the-hawks/",
-      "published": "Thu, 29 Oct 2026 14:22:00 GMT",
-      "raw": true
-    },
-    {
-      "title": "US economy grows faster than expected, but Trump still has an inflation problem",
-      "summary": "US economy grows faster than expected, but Trump still has an inflation problem https://iol.co.za/business/economy/2026-10-29-us-economy-grows-faster-than-expected-but-trump-still-has-an-inflation-problem/ Ivan DraÅ¾iÄ / Pexels US President Donald Trump faces a mixed economic picture, with strong g",
-      "angle": "",
-      "source": "IOL",
-      "url": "https://iol.co.za/business/economy/2026-10-29-us-economy-grows-faster-than-expected-but-trump-still-has-an-inflation-problem/",
-      "published": "Thu, 29 Oct 2026 14:20:00 GMT",
-      "raw": true
-    },
-    {
-      "title": "DUT pays tribute after environmental activist Desmond DâSa dies in car crash",
-      "summary": "DUT pays tribute after environmental activist Desmond DâSa dies in car crash https://iol.co.za/news/south-africa/2026-10-29-dut-pays-tribute-after-environmental-activist-desmond-dsa-dies-in-car-crash/ yasmine.jacobs@iol.co.za (Yasmine Jacobs) Supplied/DUT Professor Thenjiwe Meyiwa, former Registra",
-      "angle": "",
-      "source": "IOL",
-      "url": "https://iol.co.za/news/south-africa/2026-10-29-dut-pays-tribute-after-environmental-activist-desmond-dsa-dies-in-car-crash/",
-      "published": "Thu, 29 Oct 2026 14:16:00 GMT",
-      "raw": true
-    },
-    {
-      "title": "The payment shake-up putting small digital payments front and centre",
-      "summary": "The payment shake-up putting small digital payments front and centre https://iol.co.za/news/partnered/2026-10-29-the-payment-shake-up-putting-small-digital-payments-front-and-centre/ Supplied South Africaâs Reserve Bank is opening parts of the national payment system to regulated non-banks, with c",
-      "angle": "",
-      "source": "IOL",
-      "url": "https://iol.co.za/news/partnered/2026-10-29-the-payment-shake-up-putting-small-digital-payments-front-and-centre/",
-      "published": "Thu, 29 Oct 2026 14:15:00 GMT",
-      "raw": true
+      "url": "https://iol.co.za/sport/cricket/proteas/2026-10-31-proteas-dethrone-australia-at-newlands-to-be-crowned-undisputed-kings-of-test-cricket/",
+      "published": "Sat, 31 Oct 2026 13:37:00 GMT"
     }
   ],
-  "dropped": [
-    {
-      "title": "Cornubia to deliver 460 permanent homes by mid-2027 as KZN f",
-      "source": "IOL",
-      "reason": "Not positive"
-    },
-    {
-      "title": "Gabon oil rig disaster: Three bodies found in sunken platfor",
-      "source": "IOL",
-      "reason": "Conditions not met."
-    },
-    {
-      "title": "Mkhwanazi proposed as national head of the Hawks",
-      "source": "IOL",
-      "reason": "positive is false"
-    },
-    {
-      "title": "US economy grows faster than expected, but Trump still has a",
-      "source": "IOL",
-      "reason": "Not positive and not about South Africa."
-    },
-    {
-      "title": "DUT pays tribute after environmental activist Desmond DâSa",
-      "source": "IOL",
-      "reason": "short"
-    },
-    {
-      "title": "SAA allays fears of financial collapse",
-      "source": "SABC News",
-      "reason": "rejected"
-    },
-    {
-      "title": "Mkhwanazi touted to be next Hawks head",
-      "source": "SABC News",
-      "reason": "short"
-    }
-  ],
+  "dropped": [],
   "feeds": [
     {
       "name": "Good Things Guy",
