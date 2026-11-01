@@ -1,17 +1,53 @@
 {
-  "generated_at": "2026-10-31T15:49:17.015125+02:00",
+  "generated_at": "2026-11-01T16:26:32.052736+02:00",
   "fallback": false,
   "stories": [
     {
-      "title": "Proteas dethrone Australia at Newlands to be crowned undisputed Kings of Test cricket",
-      "summary": "The Proteas secured an epic 176-run victory at Newlands on Saturday. This triumph crowned them World Test Champions and secured the golden mace.",
-      "angle": "This achievement signifies national sporting excellence and progress for South Africa.",
+      "title": "More lifeguards, patrols and child-safety measures planned for KZN beaches",
+      "summary": "eThekwini and Umdoni are enhancing safety at their beaches. This includes more lifeguards, patrols, and child-safety measures for the festive season.",
+      "angle": "This is good news as it improves safety for beach visitors.",
       "source": "IOL",
-      "url": "https://iol.co.za/sport/cricket/proteas/2026-10-31-proteas-dethrone-australia-at-newlands-to-be-crowned-undisputed-kings-of-test-cricket/",
-      "published": "Sat, 31 Oct 2026 13:37:00 GMT"
+      "url": "https://iol.co.za/sunday-tribune/news/2026-11-01-more-lifeguards-patrols-and-child-safety-measures-planned-for-kzn-beaches/",
+      "published": "Sun, 01 Nov 2026 14:00:00 GMT"
     }
   ],
-  "dropped": [],
+  "dropped": [
+    {
+      "title": "Western Cape tops SA growth rankings, but Gauteng is still t",
+      "source": "IOL",
+      "reason": "The summary omits significant contextual information about Gauteng's economic size, which is present in the original mat"
+    },
+    {
+      "title": "Still smiling at 117, Albanian may be world's oldest woman",
+      "source": "IOL",
+      "reason": "short"
+    },
+    {
+      "title": "eThekwini on high alert as SAWS issues Yellow Level 4 thunde",
+      "source": "IOL",
+      "reason": "Conditions not met"
+    },
+    {
+      "title": "Grade 1 learner dies after alleged firecracker incident",
+      "source": "IOL",
+      "reason": "positive is false"
+    },
+    {
+      "title": "Crime, corruption and rising costs: What Cape Town residents",
+      "source": "IOL",
+      "reason": "The story's primary focus is on fears and negative concerns, not genuine positive progress."
+    },
+    {
+      "title": "GP legislature calls for higher police presence ahead of LGE",
+      "source": "SABC News",
+      "reason": "rejected"
+    },
+    {
+      "title": "Traditional leaders acknowledge ANC’s role in recognising th",
+      "source": "SABC News",
+      "reason": "rejected"
+    }
+  ],
   "feeds": [
     {
       "name": "Good Things Guy",

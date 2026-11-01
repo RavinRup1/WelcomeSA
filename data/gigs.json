@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T15:44:38.598313+02:00",
+  "generated_at": "2026-11-01T16:23:11.854121+02:00",
   "events": [],
   "dropped": [
     {
@@ -11,11 +11,6 @@
       "name": "Loftus Season Ticket 2026/27",
       "source": "Ticketpro concerts",
       "reason": "gate0: not confirmed KZN"
-    },
-    {
-      "name": "SHONGWENI MOTOR SHOW",
-      "source": "WhatsOnDurban",
-      "reason": "jury: Serious invented claims about the event's anniversary and venue description were identified."
     }
   ],
   "sources": [
@@ -107,29 +102,11 @@
       "name": "WhatsOnDurban",
       "url": "https://www.whatsonindurban.com/events/",
       "ok": true,
-      "events_found": 1,
+      "events_found": 0,
       "note": "",
       "http": 200,
-      "debug_links": [
-        "https://www.whatsonindurban.com/events/",
-        "https://www.whatsonindurban.com/events/?ical=1",
-        "https://www.whatsonindurban.com/wp-json/tribe/events/v1/",
-        "https://www.whatsonindurban.com/whats-on-durban/",
-        "https://www.whatsonindurban.com/events",
-        "https://www.whatsonindurban.com/submit-your-event/",
-        "https://www.whatsonindurban.com/events/list/",
-        "https://www.whatsonindurban.com/events/month/"
-      ],
-      "debug_href_sample": [
-        "https://gmpg.org/xfn/11",
-        "https://www.whatsonindurban.com/events/",
-        "https://www.whatsonindurban.com/events/?ical=1",
-        "https://www.whatsonindurban.com/wp-json/",
-        "https://www.whatsonindurban.com/wp-json/tribe/events/v1/",
-        "https://www.whatsonindurban.com/wp-content/uploads/2017/02/cropped-favicon-woi-32x32.png",
-        "https://www.whatsonindurban.com/wp-content/uploads/2017/02/cropped-favicon-woi-192x192.png",
-        "https://www.whatsonindurban.com/wp-content/uploads/2017/02/cropped-favicon-woi-180x180.png"
-      ]
+      "debug_links": [],
+      "debug_href_sample": []
     },
     {
       "name": "Webtickets festivals",
@@ -144,9 +121,9 @@
         "https://webtickets.co.za/eventmanager/Profiles.aspx",
         "https://webtickets.co.za/v2/MyEventPasses.aspx",
         "https://webtickets.co.za/v2/MyWebTickets.aspx",
-        "https://webtickets.co.za/v2/event.aspx?itemid=1604350623",
-        "https://webtickets.co.za/v2/event.aspx?itemid=1603713509",
-        "https://webtickets.co.za/v2/event.aspx?itemid=1601428622"
+        "https://webtickets.co.za/v2/event.aspx?itemid=1586517684",
+        "https://webtickets.co.za/v2/event.aspx?itemid=1605788761",
+        "https://webtickets.co.za/v2/event.aspx?itemid=1603341376"
       ],
       "debug_href_sample": [
         "apple-touch-icon.png",
