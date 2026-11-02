@@ -1,49 +1,100 @@
 {
-  "generated_at": "2026-11-01T16:26:32.052736+02:00",
-  "fallback": false,
+  "generated_at": "2026-11-02T19:18:22.131282+02:00",
+  "fallback": true,
   "stories": [
     {
-      "title": "More lifeguards, patrols and child-safety measures planned for KZN beaches",
-      "summary": "eThekwini and Umdoni are enhancing safety at their beaches. This includes more lifeguards, patrols, and child-safety measures for the festive season.",
-      "angle": "This is good news as it improves safety for beach visitors.",
+      "title": "Man sentenced after R5,000 bribe attempt to dialysis facility manager to steal R47,000 equipment",
+      "summary": "Man sentenced after R5,000 bribe attempt to dialysis facility manager to steal R47,000 equipment https://iol.co.za/news/south-africa/2026-11-02-man-sentenced-after-r5000-bribe-attempt-to-dialysis-facility-manager-to-steal-r47000-equipment/ Sinenhlanhla.masilela@iol.co.za (Sinenhlanhla Masilela) Ai-G",
+      "angle": "",
       "source": "IOL",
-      "url": "https://iol.co.za/sunday-tribune/news/2026-11-01-more-lifeguards-patrols-and-child-safety-measures-planned-for-kzn-beaches/",
-      "published": "Sun, 01 Nov 2026 14:00:00 GMT"
+      "url": "https://iol.co.za/news/south-africa/2026-11-02-man-sentenced-after-r5000-bribe-attempt-to-dialysis-facility-manager-to-steal-r47000-equipment/",
+      "published": "Mon, 02 Nov 2026 17:03:00 GMT",
+      "raw": true
+    },
+    {
+      "title": "DNA and forensic evidence emerges in AKA murder trial",
+      "summary": "DNA and forensic evidence emerges in AKA murder trial https://iol.co.za/news/crime-and-courts/2026-11-02-dna-and-forensic-evidence-emerges-in-aka-murder-trial/ Nomonde Zondi The seven men who are on trial for AKA and Tibz murder. From left Lindokuhle Thabani Mkhwanazi, Lindani Zenzele Ndimande, Siya",
+      "angle": "",
+      "source": "IOL",
+      "url": "https://iol.co.za/news/crime-and-courts/2026-11-02-dna-and-forensic-evidence-emerges-in-aka-murder-trial/",
+      "published": "Mon, 02 Nov 2026 17:03:00 GMT",
+      "raw": true
+    },
+    {
+      "title": "Rassie Erasmus sends clear Nations Championship message with settled Springbok team for Italy",
+      "summary": "Rassie Erasmus sends clear Nations Championship message with settled Springbok team for Italy https://iol.co.za/sport/rugby/springboks/2026-11-02-rassie-erasmus-sends-clear-nations-championship-message-with-settled-springbok-team-for-italy/ BackpagePix Springbok lock Salmaan Moerat returns to the st",
+      "angle": "",
+      "source": "IOL",
+      "url": "https://iol.co.za/sport/rugby/springboks/2026-11-02-rassie-erasmus-sends-clear-nations-championship-message-with-settled-springbok-team-for-italy/",
+      "published": "Mon, 02 Nov 2026 16:55:00 GMT",
+      "raw": true
+    },
+    {
+      "title": "HIV positive father gets life sentence for raping 13-year-old daughter",
+      "summary": "HIV positive father gets life sentence for raping 13-year-old daughter https://iol.co.za/news/crime-and-courts/2026-11-02-hiv-positive-father-gets-life-sentence-for-raping-13-year-old-daughter/ robin.francke@iol.co.za (Robin-Lee Francke) Supplied The father was sentenced in the Vredenburg Regional C",
+      "angle": "",
+      "source": "IOL",
+      "url": "https://iol.co.za/news/crime-and-courts/2026-11-02-hiv-positive-father-gets-life-sentence-for-raping-13-year-old-daughter/",
+      "published": "Mon, 02 Nov 2026 16:53:00 GMT",
+      "raw": true
+    },
+    {
+      "title": "Lesufi apologises as Joburg residents endure prolonged water shortages",
+      "summary": "Lesufi apologises as Joburg residents endure prolonged water shortages https://iol.co.za/news/south-africa/2026-11-02-lesufi-apologises-as-joburg-residents-endure-prolonged-water-shortages/ Kamogelo.moichela@iol.co.za (Kamogelo Moichela) Oupa Mokoena / Independent Newspapers Gauteng Premier Panyaza ",
+      "angle": "",
+      "source": "IOL",
+      "url": "https://iol.co.za/news/south-africa/2026-11-02-lesufi-apologises-as-joburg-residents-endure-prolonged-water-shortages/",
+      "published": "Mon, 02 Nov 2026 16:47:00 GMT",
+      "raw": true
+    },
+    {
+      "title": "Dancing, shouting and winning: Ouaddouâs memorable Soweto Derby show",
+      "summary": "Dancing, shouting and winning: Ouaddouâs memorable Soweto Derby show https://iol.co.za/sport/soccer/psl/2026-11-02-dancing-shouting-and-winning-ouaddous-memorable-soweto-derby-show/ BackpagePix Abdeslam Ouaddou, head coach of Orlando Pirates, gestures on the touchline during the Betway Premiership",
+      "angle": "",
+      "source": "IOL",
+      "url": "https://iol.co.za/sport/soccer/psl/2026-11-02-dancing-shouting-and-winning-ouaddous-memorable-soweto-derby-show/",
+      "published": "Mon, 02 Nov 2026 16:45:00 GMT",
+      "raw": true
     }
   ],
   "dropped": [
     {
-      "title": "Western Cape tops SA growth rankings, but Gauteng is still t",
+      "title": "Man sentenced after R5,000 bribe attempt to dialysis facilit",
       "source": "IOL",
-      "reason": "The summary omits significant contextual information about Gauteng's economic size, which is present in the original mat"
+      "reason": "Not positive"
     },
     {
-      "title": "Still smiling at 117, Albanian may be world's oldest woman",
+      "title": "DNA and forensic evidence emerges in AKA murder trial",
+      "source": "IOL",
+      "reason": "The story concerns a murder trial, which falls under crime/tragedy and is not genuinely positive news or national progre"
+    },
+    {
+      "title": "Dancing, shouting and winning: Ouaddouâs memorable Soweto ",
+      "source": "IOL",
+      "reason": "rejected"
+    },
+    {
+      "title": "'People said he shouldn't even be in F1': Wolff calls out An",
+      "source": "IOL",
+      "reason": "Missing about_sa."
+    },
+    {
+      "title": "TikToker Max Makhanya apologises after court appearance for ",
       "source": "IOL",
       "reason": "short"
     },
     {
-      "title": "eThekwini on high alert as SAWS issues Yellow Level 4 thunde",
+      "title": "Ramaphosaâs Phala Phala theft: âMastermindâ and former",
       "source": "IOL",
-      "reason": "Conditions not met"
+      "reason": "The story is about a crime (theft) and its resolution, which does not qualify as genuinely positive news or national pro"
     },
     {
-      "title": "Grade 1 learner dies after alleged firecracker incident",
-      "source": "IOL",
-      "reason": "positive is false"
-    },
-    {
-      "title": "Crime, corruption and rising costs: What Cape Town residents",
-      "source": "IOL",
-      "reason": "The story's primary focus is on fears and negative concerns, not genuine positive progress."
-    },
-    {
-      "title": "GP legislature calls for higher police presence ahead of LGE",
+      "title": "Italy hails youthful F1 champion Antonelli",
       "source": "SABC News",
-      "reason": "rejected"
+      "reason": "The story is not about South Africa."
     },
     {
-      "title": "Traditional leaders acknowledge ANC’s role in recognising th",
+      "title": "Ramaphosa urges South Africans to vote during PSL visit",
       "source": "SABC News",
       "reason": "rejected"
     }
