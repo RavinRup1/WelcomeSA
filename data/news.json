@@ -1,102 +1,41 @@
 {
-  "generated_at": "2026-11-04T17:37:36.722705+02:00",
-  "fallback": true,
+  "generated_at": "2026-11-05T17:42:28.235913+02:00",
+  "fallback": false,
   "stories": [
     {
-      "title": "Armed voter removed from a Mitchells Plain voting station",
-      "summary": "Armed voter removed from a Mitchells Plain voting station https://iol.co.za/lge2026/2026-11-04-armed-voter-removed-from-a-mitchells-plain-voting-station/ Matthew Van Schalkwyk The local government elections took place on November 4 where the Mitchells Plain community cast their votes for better livi",
-      "angle": "",
+      "title": "EXCLUSIVE: Ackerman on taming Aussies, Conradâs backing and Newlands release",
+      "summary": "Proteas opener Marques Ackerman helped secure a thrilling 2-1 series victory against Australia at Newlands. He dissects his fiery debut and discusses the team's preparations for upcoming matches.",
+      "angle": "This marks a significant sporting triumph for South Africa and highlights the successful debut of a new Proteas opener.",
       "source": "IOL",
-      "url": "https://iol.co.za/lge2026/2026-11-04-armed-voter-removed-from-a-mitchells-plain-voting-station/",
-      "published": "Wed, 04 Nov 2026 15:20:00 GMT",
-      "raw": true
-    },
-    {
-      "title": "NCC leader Fadiel Adams makes quick election day U-turn after forgetting ID in his wife's car",
-      "summary": "NCC leader Fadiel Adams makes quick election day U-turn after forgetting ID in his wife's car https://iol.co.za/lge2026/2026-11-04-ncc-leader-fadiel-adams-makes-quick-election-day-u-turn-after-forgetting-id-in-his-wifes-car/ Ayanda Ndamane/Independent Media CONFIDENT: NCC leader Fadiel Adams says he",
-      "angle": "",
-      "source": "IOL",
-      "url": "https://iol.co.za/lge2026/2026-11-04-ncc-leader-fadiel-adams-makes-quick-election-day-u-turn-after-forgetting-id-in-his-wifes-car/",
-      "published": "Wed, 04 Nov 2026 15:08:00 GMT",
-      "raw": true
-    },
-    {
-      "title": "Chatsworth voter prays her party wins as residents demand better services",
-      "summary": "Chatsworth voter prays her party wins as residents demand better services https://iol.co.za/lge2026/2026-11-04-chatsworth-voter-prays-her-party-wins-as-residents-demand-better-services/ Nadia Khan Logie Gounden, from left, Wendy Gounden, and Sarojini Pillay. Chatsworth residents cite blocked drains,",
-      "angle": "",
-      "source": "IOL",
-      "url": "https://iol.co.za/lge2026/2026-11-04-chatsworth-voter-prays-her-party-wins-as-residents-demand-better-services/",
-      "published": "Wed, 04 Nov 2026 14:54:59 GMT",
-      "raw": true
-    },
-    {
-      "title": "LGE 2026 | Only 21% turnout recorded at major Durban CBD voting station",
-      "summary": "LGE 2026 | Only 21% turnout recorded at major Durban CBD voting station https://iol.co.za/lge2026/2026-11-04-lge-2026--only-21-turnout-recorded-at-major-durban-cbd-voting-station/ Thulaganyo Sethibe/IOL There was a shockingly low turnout at KZN voting stations on Wednesday. Low turnout was reported ",
-      "angle": "",
-      "source": "IOL",
-      "url": "https://iol.co.za/lge2026/2026-11-04-lge-2026--only-21-turnout-recorded-at-major-durban-cbd-voting-station/",
-      "published": "Wed, 04 Nov 2026 14:50:00 GMT",
-      "raw": true
-    },
-    {
-      "title": "Oil prices slide as Trump's midterm defeat rattles markets and sends dollar lower",
-      "summary": "Oil prices slide as Trump's midterm defeat rattles markets and sends dollar lower https://iol.co.za/business/economy/2026-11-04-oil-prices-slide-as-trumps-midterm-defeat-rattles-markets-and-sends-dollar-lower/ Mandel Ngan / AFP The US dollar and oil prices fell as markets reacted to the Democrats' m",
-      "angle": "",
-      "source": "IOL",
-      "url": "https://iol.co.za/business/economy/2026-11-04-oil-prices-slide-as-trumps-midterm-defeat-rattles-markets-and-sends-dollar-lower/",
-      "published": "Wed, 04 Nov 2026 14:49:00 GMT",
-      "raw": true
-    },
-    {
-      "title": "Police investigate alleged theft of ballot papers at Hillcrest voting station",
-      "summary": "Police investigate alleged theft of ballot papers at Hillcrest voting station https://iol.co.za/capeargus/2026-11-04-police-investigate-alleged-theft-of-ballot-papers-at-hillcrest-voting-station/ Henk Kruger/African News Agency (ANA) Police are investigating after ballot papers and other IEC materia",
-      "angle": "",
-      "source": "IOL",
-      "url": "https://iol.co.za/capeargus/2026-11-04-police-investigate-alleged-theft-of-ballot-papers-at-hillcrest-voting-station/",
-      "published": "Wed, 04 Nov 2026 14:48:26 GMT",
-      "raw": true
+      "url": "https://iol.co.za/sport/cricket/proteas/2026-11-05-exclusive-ackerman-on-taming-aussies-conrads-backing-and-newlands-release/",
+      "published": "Thu, 05 Nov 2026 15:03:07 GMT"
     }
   ],
   "dropped": [
     {
-      "title": "Armed voter removed from a Mitchells Plain voting station",
+      "title": "ANC projected to finish third in Tshwane, behind DA and Acti",
       "source": "IOL",
       "reason": "short"
     },
     {
-      "title": "Chatsworth voter prays her party wins as residents demand be",
+      "title": "LIVE | LGE 2026: 27 arrested on Voting Day as police investi",
+      "source": "IOL",
+      "reason": "Not positive and not accurate"
+    },
+    {
+      "title": "MK Party wins Richmond and leads in two other KwaZulu-Natal ",
+      "source": "IOL",
+      "reason": "Not positive"
+    },
+    {
+      "title": "Hatton hails quiet Siyaya as teenager settles into life at t",
       "source": "IOL",
       "reason": "rejected"
     },
     {
-      "title": "LGE 2026 | Only 21% turnout recorded at major Durban CBD vot",
+      "title": "Jansenâs Australia heroics earn ICC Player of the Month no",
       "source": "IOL",
-      "reason": "positive is false"
-    },
-    {
-      "title": "Oil prices slide as Trump's midterm defeat rattles markets a",
-      "source": "IOL",
-      "reason": "Not all conditions met"
-    },
-    {
-      "title": "Police investigate alleged theft of ballot papers at Hillcre",
-      "source": "IOL",
-      "reason": "short"
-    },
-    {
-      "title": "‘Trump’s midterm trouncing underscores inflation’s political",
-      "source": "SABC News",
-      "reason": "Not positive and not about SA"
-    },
-    {
-      "title": "Eastern Cape voting process largely smooth amid isolated dis",
-      "source": "SABC News",
-      "reason": "positive is false"
-    },
-    {
-      "title": "Elderly woman dies after collapsing at Durban voting station",
-      "source": "SABC News",
-      "reason": "Criteria not met"
+      "reason": "rejected"
     }
   ],
   "feeds": [
