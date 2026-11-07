@@ -1,41 +1,102 @@
 {
-  "generated_at": "2026-11-05T17:42:28.235913+02:00",
-  "fallback": false,
+  "generated_at": "2026-11-07T16:14:45.019540+02:00",
+  "fallback": true,
   "stories": [
     {
-      "title": "EXCLUSIVE: Ackerman on taming Aussies, Conradâs backing and Newlands release",
-      "summary": "Proteas opener Marques Ackerman helped secure a thrilling 2-1 series victory against Australia at Newlands. He dissects his fiery debut and discusses the team's preparations for upcoming matches.",
-      "angle": "This marks a significant sporting triumph for South Africa and highlights the successful debut of a new Proteas opener.",
+      "title": "IEC captures all 14,245 results slips in KZN as 87 exceptions remain outstanding",
+      "summary": "IEC captures all 14,245 results slips in KZN as 87 exceptions remain outstanding https://iol.co.za/news/politics/2026-11-07-iec-captures-all-14245-results-slips-in-kzn-as-87-exceptions-remain-outstanding/ Sibonelo Ngcobo / ANA Studios KwaZulu-Natal Electoral Officer Ntombifuthi Masinga says the IEC ",
+      "angle": "",
       "source": "IOL",
-      "url": "https://iol.co.za/sport/cricket/proteas/2026-11-05-exclusive-ackerman-on-taming-aussies-conrads-backing-and-newlands-release/",
-      "published": "Thu, 05 Nov 2026 15:03:07 GMT"
+      "url": "https://iol.co.za/news/politics/2026-11-07-iec-captures-all-14245-results-slips-in-kzn-as-87-exceptions-remain-outstanding/",
+      "published": "Sat, 07 Nov 2026 14:14:00 GMT",
+      "raw": true
+    },
+    {
+      "title": "Kaizer Chiefs' Fernando da Cruz demands 'cup spirit' ahead of Siwelele FC showdown",
+      "summary": "Kaizer Chiefs' Fernando da Cruz demands 'cup spirit' ahead of Siwelele FC showdown https://iol.co.za/sport/soccer/2026-11-07-kaizer-chiefs-fernando-da-cruz-demands-cup-spirit-ahead-of-siwelele-fc-showdown/ Backpagepix Kaizer Chiefs head coach Fernando Da Cruz insists Amakhosi must embrace a ruthless",
+      "angle": "",
+      "source": "IOL",
+      "url": "https://iol.co.za/sport/soccer/2026-11-07-kaizer-chiefs-fernando-da-cruz-demands-cup-spirit-ahead-of-siwelele-fc-showdown/",
+      "published": "Sat, 07 Nov 2026 14:12:54 GMT",
+      "raw": true
+    },
+    {
+      "title": "Facebook suspends March and March leader Jacinta Ngobese-Zumaâs account",
+      "summary": "Facebook suspends March and March leader Jacinta Ngobese-Zumaâs account https://iol.co.za/mercury/news/2026-11-07-facebook-suspends-march-and-march-leader-jacinta-ngobese-zumas-account/ Sinenhlanhla.masilela@iol.co.za (Sinenhlanhla Masilela) TUMI PAKKIES/Independent Newspapers March and March says",
+      "angle": "",
+      "source": "IOL",
+      "url": "https://iol.co.za/mercury/news/2026-11-07-facebook-suspends-march-and-march-leader-jacinta-ngobese-zumas-account/",
+      "published": "Sat, 07 Nov 2026 14:11:32 GMT",
+      "raw": true
+    },
+    {
+      "title": "DA sweeps all eight Mitchells Plain wards but councillors face service delivery test",
+      "summary": "DA sweeps all eight Mitchells Plain wards but councillors face service delivery test https://iol.co.za/capetimes/2026-11-07-da-sweeps-all-eight-mitchells-plain-wards-but-councillors-face-service-delivery-test/ Itumeleng English / Independent Newspaper The DA has retained all eight Mitchells Plain wa",
+      "angle": "",
+      "source": "IOL",
+      "url": "https://iol.co.za/capetimes/2026-11-07-da-sweeps-all-eight-mitchells-plain-wards-but-councillors-face-service-delivery-test/",
+      "published": "Sat, 07 Nov 2026 14:00:00 GMT",
+      "raw": true
+    },
+    {
+      "title": "MK Party rules out coalition with DA, targets ANC, IFP and EFF",
+      "summary": "MK Party rules out coalition with DA, targets ANC, IFP and EFF https://iol.co.za/mercury/news/2026-11-07-mk-party-rules-out-coalition-with-da-targets-anc-ifp-and-eff/ Sibonelo Ngcobo/ ANA studios The MK Party says Jacob Zuma, flanked here by his son and the party's first deputy president Duduzane Zu",
+      "angle": "",
+      "source": "IOL",
+      "url": "https://iol.co.za/mercury/news/2026-11-07-mk-party-rules-out-coalition-with-da-targets-anc-ifp-and-eff/",
+      "published": "Sat, 07 Nov 2026 13:55:25 GMT",
+      "raw": true
+    },
+    {
+      "title": "Springboks run riot as Sacha Feinberg-Mngomezulu turns on the magic against Italy",
+      "summary": "Springboks run riot as Sacha Feinberg-Mngomezulu turns on the magic against Italy https://iol.co.za/sport/rugby/springboks/2026-11-07-springboks-run-riot-as-sacha-feinberg-mngomezulu-turns-on-the-magic-against-italy/ AFP Malcom Marx scored a brace of maul tries against Italy. The Springboks delivere",
+      "angle": "",
+      "source": "IOL",
+      "url": "https://iol.co.za/sport/rugby/springboks/2026-11-07-springboks-run-riot-as-sacha-feinberg-mngomezulu-turns-on-the-magic-against-italy/",
+      "published": "Sat, 07 Nov 2026 13:55:05 GMT",
+      "raw": true
     }
   ],
   "dropped": [
     {
-      "title": "ANC projected to finish third in Tshwane, behind DA and Acti",
+      "title": "IEC captures all 14,245 results slips in KZN as 87 exception",
+      "source": "IOL",
+      "reason": "None."
+    },
+    {
+      "title": "Kaizer Chiefs' Fernando da Cruz demands 'cup spirit' ahead o",
+      "source": "IOL",
+      "reason": "The story is routine sports news about a team's preparation for a match, not a genuinely positive story or national prog"
+    },
+    {
+      "title": "Facebook suspends March and March leader Jacinta Ngobese-Zum",
       "source": "IOL",
       "reason": "short"
     },
     {
-      "title": "LIVE | LGE 2026: 27 arrested on Voting Day as police investi",
+      "title": "DA sweeps all eight Mitchells Plain wards but councillors fa",
       "source": "IOL",
-      "reason": "Not positive and not accurate"
+      "reason": "Not positive."
     },
     {
-      "title": "MK Party wins Richmond and leads in two other KwaZulu-Natal ",
+      "title": "MK Party rules out coalition with DA, targets ANC, IFP and E",
       "source": "IOL",
-      "reason": "Not positive"
+      "reason": "The story focuses on political strategy and drama, not genuinely positive news or national progress."
     },
     {
-      "title": "Hatton hails quiet Siyaya as teenager settles into life at t",
+      "title": "March and March blames election losses for Facebook suspensi",
       "source": "IOL",
       "reason": "rejected"
     },
     {
-      "title": "Jansenâs Australia heroics earn ICC Player of the Month no",
-      "source": "IOL",
-      "reason": "rejected"
+      "title": "eThekwini on high alert amid Yellow Level 4 thunderstorm war",
+      "source": "SABC News",
+      "reason": "short"
+    },
+    {
+      "title": "Two suspects killed in shootout with Gauteng police in Sowet",
+      "source": "SABC News",
+      "reason": "short"
     }
   ],
   "feeds": [
