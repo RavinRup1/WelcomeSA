@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T16:26:55+02:00",
+ "generated_at": "2026-11-09T19:42:05+02:00",
  "publish": false,
  "dives": [
   {
@@ -10,6 +10,13 @@
    "tip": "For a truly local feel, visit when the university students are out and about."
   },
   {
+   "id": "aliwal-shoal",
+   "name": "Aliwal Shoal",
+   "story": "Welcome to Aliwal Shoal, a magnificent rocky reef just off the KwaZulu-Natal coast. This ancient sand dune now thrives as a vibrant underwater sanctuary, teeming with life. You'll discover a breathtaking array of hard and soft corals, alongside countless marine invertebrates. It's a spectacular home for a variety of tropical and subtropical fish species, creating an unforgettable spectacle beneath the waves. This is truly a jewel of our South African coastline.",
+   "best": "The best way to experience Aliwal Shoal is to observe its rich variety of marine life.",
+   "tip": "Remember that the shoal is located approximately 5 kilometres off the coast."
+  },
+  {
    "id": "anglo-boer-war-memorial-johannesburg",
    "name": "Anglo-Boer War Memorial (Johannesburg)",
    "story": "Welcome to a truly significant cultural landmark in Johannesburg, the Anglo-Boer War Memorial. This impressive site, originally known as the Rand Regiments Memorial, stands as a tribute to those who lost their lives during the Second Boer War. It was thoughtfully rededicated on 10 October 1999 to honor all people who died during that conflict, reflecting a more inclusive spirit of remembrance. Located right next door to the South African National Museum of Military History, it offers a profound opportunity for reflection. Visiting here allows you to connect with a crucial chapter of our nation's past.",
@@ -17,11 +24,11 @@
    "tip": "You will find the memorial conveniently located right next door to the South African National Museum of Military History."
   },
   {
-   "id": "arbor-park",
-   "name": "Arbor Park",
-   "story": "Welcome to Arbor Park, a lively multi-use stadium right here in Newcastle, KwaZulu-Natal. This is where the heart of local football beats, a place filled with the energy of the game. Imagine the vibrant atmosphere as fans gather to support their teams, especially our very own Newcastle Sicilians F.C. It's a wonderful spot to connect with the community and experience the passion for sport that runs deep in South Africa. You'll feel the excitement and camaraderie that makes local matches so special.",
-   "best": "The best way to experience Arbor Park is to attend a football match.",
-   "tip": "Plan your visit around a Newcastle Sicilians F.C. home game in the Vodacom League for a true local experience."
+   "id": "apartheid-museum",
+   "name": "Apartheid Museum",
+   "story": "Let me show you a truly important place, the Apartheid Museum, which beautifully illustrates the 20th-century history of our nation. It offers a profound journey through the story of apartheid, helping visitors understand a pivotal era in South Africa's past. This independent non-profit museum, established in 2001, provides a space for reflection and learning. Located in the south of Johannesburg, it stands as a significant landmark in our cultural landscape.",
+   "best": "It is best experienced as part of a visit to the wider Gold Reef City complex.",
+   "tip": "You will find the museum conveniently located in the south of Johannesburg, within the Gold Reef City complex."
   },
   {
    "id": "arderne-gardens",
@@ -38,11 +45,32 @@
    "tip": "Focus your visit on the magnificent garden, a true highlight of the estate."
   },
   {
+   "id": "ballito",
+   "name": "Ballito",
+   "story": "Welcome to Ballito, a beautiful coastal town nestled in South Africa's KwaZulu-Natal province. This charming destination offers a refined seaside experience. It is famously known as the Dolphin Coast, a place where you can often spot playful dolphins and majestic whales gracing the North Coast shoreline. The presence of these magnificent marine creatures makes every visit to Ballito truly special, connecting you with the vibrant life of our ocean.",
+   "best": "Experience the magic by watching for dolphins and whales along the shoreline.",
+   "tip": "Keep an eye on the North Coast shoreline for common sightings of dolphins and whales."
+  },
+  {
    "id": "baxter-theatre-centre",
    "name": "Baxter Theatre Centre",
    "story": "Let me show you The Baxter Theatre Centre, a vibrant performing arts complex nestled in Cape Town's Rondebosch. Affectionately known as The Baxter, this cultural gem is a significant part of the University of Cape Town. It serves as a beloved stage where the Western Cape's finest theatre performers and artists bring their stories to life. Visiting The Baxter offers a wonderful opportunity to immerse yourself in the rich tapestry of South African creativity and experience the pulse of our local arts scene.",
    "best": "The best way to experience The Baxter is by attending one of its captivating live performances.",
    "tip": "When speaking with locals, you'll often hear it referred to simply as 'The Baxter'."
+  },
+  {
+   "id": "beachwood-mangroves-nature-reserve",
+   "name": "Beachwood Mangroves Nature Reserve",
+   "story": "Welcome to the Beachwood Mangroves Nature Reserve, a truly special place nestled at the mouth of the Umgeni River in Durban North. This beautiful reserve protects 76 hectares of a vital natural estuarine system, offering a glimpse into South Africa's rich ecological heritage. It was proudly proclaimed a nature reserve in 1977 and its significance was further recognized when it was declared a national monument in 1980. This makes it a cherished part of our natural landscape, a testament to our commitment to preservation.",
+   "best": "The best way to experience this special place is to appreciate its long-standing protection as a natural estuarine system.",
+   "tip": "You'll find this important natural estuarine system located at the mouth of the Umgeni River in Durban North."
+  },
+  {
+   "id": "bertram-house",
+   "name": "Bertram House",
+   "story": "Welcome to Bertram House, a true architectural treasure nestled on the Hiddingh Campus of the University of Cape Town. This remarkable unpainted red brick two-story house stands as the city's sole surviving example of early Georgian architecture. It offers a unique glimpse into the past, holding a special place in the history of South African architecture. Its enduring presence on Government Avenue in Gardens makes it a significant landmark. Declared a national monument in 1962, it continues to be a proud symbol of our heritage.",
+   "best": "The best way to experience it is to observe its unique unpainted red brick design.",
+   "tip": "When you visit, you'll find it on Hiddingh Campus, of the University of Cape Town, along Government Avenue in Gardens."
   },
   {
    "id": "birds-of-eden",

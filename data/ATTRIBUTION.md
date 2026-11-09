@@ -2,4 +2,4 @@ WELCOMESA ATTRIBUTION
 =====================
 Attraction text and images are from Wikipedia, licensed CC BY-SA 4.0.
 Each entry links to its source article. Maps (when added): (c) OpenStreetMap contributors, ODbL.
-Generated: 2026-10-10T00:38:05.013511+02:00
+Generated: 2026-11-09T19:40:45.833232+02:00

@@ -1,28 +1,63 @@
 {
-  "generated_at": "2026-11-08T16:26:28.929142+02:00",
-  "fallback": false,
+  "generated_at": "2026-11-09T20:07:26.218025+02:00",
+  "fallback": true,
   "stories": [
     {
-      "title": "Springboks out to haunt France again as Boks carry impressive Paris record into showdown",
-      "summary": "The Springboks are preparing to face France in Paris, carrying an impressive record at Stade de France. They are aiming for a fifth consecutive win at the venue and a fifth victory in the Nations Championship.",
-      "angle": "This news highlights the Springboks' consistent success and strong performance on the international stage.",
+      "title": "Stellenbosch ward set for by-election after DA's Wilhelmina Petersen wins posthumously",
+      "summary": "Stellenbosch ward set for by-election after DA's Wilhelmina Petersen wins posthumously https://iol.co.za/capeargus/news/2026-11-09-stellenbosch-ward-set-for-by-election-after-das-wilhelmina-petersen-wins-posthumously/ Facebook / Stellenbosch Municipality DA ward candidate for Ward 2 in Stellenbosch,",
+      "angle": "",
       "source": "IOL",
-      "url": "https://iol.co.za/sport/rugby/springboks/2026-11-08-springboks-out-to-haunt-france-again-as-boks-carry-impressive-paris-record-into-showdown/",
-      "published": "Sun, 08 Nov 2026 14:00:00 GMT"
-    }
-  ],
-  "dropped": [
-    {
-      "title": "Hitman arrested in murder of former Knysna mayor Aubrey Tsen",
-      "source": "IOL",
-      "reason": "short"
+      "url": "https://iol.co.za/capeargus/news/2026-11-09-stellenbosch-ward-set-for-by-election-after-das-wilhelmina-petersen-wins-posthumously/",
+      "published": "Mon, 09 Nov 2026 18:00:00 GMT",
+      "raw": true
     },
     {
-      "title": "Teachersâ social media lives need clear rules, not blanket",
+      "title": "WATCH: Durban CBD businesses forced to close amid reports of intimidation and looting",
+      "summary": "WATCH: Durban CBD businesses forced to close amid reports of intimidation and looting https://iol.co.za/thepost/news/2026-11-09-watch-durban-cbd-businesses-forced-to-close-amid-reports-of-intimidation-and-looting/ Supplied The mob going to foreign owned shops in Durban CBD. A group of about 20 peopl",
+      "angle": "",
       "source": "IOL",
-      "reason": "rejected"
+      "url": "https://iol.co.za/thepost/news/2026-11-09-watch-durban-cbd-businesses-forced-to-close-amid-reports-of-intimidation-and-looting/",
+      "published": "Mon, 09 Nov 2026 17:49:40 GMT",
+      "raw": true
+    },
+    {
+      "title": "Pitso sends stern message to Foster after Bafana recall",
+      "summary": "Pitso sends stern message to Foster after Bafana recall https://iol.co.za/sport/soccer/bafana/2026-11-09-pitso-sends-stern-message-to-foster-after-bafana-recall/ BackpagePix Bafana Bafana striker Lyle Foster has a challenge to prove he deserves a place in coach Pitso Mosimane's squad after receiving",
+      "angle": "",
+      "source": "IOL",
+      "url": "https://iol.co.za/sport/soccer/bafana/2026-11-09-pitso-sends-stern-message-to-foster-after-bafana-recall/",
+      "published": "Mon, 09 Nov 2026 17:48:00 GMT",
+      "raw": true
+    },
+    {
+      "title": "Security forces deployed after reported attacks and looting in Durban CBD",
+      "summary": "Security forces deployed after reported attacks and looting in Durban CBD https://iol.co.za/sunday-tribune/news/2026-11-09-security-forces-deployed-after-reported-attacks-and-looting-in-durban-cbd/ Supplied The mob going to foreign owned shops in Durban CBD. Security and law-enforcement personnel we",
+      "angle": "",
+      "source": "IOL",
+      "url": "https://iol.co.za/sunday-tribune/news/2026-11-09-security-forces-deployed-after-reported-attacks-and-looting-in-durban-cbd/",
+      "published": "Mon, 09 Nov 2026 17:24:00 GMT",
+      "raw": true
+    },
+    {
+      "title": "Stanfield trial: Court shown footage of Stanfield allegedly assaulting witness in BMW theft case",
+      "summary": "Stanfield trial: Court shown footage of Stanfield allegedly assaulting witness in BMW theft case https://iol.co.za/capeargus/news/2026-11-09-stanfield-trial-court-shown-footage-of-stanfield-allegedly-assaulting-witness-in-bmw-theft-case/ Chumasande Matiwane Ralph Stanfield and his wife, Nicole Johns",
+      "angle": "",
+      "source": "IOL",
+      "url": "https://iol.co.za/capeargus/news/2026-11-09-stanfield-trial-court-shown-footage-of-stanfield-allegedly-assaulting-witness-in-bmw-theft-case/",
+      "published": "Mon, 09 Nov 2026 17:00:00 GMT",
+      "raw": true
+    },
+    {
+      "title": "Johannesburg mother missing after car found at Durbanâs eThekwini Beach",
+      "summary": "Johannesburg mother missing after car found at Durbanâs eThekwini Beach https://iol.co.za/the-star/news/2026-11-09-johannesburg-mother-missing-after-car-found-at-durbans-ethekwini-beach/ Reaction Unit South Africa Leanne Nadas Jalaser A Johannesburg mother of two remains missing after her vehicle ",
+      "angle": "",
+      "source": "IOL",
+      "url": "https://iol.co.za/the-star/news/2026-11-09-johannesburg-mother-missing-after-car-found-at-durbans-ethekwini-beach/",
+      "published": "Mon, 09 Nov 2026 16:45:00 GMT",
+      "raw": true
     }
   ],
+  "dropped": [],
   "feeds": [
     {
       "name": "Good Things Guy",

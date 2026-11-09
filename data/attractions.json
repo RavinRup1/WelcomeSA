@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T00:38:05.013511+02:00",
+  "generated_at": "2026-11-09T19:40:45.833232+02:00",
   "province": "KwaZulu-Natal",
   "count": 248,
   "attractions": [
@@ -14,7 +14,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/7th_Street_%28Johannesburg%29.jpg/500px-7th_Street_%28Johannesburg%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/7th_Street_(Johannesburg)",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "aliwal-shoal",
@@ -27,7 +27,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Arch_at_Cathedral_DSC05788a.jpg/500px-Arch_at_Cathedral_DSC05788a.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Aliwal_Shoal",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10",
+      "added": "2026-11-09",
       "aliases": [
         "Aliwal Shoal (Umkomaas)",
         "Aliwal Shoal"
@@ -44,7 +44,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Anglo-Boer_War_Memorial_viewed_from_the_south_west_June_2026.jpg/500px-Anglo-Boer_War_Memorial_viewed_from_the_south_west_June_2026.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Anglo-Boer_War_Memorial_(Johannesburg)",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "apartheid-museum",
@@ -57,20 +57,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/South_Africa-Johannesburg-Apartheid_Museum001.jpg/500px-South_Africa-Johannesburg-Apartheid_Museum001.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Apartheid_Museum",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
-    },
-    {
-      "id": "arbor-park",
-      "name": "Arbor Park",
-      "summary": "Arbor Park is a multi-use stadium in Newcastle, KwaZulu-Natal, South Africa. It is currently used mostly for football matches and is the home venue of Newcastle Sicilians F.C. in the Vodacom League.",
-      "province": "KwaZulu-Natal",
-      "category": "natural",
-      "lat": -27.771944,
-      "lng": 29.949278,
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Glen_Arbor_Park_-_Eucalyptus_Grove_Vertical.jpg/960px-Glen_Arbor_Park_-_Eucalyptus_Grove_Vertical.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "source_url": "https://en.wikipedia.org/wiki/Arbor_Park",
-      "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikimedia Commons - see file page for its licence",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "arderne-gardens",
@@ -83,7 +70,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/The_grand_Norfolk_Pine_in_Arderne_Gardens.JPG/500px-The_grand_Norfolk_Pine_in_Arderne_Gardens.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Arderne_Gardens",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "arniston-south-africa",
@@ -96,7 +83,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Arniston_WestCape.jpg/500px-Arniston_WestCape.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Arniston,_South_Africa",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "babylonstoren",
@@ -109,7 +96,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/DSC04935_BABYLONSTOREN_%2816094034029%29.jpg/500px-DSC04935_BABYLONSTOREN_%2816094034029%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Babylonstoren",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "ballito",
@@ -122,7 +109,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/410104_Ballito_Bch_7.jpg/500px-410104_Ballito_Bch_7.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Ballito",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10",
+      "added": "2026-11-09",
       "aliases": [
         "Ballito (Willard Beach)",
         "Ballito"
@@ -139,7 +126,23 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Bartolomeu_Dias_Maritimes_Museum_-_Mossel_Bay_-_S%C3%BCdafrika.jpg/500px-Bartolomeu_Dias_Maritimes_Museum_-_Mossel_Bay_-_S%C3%BCdafrika.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Bartolomeu_Dias_Museum_Complex",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
+    },
+    {
+      "id": "barycenter",
+      "name": "Barycenter",
+      "summary": "In astronomy, the barycenter (or barycentre; from Ancient Greek  βάρος (báros) 'weight' and  κέντρον (kéntron) 'center') is the  center of mass around which two or more bodies orbit. A barycenter is a dynamical point, not a physical object. It is an important concept in fields such as astronomy and astrophysics. The distance from a body's center of mass to the barycenter can be calculated as a two",
+      "province": "KwaZulu-Natal",
+      "category": "cultural",
+      "lat": null,
+      "lng": null,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Orbit5.gif?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "source_url": "https://en.wikipedia.org/wiki/Barycenter",
+      "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
+      "added": "2026-11-09",
+      "aliases": [
+        "BAT Centre"
+      ]
     },
     {
       "id": "baxter-theatre-centre",
@@ -152,7 +155,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Baxter_Theatre.JPG/500px-Baxter_Theatre.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Baxter_Theatre_Centre",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "beaches-of-cape-town",
@@ -165,7 +168,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Muizenberg_ZA_bathing_huts.jpg/500px-Muizenberg_ZA_bathing_huts.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Beaches_of_Cape_Town",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "beachwood-mangroves-nature-reserve",
@@ -178,7 +181,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/2011-06-22_11-55-47_South_Africa_-_Morningside%2C_Beachwood_Mangroves_NR.jpg/500px-2011-06-22_11-55-47_South_Africa_-_Morningside%2C_Beachwood_Mangroves_NR.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Beachwood_Mangroves_Nature_Reserve",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "bertram-house",
@@ -191,7 +194,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/9_2_018_0190-Bertram_House-Cape_Town-s.jpg/500px-9_2_018_0190-Bertram_House-Cape_Town-s.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Bertram_House",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "biodiversity-of-cape-town",
@@ -204,7 +207,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Cape_Town_Vegetation_Types_1_-_original_vegetation.jpg/500px-Cape_Town_Vegetation_Types_1_-_original_vegetation.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Biodiversity_of_Cape_Town",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "birds-of-eden",
@@ -217,7 +220,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Birds_of_Eden-001.jpg/500px-Birds_of_Eden-001.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Birds_of_Eden",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "bloukrans-bridge-bungy",
@@ -230,7 +233,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Face_Adrenalin_Bloukrans_Bridge_Bungy.jpg/500px-Face_Adrenalin_Bloukrans_Bridge_Bungy.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Bloukrans_Bridge_Bungy",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "bo-kaap",
@@ -243,7 +246,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Boe-Kaap.jpg/500px-Boe-Kaap.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Bo-Kaap",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "bosman-family-vineyards",
@@ -256,7 +259,7 @@
       "image": null,
       "source_url": "https://en.wikipedia.org/wiki/Bosman_Family_Vineyards",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "boulders-beach",
@@ -269,7 +272,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Boulders_Beach_Suedafrika.jpg/500px-Boulders_Beach_Suedafrika.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Boulders_Beach",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "burman-bush",
@@ -282,7 +285,7 @@
       "image": "https://upload.wikimedia.org/wikipedia/commons/1/15/Durban%2C_South_Africa_by_Planet_Labs%2C_Burman_Bush.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "source_url": "https://en.wikipedia.org/wiki/Burman_Bush",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "bushbabies-monkey-sanctuary",
@@ -295,7 +298,7 @@
       "image": null,
       "source_url": "https://en.wikipedia.org/wiki/Bushbabies_Monkey_Sanctuary",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "caf-caprice",
@@ -308,7 +311,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Cafe_Caprice_blue.jpg/500px-Cafe_Caprice_blue.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Café_Caprice",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "cape-agulhas-lighthouse",
@@ -321,7 +324,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/AgulhasLighthouse.jpg/500px-AgulhasLighthouse.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Cape_Agulhas_Lighthouse",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "cape-medical-museum",
@@ -331,10 +334,10 @@
       "category": "cultural",
       "lat": -33.90716,
       "lng": 18.41475,
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Theatre_room_cape_medical_museum_07.JPG/960px-Theatre_room_cape_medical_museum_07.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Theatre_room_cape_medical_museum_03.JPG/960px-Theatre_room_cape_medical_museum_03.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Cape_Medical_Museum",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikimedia Commons - see file page for its licence",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "cape-point",
@@ -347,7 +350,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Goodhope2.jpg/500px-Goodhope2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Cape_Point",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "cape-town-holocaust-centre",
@@ -360,7 +363,7 @@
       "image": null,
       "source_url": "https://en.wikipedia.org/wiki/Cape_Town_Holocaust_Centre",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "cape-town-international-convention-centre",
@@ -373,7 +376,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/en/thumb/8/87/Cape_Town_International_Convention_Centre.jpg/500px-Cape_Town_International_Convention_Centre.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Cape_Town_International_Convention_Centre",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "cape-town-science-centre",
@@ -386,12 +389,12 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Cape_Town_Science_Centre.jpg/500px-Cape_Town_Science_Centre.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Cape_Town_Science_Centre",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "cape-town-tourism",
       "name": "Cape Town Tourism",
-      "summary": "Cape Town Tourism (CTT) is the official tourism agency for the city of Cape Town, South Africa. The organization is funded by the City of Cape Town metropolitan municipality, and is tasked with promoting and advocating for travel to Cape Town, by both locals and international visitors.",
+      "summary": "Cape Town Tourism (CTT) is a nonprofit, and the official tourism agency for the city of Cape Town, South Africa.",
       "province": "Western Cape",
       "category": "cultural",
       "lat": null,
@@ -399,12 +402,12 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Camps_bay_%2853460319478%29.jpg/500px-Camps_bay_%2853460319478%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Cape_Town_Tourism",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "castle-of-good-hope",
       "name": "Castle of Good Hope",
-      "summary": "The Castle of Good Hope (Dutch: Kasteel de Goede Hoop; Afrikaans: Kasteel die Goeie Hoop) is a 17th century pentagonal bastion fort in Cape Town, South Africa. Originally located on the coastline of Table Bay, following land reclamation in the Foreshore area, the fort is now located inland. The Castle is surrounded by a canal. In 1936, the Castle was declared a historical monument. It is now a pro",
+      "summary": "The Castle of Good Hope (Dutch: Kasteel de Goede Hoop; Afrikaans: Kasteel die Goeie Hoop) is a 17th century bastion fort in Cape Town, South Africa. Originally located on the coastline of Table Bay, following land reclamation the fort is now located inland. In 1936 the Castle was declared a historical monument (now a provincial heritage site) and following restorations in the 1980's it is consider",
       "province": "Western Cape",
       "category": "cultural",
       "lat": -33.9259,
@@ -412,7 +415,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Castle_of_Good_Hope%2C_Cape_Town_01.jpg/500px-Castle_of_Good_Hope%2C_Cape_Town_01.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Castle_of_Good_Hope",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "chancellor-house-building",
@@ -425,7 +428,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Chancellor_House_before_renovations.JPG/500px-Chancellor_House_before_renovations.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Chancellor_House_(building)",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "chavonnes-battery",
@@ -438,7 +441,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Chavonnes_Battery%2C_Cape_Town_2018_33.jpg/500px-Chavonnes_Battery%2C_Cape_Town_2018_33.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Chavonnes_Battery",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "church-square-pretoria",
@@ -451,7 +454,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Church_Square%2C_Pretoria.jpg/500px-Church_Square%2C_Pretoria.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Church_Square,_Pretoria",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "city-oval",
@@ -464,7 +467,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/CityOval_Pietermaritzburg.jpg/500px-CityOval_Pietermaritzburg.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/City_Oval",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "company-s-garden",
@@ -477,7 +480,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Company%27s_Garden_Cape_Town.jpg/500px-Company%27s_Garden_Cape_Town.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Company's_Garden",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "constitution-hill-johannesburg",
@@ -490,7 +493,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Constitution_Square_at_Constitution_Hill.jpg/500px-Constitution_Square_at_Constitution_Hill.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Constitution_Hill,_Johannesburg",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "cradle-of-humankind",
@@ -503,7 +506,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Cradle_of_Humankind_in_Gauteng_map.jpg/500px-Cradle_of_Humankind_in_Gauteng_map.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Cradle_of_Humankind",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "dinokeng-game-reserve",
@@ -516,7 +519,7 @@
       "image": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Dinokeng_Map.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "source_url": "https://en.wikipedia.org/wiki/Dinokeng_Game_Reserve",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "district-six-museum",
@@ -529,7 +532,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/District_Six_Museum_looking_west_jeh.jpg/500px-District_Six_Museum_looking_west_jeh.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/District_Six_Museum",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "ditsong-museums-of-south-africa",
@@ -542,7 +545,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/National_Cultural_History_Museum-166.jpg/500px-National_Cultural_History_Museum-166.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Ditsong_Museums_of_South_Africa",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "dlinza-forest",
@@ -555,7 +558,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Dlinza_Forest_%2831600478757%29.jpg/500px-Dlinza_Forest_%2831600478757%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Dlinza_Forest",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "drakenstein-lion-park",
@@ -568,7 +571,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/White_lion_SA.jpg/500px-White_lion_SA.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Drakenstein_Lion_Park",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "duiker-island",
@@ -581,7 +584,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Fur_Seals_on_Duiker_Island.JPG/500px-Fur_Seals_on_Duiker_Island.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Duiker_Island",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "durban-art-gallery",
@@ -594,7 +597,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Marianne_North_%281830-1890%29_-_White_Convolvulus_and_Kaffirboom%2C_Painted_at_Durban%2C_Natal_-_MN354_-_Marianne_North_Gallery.jpg/960px-Marianne_North_%281830-1890%29_-_White_Convolvulus_and_Kaffirboom%2C_Painted_at_Durban%2C_Natal_-_MN354_-_Marianne_North_Gallery.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Durban_Art_Gallery",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikimedia Commons - see file page for its licence",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "durban-botanic-gardens",
@@ -607,7 +610,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Durban_Botanic_Gardens_new_entrance_04_09_2010.JPG/500px-Durban_Botanic_Gardens_new_entrance_04_09_2010.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Durban_Botanic_Gardens",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "durban-city-hall",
@@ -620,7 +623,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Durban_TownHall.jpg/500px-Durban_TownHall.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Durban_City_Hall",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10",
+      "added": "2026-11-09",
       "aliases": [
         "Durban City Hall"
       ]
@@ -636,7 +639,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Umdloti%2C_KwaZulu-Natal.jpg/500px-Umdloti%2C_KwaZulu-Natal.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/EMdloti",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10",
+      "added": "2026-11-09",
       "aliases": [
         "Umdloti Beach"
       ]
@@ -652,7 +655,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Jackson_Racheria_Casino_Resort.jpg/960px-Jackson_Racheria_Casino_Resort.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Emerald_Resort_&_Casino",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikimedia Commons - see file page for its licence",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "emmarentia-dam",
@@ -665,7 +668,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Emmarentia_Dam_in_Autumn.jpg/500px-Emmarentia_Dam_in_Autumn.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Emmarentia_Dam",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "ezemvelo-kzn-wildlife",
@@ -678,7 +681,7 @@
       "image": null,
       "source_url": "https://en.wikipedia.org/wiki/Ezemvelo_KZN_Wildlife",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "fairview-wine-and-cheese",
@@ -691,7 +694,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/FairviewGoatTower.JPG/500px-FairviewGoatTower.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Fairview_Wine_and_Cheese",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "featherbed-nature-reserve",
@@ -704,7 +707,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Knysna_Head_West.jpg/500px-Knysna_Head_West.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Featherbed_Nature_Reserve",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "fietas-museum",
@@ -717,7 +720,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Fietas_Museum.JPG/500px-Fietas_Museum.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Fietas_Museum",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "fort-amiel-museum",
@@ -727,10 +730,10 @@
       "category": "cultural",
       "lat": null,
       "lng": null,
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Fort_Amiel_Museum_-_1.jpg/960px-Fort_Amiel_Museum_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Fort_Amiel_Museum_-_4.jpg/960px-Fort_Amiel_Museum_-_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Fort_Amiel_Museum",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikimedia Commons - see file page for its licence",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "fort-nongqayi",
@@ -743,7 +746,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Fort_Nongqayi_2011.jpg/500px-Fort_Nongqayi_2011.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Fort_Nongqayi",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "fountains-valley-pretoria",
@@ -756,7 +759,7 @@
       "image": null,
       "source_url": "https://en.wikipedia.org/wiki/Fountains_Valley,_Pretoria",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "free-state-national-botanical-garden",
@@ -769,7 +772,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Free_State_Botanical_Gardens.jpg/500px-Free_State_Botanical_Gardens.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Free_State_National_Botanical_Garden",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "gallery-mau-mau",
@@ -782,7 +785,7 @@
       "image": null,
       "source_url": "https://en.wikipedia.org/wiki/Gallery_Mau_Mau",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "garden-route-botanical-garden",
@@ -795,7 +798,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Garden_Route_Botanical_Garden_Dietes_02.jpg/960px-Garden_Route_Botanical_Garden_Dietes_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Garden_Route_Botanical_Garden",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikimedia Commons - see file page for its licence",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "giant-s-castle",
@@ -808,7 +811,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Giants_Castle_at_sunrise_from_the_contour_path.jpg/500px-Giants_Castle_at_sunrise_from_the_contour_path.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Giant's_Castle",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "giba-gorge-nature-reserve",
@@ -821,7 +824,7 @@
       "image": null,
       "source_url": "https://en.wikipedia.org/wiki/Giba_Gorge_Nature_Reserve",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10",
+      "added": "2026-11-09",
       "aliases": [
         "Giba Gorge (Hillcrest)",
         "Giba Gorge"
@@ -838,7 +841,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Johnsons%27_Goat_Tower%2C_brightened.jpg/500px-Johnsons%27_Goat_Tower%2C_brightened.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Goat_tower",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "gold-reef-city",
@@ -851,7 +854,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/20080216_97_Johannesburg_Gold_Reef_City.jpg/500px-20080216_97_Johannesburg_Gold_Reef_City.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Gold_Reef_City",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "golden-mile-durban",
@@ -864,7 +867,7 @@
       "image": "https://upload.wikimedia.org/wikipedia/commons/b/b8/The_sun_set_of_GOLDEN_MILE.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "source_url": "https://en.wikipedia.org/wiki/Golden_Mile,_Durban",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "good-hope-centre",
@@ -877,7 +880,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Good_Hope_Centre%2C_July_2018.jpg/500px-Good_Hope_Centre%2C_July_2018.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Good_Hope_Centre",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "graaff-s-pool",
@@ -890,7 +893,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Graaf%27s_Pool%2C_Sea_Point%2C_Cape_Town.jpg/500px-Graaf%27s_Pool%2C_Sea_Point%2C_Cape_Town.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Graaff's_Pool",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "grand-parade-cape-town",
@@ -903,7 +906,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Grand_Parade_in_Portsmouth_-_geograph.org.uk_-_4100099.jpg/960px-Grand_Parade_in_Portsmouth_-_geograph.org.uk_-_4100099.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Grand_Parade_(Cape_Town)",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikimedia Commons - see file page for its licence",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "groenkloof-nature-reserve",
@@ -916,7 +919,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Uitsig_oor_Groenkloof_Natuurreservaat.jpg/500px-Uitsig_oor_Groenkloof_Natuurreservaat.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Groenkloof_Nature_Reserve",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "groot-constantia",
@@ -929,7 +932,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Groot_Constantia.jpg/500px-Groot_Constantia.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Groot_Constantia",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "groote-schuur",
@@ -942,7 +945,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/9_2_111_0072_001-Groote_Schuur01-Wynberg-s.jpg/500px-9_2_111_0072_001-Groote_Schuur01-Wynberg-s.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Groote_Schuur",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "groote-schuur-zoo",
@@ -955,7 +958,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Rhode%27s_Private_Zoo_01.jpg/500px-Rhode%27s_Private_Zoo_01.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Groote_Schuur_Zoo",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "groutville",
@@ -968,7 +971,7 @@
       "image": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Groutville_Church.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
       "source_url": "https://en.wikipedia.org/wiki/Groutville",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikimedia Commons - see file page for its licence",
-      "added": "2026-10-10",
+      "added": "2026-11-09",
       "aliases": [
         "Groutville - Chief Albert Luthuli",
         "Groutville"
@@ -985,7 +988,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Bulbinella_elegans%2C_Hantam_NBG%2C_August_2011.jpg/500px-Bulbinella_elegans%2C_Hantam_NBG%2C_August_2011.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Hantam_National_Botanical_Garden",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "harold-porter-national-botanical-garden",
@@ -998,7 +1001,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Garden_-_panoramio_%2838%29.jpg/500px-Garden_-_panoramio_%2838%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Harold_Porter_National_Botanical_Garden",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "harry-gwala-stadium",
@@ -1011,7 +1014,7 @@
       "image": null,
       "source_url": "https://en.wikipedia.org/wiki/Harry_Gwala_Stadium",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "heart-of-cape-town-museum",
@@ -1024,7 +1027,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Groote_Schuur_Hospital_in_South_Africa.JPG/500px-Groote_Schuur_Hospital_in_South_Africa.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Heart_of_Cape_Town_Museum",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "hector-pieterson-museum",
@@ -1037,7 +1040,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Hector_Pieterson_Museum%2C_Soweto.jpg/960px-Hector_Pieterson_Museum%2C_Soweto.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Hector_Pieterson_Museum",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikimedia Commons - see file page for its licence",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "heroes-acre-pretoria",
@@ -1050,7 +1053,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/The_Heroes%27_Acre_Church_Street_Cemetery_in_Pretoria_082.jpg/500px-The_Heroes%27_Acre_Church_Street_Cemetery_in_Pretoria_082.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Heroes'_Acre,_Pretoria",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "hexagon-theatre-kwazulu-natal",
@@ -1063,7 +1066,7 @@
       "image": "https://upload.wikimedia.org/wikipedia/commons/7/78/Reading_the_Hexagon_Theatre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
       "source_url": "https://en.wikipedia.org/wiki/Hexagon_Theatre_(KwaZulu-Natal)",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikimedia Commons - see file page for its licence",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "highgate-ostrich-show-farm",
@@ -1076,7 +1079,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/FlappingOstriches.jpg/500px-FlappingOstriches.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Highgate_Ostrich_Show_Farm",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "hilton-arts-festival",
@@ -1089,7 +1092,7 @@
       "image": null,
       "source_url": "https://en.wikipedia.org/wiki/Hilton_Arts_Festival",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "hluhluwe-imfolozi-park",
@@ -1102,7 +1105,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Hluhluwe_green_hills_..._%2847294082242%29.jpg/500px-Hluhluwe_green_hills_..._%2847294082242%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Hluhluwe–Imfolozi_Park",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10",
+      "added": "2026-11-09",
       "aliases": [
         "Hluhluwe-iMfolozi Park",
         "Hluhluwe–iMfolozi Park"
@@ -1119,7 +1122,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Hout_bay_museum_2.JPG/500px-Hout_bay_museum_2.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Hout_Bay_Museum",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "howick-falls",
@@ -1132,7 +1135,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Howick-Falls-November-2009.jpg/500px-Howick-Falls-November-2009.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Howick_Falls",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "isimangaliso-wetland-park",
@@ -1145,7 +1148,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/GreaterStLucia.jpg/500px-GreaterStLucia.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/ISimangaliso_Wetland_Park",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10",
+      "added": "2026-11-09",
       "aliases": [
         "iSimangaliso Wetland Park (St Lucia)",
         "iSimangaliso Wetland Park"
@@ -1162,7 +1165,7 @@
       "image": null,
       "source_url": "https://en.wikipedia.org/wiki/Inanda,_KwaZulu-Natal",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10",
+      "added": "2026-11-09",
       "aliases": [
         "Phoenix Settlement (Inanda)",
         "Phoenix Settlement"
@@ -1179,7 +1182,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Irma_Stern_Museum.jpg/500px-Irma_Stern_Museum.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Irma_Stern_Museum",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "isandlwana",
@@ -1192,7 +1195,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Isandlwanamassgrave.JPG/500px-Isandlwanamassgrave.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Isandlwana",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10",
+      "added": "2026-11-09",
       "aliases": [
         "Isandlwana & Rorke's Drift",
         "Isandlwana"
@@ -1209,7 +1212,7 @@
       "image": null,
       "source_url": "https://en.wikipedia.org/wiki/Iziko_Museums_of_South_Africa",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "iziko-south-african-museum",
@@ -1222,7 +1225,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Iziko_South_African_Museum.JPG/500px-Iziko_South_African_Museum.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Iziko_South_African_Museum",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "iziko-south-african-national-gallery",
@@ -1235,7 +1238,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/South_Africa_National_Gallery.jpg/500px-South_Africa_National_Gallery.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Iziko_South_African_National_Gallery",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "james-hall-museum-of-transport",
@@ -1248,7 +1251,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Johannesburg-tram-001.jpg/500px-Johannesburg-tram-001.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/James_Hall_Museum_of_Transport",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "jameson-park-and-rose-garden",
@@ -1261,7 +1264,7 @@
       "image": null,
       "source_url": "https://en.wikipedia.org/wiki/Jameson_Park_and_Rose_Garden",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "joburg-contemporary-art-foundation",
@@ -1274,7 +1277,7 @@
       "image": null,
       "source_url": "https://en.wikipedia.org/wiki/Joburg_Contemporary_Art_Foundation",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "joburg-theatre",
@@ -1287,7 +1290,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/South_Africa-Johannesburg-Johannesburg_Civic_Theatre01.jpg/500px-South_Africa-Johannesburg-Johannesburg_Civic_Theatre01.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Joburg_Theatre",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "johannesburg",
@@ -1300,7 +1303,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Johannesburg_skyline_2017.jpg/500px-Johannesburg_skyline_2017.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Johannesburg",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "johannesburg-art-gallery",
@@ -1313,7 +1316,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/9_2_228_0069-Art_Gallery2-Johannesburg-s.jpg/500px-9_2_228_0069-Art_Gallery2-Johannesburg-s.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Johannesburg_Art_Gallery",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "johannesburg-botanical-garden",
@@ -1326,7 +1329,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/South-Africa_Johannesburg_Botanical_Garden-005.jpg/500px-South-Africa_Johannesburg_Botanical_Garden-005.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Johannesburg_Botanical_Garden",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "johannesburg-city-hall",
@@ -1339,7 +1342,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Johannesburg_City_Hall.jpg/500px-Johannesburg_City_Hall.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Johannesburg_City_Hall",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "johannesburg-holocaust-and-genocide-centre",
@@ -1352,7 +1355,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Special_Envoy_Ellen_Germain_%2853923855322%29.jpg/500px-Special_Envoy_Ellen_Germain_%2853923855322%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Johannesburg_Holocaust_and_Genocide_Centre",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "johannesburg-international-motor-show",
@@ -1365,7 +1368,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Johannesburg-Motor-Show-Logo.jpg/500px-Johannesburg-Motor-Show-Logo.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Johannesburg_International_Motor_Show",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "johannesburg-planetarium",
@@ -1378,7 +1381,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Planetarium-1.jpg/500px-Planetarium-1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Johannesburg_Planetarium",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "johannesburg-zoo",
@@ -1391,7 +1394,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Johannesburg_zoo-White_Oryx-001.jpg/500px-Johannesburg_zoo-White_Oryx-001.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Johannesburg_Zoo",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "karoo-desert-national-botanical-garden",
@@ -1404,7 +1407,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/1_Typical_Robertson_Karoo_vegetation_-_KDNBG.jpg/500px-1_Typical_Robertson_Karoo_vegetation_-_KDNBG.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Karoo_Desert_National_Botanical_Garden",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "ke-ditselana-tourism-and-multi-cultural-village",
@@ -1417,7 +1420,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Ke-Ditselana-1.jpg/500px-Ke-Ditselana-1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Ke-Ditselana_Tourism_and_Multi-Cultural_Village",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "kenneth-stainbank-nature-reserve",
@@ -1430,7 +1433,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Euchromia_folletii%2C_Kenneth_Steinbank_Nature_Reserve_imported_from_iNaturalist_photo_119149147.jpg/960px-Euchromia_folletii%2C_Kenneth_Steinbank_Nature_Reserve_imported_from_iNaturalist_photo_119149147.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Kenneth_Stainbank_Nature_Reserve",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikimedia Commons - see file page for its licence",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "kirstenbosch-national-botanical-garden",
@@ -1443,7 +1446,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Kirstenbosch_National_Botanical_Garden_2024_7th_batch_09.jpg/500px-Kirstenbosch_National_Botanical_Garden_2024_7th_batch_09.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Kirstenbosch_National_Botanical_Garden",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "klapperkop-nature-reserve",
@@ -1456,7 +1459,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Uitsig_oor_Groenkloof_NR%2C_b.jpg/500px-Uitsig_oor_Groenkloof_NR%2C_b.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Klapperkop_Nature_Reserve",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "klipriviersberg-nature-reserve",
@@ -1469,7 +1472,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Klipriviersberg_Nature_Reserve.jpg/500px-Klipriviersberg_Nature_Reserve.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Klipriviersberg_Nature_Reserve",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "koopmans-de-wet-house",
@@ -1482,7 +1485,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Koopmans-de_Wet_House_Nov_2011.jpg/500px-Koopmans-de_Wet_House_Nov_2011.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Koopmans-de_Wet_House",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "krantzkloof-nature-reserve",
@@ -1495,7 +1498,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Molweni-vallei_in_Krantzkloof_Natuurreservaat%2C_a.jpg/500px-Molweni-vallei_in_Krantzkloof_Natuurreservaat%2C_a.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Krantzkloof_Nature_Reserve",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10",
+      "added": "2026-11-09",
       "aliases": [
         "Krantzkloof Nature Reserve"
       ]
@@ -1511,7 +1514,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Stanger%2C_KwaZulu-Natal.jpg/500px-Stanger%2C_KwaZulu-Natal.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/KwaDukuza",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10",
+      "added": "2026-11-09",
       "aliases": [
         "KwaDukuza (Stanger)",
         "KwaDukuza"
@@ -1528,7 +1531,7 @@
       "image": null,
       "source_url": "https://en.wikipedia.org/wiki/KwaZulu_Natal_Society_of_Arts",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10",
+      "added": "2026-11-09",
       "aliases": [
         "KZNSA Gallery (Glenwood)",
         "KZNSA"
@@ -1545,7 +1548,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Ontvangs%2C_KZN_NBT%2C_b.jpg/500px-Ontvangs%2C_KZN_NBT%2C_b.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/KwaZulu-Natal_National_Botanical_Garden",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "lesedi-cultural-village",
@@ -1558,7 +1561,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Exit_at_Lesedi_Cultural_Village.jpg/500px-Exit_at_Lesedi_Cultural_Village.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Lesedi_Cultural_Village",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "lichtenstein-castle-south-africa",
@@ -1571,7 +1574,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Castle_Lichtenstein_at_Lichtenstein-Honau%2C_Baden-W%C3%BCrttemberg.jpg/960px-Castle_Lichtenstein_at_Lichtenstein-Honau%2C_Baden-W%C3%BCrttemberg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Lichtenstein_Castle_(South_Africa)",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikimedia Commons - see file page for its licence",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "liliesleaf-farm",
@@ -1584,7 +1587,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Liliesleaf_hut1.jpg/500px-Liliesleaf_hut1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Liliesleaf_Farm",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "lindfield-house",
@@ -1597,7 +1600,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Lindfield_House%2C_Lindfield%2C_Sussex_%28geograph_2684739%29.jpg/960px-Lindfield_House%2C_Lindfield%2C_Sussex_%28geograph_2684739%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Lindfield_House",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikimedia Commons - see file page for its licence",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "lion-safari-park",
@@ -1610,7 +1613,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Tamed_Cheetah_in_Lion_Park%2C_Johannesburg%2C_South_Africa.JPG/500px-Tamed_Cheetah_in_Lion_Park%2C_Johannesburg%2C_South_Africa.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Lion_&_Safari_Park",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "list-of-botanical-gardens-in-south-africa",
@@ -1623,7 +1626,7 @@
       "image": null,
       "source_url": "https://en.wikipedia.org/wiki/List_of_botanical_gardens_in_South_Africa",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "list-of-casinos-in-south-africa",
@@ -1636,7 +1639,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Montecasino.jpg/500px-Montecasino.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/List_of_casinos_in_South_Africa",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "list-of-heritage-sites-in-beaufort-west",
@@ -1649,7 +1652,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Ned_Ceref_Kerk%2C_Beaufort_West.jpg/500px-Ned_Ceref_Kerk%2C_Beaufort_West.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/List_of_heritage_sites_in_Beaufort_West",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "list-of-heritage-sites-in-bellville",
@@ -1662,7 +1665,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Vault%2C_Meyboom_Avenue%2C_Plattekloof_Extension_No._3%2C_Parow.jpg/500px-Vault%2C_Meyboom_Avenue%2C_Plattekloof_Extension_No._3%2C_Parow.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/List_of_heritage_sites_in_Bellville",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "list-of-heritage-sites-in-caledon",
@@ -1675,7 +1678,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Caledon_building.JPG/500px-Caledon_building.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/List_of_heritage_sites_in_Caledon",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "list-of-heritage-sites-in-cape-town-cbd-and-the-waterfront",
@@ -1688,7 +1691,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/9_2_018_0003-001_Granite_Lodge.jpg/500px-9_2_018_0003-001_Granite_Lodge.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/List_of_heritage_sites_in_Cape_Town_CBD_and_the_Waterfront",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "list-of-heritage-sites-in-clanwilliam",
@@ -1701,7 +1704,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Clanwilliam%2C_Western_Cape_-_16.JPG/500px-Clanwilliam%2C_Western_Cape_-_16.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/List_of_heritage_sites_in_Clanwilliam",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "list-of-heritage-sites-in-gauteng",
@@ -1714,7 +1717,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Old_Post_Office-Boksburg-001.jpg/500px-Old_Post_Office-Boksburg-001.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/List_of_heritage_sites_in_Gauteng",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "list-of-heritage-sites-in-george-and-mossel-bay",
@@ -1727,7 +1730,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/The_Tree_of_Meetings.jpg/500px-The_Tree_of_Meetings.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/List_of_heritage_sites_in_George_and_Mossel_Bay",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "list-of-heritage-sites-in-knysna",
@@ -1740,12 +1743,12 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Old_Goal%2C_Knysna.jpg/500px-Old_Goal%2C_Knysna.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/List_of_heritage_sites_in_Knysna",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "list-of-heritage-sites-in-kwazulu-natal",
       "name": "List of heritage sites in KwaZulu-Natal",
-      "summary": "This is a list of the heritage sites in KwaZulu-Natal as recognized by the South African Heritage Resource Agency. For performance reasons, the following district has been split off from this page:",
+      "summary": "This is a list of the heritage sites in KwaZulu-Natal as recognized by the South African Heritage Resource Agency. For performance reasons,  List of heritage sites in Pietermaritzburg has been split off from this article.",
       "province": "KwaZulu-Natal",
       "category": "cultural",
       "lat": null,
@@ -1753,7 +1756,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Herboude_iNdlunkulu_en_iLawu_van_die_swart-isiGodlo%2C_Dingaanstat.jpg/500px-Herboude_iNdlunkulu_en_iLawu_van_die_swart-isiGodlo%2C_Dingaanstat.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/List_of_heritage_sites_in_KwaZulu-Natal",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "list-of-heritage-sites-in-paarl",
@@ -1766,7 +1769,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Roggeland%2C_Daljosafat%2C_Paarl_District-014.jpg/500px-Roggeland%2C_Daljosafat%2C_Paarl_District-014.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/List_of_heritage_sites_in_Paarl",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "list-of-heritage-sites-in-pietermaritzburg",
@@ -1779,7 +1782,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/9_2_436_0001_002-St_Georges_Garrison_Church1-Pietermaritzburg-s.jpg/500px-9_2_436_0001_002-St_Georges_Garrison_Church1-Pietermaritzburg-s.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/List_of_heritage_sites_in_Pietermaritzburg",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "list-of-heritage-sites-in-robertson-and-montagu",
@@ -1792,7 +1795,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/9_2_063_0002-Montagu-32_Long_St-s.jpg/500px-9_2_063_0002-Montagu-32_Long_St-s.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/List_of_heritage_sites_in_Robertson_and_Montagu",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "list-of-heritage-sites-in-simon-s-town",
@@ -1805,7 +1808,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Albertyn_Cottage_King_George_Way_Simonstown_06.jpg/500px-Albertyn_Cottage_King_George_Way_Simonstown_06.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/List_of_heritage_sites_in_Simon's_Town",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "list-of-heritage-sites-in-swellendam-and-riversdale",
@@ -1818,7 +1821,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Old_Tollhouse_Garcia_Pass%2C_Riversdale.jpg/500px-Old_Tollhouse_Garcia_Pass%2C_Riversdale.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/List_of_heritage_sites_in_Swellendam_and_Riversdale",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "list-of-heritage-sites-in-table-mountain",
@@ -1831,7 +1834,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Table_Mountain-010.jpg/500px-Table_Mountain-010.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/List_of_heritage_sites_in_Table_Mountain",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "list-of-heritage-sites-in-tulbagh",
@@ -1844,7 +1847,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Drostdy_01.jpg/500px-Drostdy_01.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/List_of_heritage_sites_in_Tulbagh",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "list-of-heritage-sites-in-worcester-western-cape",
@@ -1857,7 +1860,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/36_Russell_Street%2C_Worcester-001.jpg/500px-36_Russell_Street%2C_Worcester-001.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/List_of_heritage_sites_in_Worcester,_Western_Cape",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "list-of-heritage-sites-in-wynberg-cape-town",
@@ -1870,7 +1873,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/CapeTownBergvlietfarm2_2014.jpg/500px-CapeTownBergvlietfarm2_2014.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/List_of_heritage_sites_in_Wynberg,_Cape_Town",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "list-of-heritage-sites-in-the-bo-kaap-of-cape-town",
@@ -1883,7 +1886,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/120-130%2C_Chiappini_Street%2C_Bo-Kaap_%2802%29.jpg/500px-120-130%2C_Chiappini_Street%2C_Bo-Kaap_%2802%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/List_of_heritage_sites_in_the_Bo-Kaap_of_Cape_Town",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "list-of-heritage-sites-in-the-western-cape-province-south-africa",
@@ -1896,7 +1899,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Fisherman%27s_Cottages_Hotagterklip%2C_Struisbaai._06.jpg/500px-Fisherman%27s_Cottages_Hotagterklip%2C_Struisbaai._06.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/List_of_heritage_sites_in_the_Western_Cape_Province,_South_Africa",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "list-of-heritage-sites-near-cape-town",
@@ -1909,7 +1912,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Kaapstad10.JPG/500px-Kaapstad10.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/List_of_heritage_sites_near_Cape_Town",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "list-of-nature-reserves-in-cape-town",
@@ -1922,7 +1925,7 @@
       "image": null,
       "source_url": "https://en.wikipedia.org/wiki/List_of_nature_reserves_in_Cape_Town",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "lowveld-national-botanical-garden",
@@ -1935,7 +1938,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Lowveld_National_Botanical_Garden_1.jpg/500px-Lowveld_National_Botanical_Garden_1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Lowveld_National_Botanical_Garden",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "lwandle-migrant-labour-museum",
@@ -1948,7 +1951,7 @@
       "image": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Lwandle_Migrant_Labour_Museum.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "source_url": "https://en.wikipedia.org/wiki/Lwandle_Migrant_Labour_Museum",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "makana-botanical-gardens",
@@ -1961,7 +1964,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Botanical_Gardens%2C_Grahamstown.JPG/960px-Botanical_Gardens%2C_Grahamstown.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Makana_Botanical_Gardens",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikimedia Commons - see file page for its licence",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "mandela-house",
@@ -1974,7 +1977,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Mandela_museum_soweto.jpg/500px-Mandela_museum_soweto.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Mandela_House",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "manie-van-der-schijff-botanical-garden",
@@ -1987,7 +1990,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Encephalartos_senticosus%2C_Manie_van_der_Schijff_BT.jpg/500px-Encephalartos_senticosus%2C_Manie_van_der_Schijff_BT.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Manie_van_der_Schijff_Botanical_Garden",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "margate-art-museum",
@@ -2000,7 +2003,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Crab_Museum%2C_Margate.jpg/960px-Crab_Museum%2C_Margate.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Margate_Art_Museum",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikimedia Commons - see file page for its licence",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "mariner-s-wharf",
@@ -2013,7 +2016,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/PHOTOGRAPH_-_MARINER%27S_WHARF_-_WIKIPEDIA.jpg/500px-PHOTOGRAPH_-_MARINER%27S_WHARF_-_WIKIPEDIA.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Mariner's_Wharf",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "melville-koppies",
@@ -2026,7 +2029,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/%27The_Cave%27_-_Melville_Koppies_Nature_Reserve.jpg/500px-%27The_Cave%27_-_Melville_Koppies_Nature_Reserve.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Melville_Koppies",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "melville-johannesburg",
@@ -2039,7 +2042,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Melville%2C_Johannesburg%2C_South_Africa.jpg/500px-Melville%2C_Johannesburg%2C_South_Africa.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Melville,_Johannesburg",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "melville-kwazulu-natal",
@@ -2052,7 +2055,7 @@
       "image": null,
       "source_url": "https://en.wikipedia.org/wiki/Melville,_KwaZulu-Natal",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "midmar-dam",
@@ -2065,7 +2068,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Midmar_Dam-001.jpg/500px-Midmar_Dam-001.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Midmar_Dam",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "miller-s-point-western-cape",
@@ -2078,7 +2081,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/View_of_Millers_Point_-_South_Africa_9.JPG/500px-View_of_Millers_Point_-_South_Africa_9.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Miller's_Point,_Western_Cape",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "mitchell-park-zoo",
@@ -2091,7 +2094,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Aldabra_Giant_Tortoises_Mitchell_Park.JPG/500px-Aldabra_Giant_Tortoises_Mitchell_Park.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Mitchell_Park_Zoo",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "monkeyland-primate-sanctuary",
@@ -2104,7 +2107,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Monkeyland-1410.jpg/500px-Monkeyland-1410.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Monkeyland_Primate_Sanctuary",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "montecasino",
@@ -2117,7 +2120,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Montecasino.jpg/500px-Montecasino.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Montecasino",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "moses-mabhida-stadium",
@@ -2130,7 +2133,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Moses_Mabhida_stadium_in_Durban.jpg/500px-Moses_Mabhida_stadium_in_Durban.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Moses_Mabhida_Stadium",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "mostert-s-mill",
@@ -2143,7 +2146,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Mosterts_Mill.jpg/500px-Mosterts_Mill.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Mostert's_Mill",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "mother-city-skydiving-cape-town",
@@ -2156,7 +2159,7 @@
       "image": null,
       "source_url": "https://en.wikipedia.org/wiki/Mother_City_SkyDiving_-_Cape_Town",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "muldersdrift",
@@ -2169,7 +2172,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Muldersdrift%2C_now_suffering_from_a_high_crime_rate%2C_is_home_to_a_large_hospitality_industry_that_caters_to_neighboring_Johannesburg_and_Pretoria_citizens_coming_there_for_functions_or_weddings._%28Photo-_VOA_Solene_Honorine%29.jpg/500px-thumbnail.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Muldersdrift",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "museumafrica",
@@ -2182,7 +2185,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/MuseumAfrica.JPG/500px-MuseumAfrica.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/MuseuMAfricA",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "mzoli-s",
@@ -2195,7 +2198,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Outside_Mzolis.jpg/500px-Outside_Mzolis.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Mzoli's",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "nan-hua-temple",
@@ -2208,7 +2211,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Nan_Hua_Temple%2C_Bronkhorstspruit%2C_South_Africa.jpg/500px-Nan_Hua_Temple%2C_Bronkhorstspruit%2C_South_Africa.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Nan_Hua_Temple",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "ncome-monument-and-museum-complex",
@@ -2221,7 +2224,7 @@
       "image": null,
       "source_url": "https://en.wikipedia.org/wiki/Ncome_Monument_and_Museum_Complex",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "nelson-mandela-square",
@@ -2234,7 +2237,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Nelson_Mandela_Square%2C_December_2015.jpg/500px-Nelson_Mandela_Square%2C_December_2015.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Nelson_Mandela_Square",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "newtown-johannesburg",
@@ -2247,7 +2250,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Newtown_Johannesburg_01.jpg/500px-Newtown_Johannesburg_01.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Newtown,_Johannesburg",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "noon-gun",
@@ -2260,7 +2263,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Cape_Town_Noon_Gun_Firing.jpg/500px-Cape_Town_Noon_Gun_Firing.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Noon_Gun",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "north-beach-durban",
@@ -2273,7 +2276,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/North_Beach_in_Durban.jpeg/500px-North_Beach_in_Durban.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/North_Beach_(Durban)",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "north-west-university-botanical-garden",
@@ -2286,7 +2289,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Lawned_area%2C_North-West_University_Botanical_Garden.jpg/500px-Lawned_area%2C_North-West_University_Botanical_Garden.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/North-West_University_Botanical_Garden",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "northcliff",
@@ -2299,7 +2302,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Northcliff_%28South_Africa%29.jpg/500px-Northcliff_%28South_Africa%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Northcliff",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "northdale-stadium",
@@ -2312,7 +2315,7 @@
       "image": null,
       "source_url": "https://en.wikipedia.org/wiki/Northdale_Stadium",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "ongoye-forest",
@@ -2325,7 +2328,7 @@
       "image": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Ongoye_colonial.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "source_url": "https://en.wikipedia.org/wiki/ONgoye_Forest",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "observatory-ridge-johannesburg",
@@ -2338,7 +2341,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Indian_monument%2C_Observatory_Ridge%2C_Johannesburg.JPG/500px-Indian_monument%2C_Observatory_Ridge%2C_Johannesburg.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Observatory_Ridge,_Johannesburg",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "old-fort-durban",
@@ -2351,7 +2354,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Old_Fort%2C_Durban%2C_IXVII_9_2_407_0028.jpg/960px-Old_Fort%2C_Durban%2C_IXVII_9_2_407_0028.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Old_Fort_(Durban)",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikimedia Commons - see file page for its licence",
-      "added": "2026-10-10",
+      "added": "2026-11-09",
       "aliases": [
         "The Old Fort, Durban",
         "Old Fort (Durban)"
@@ -2368,7 +2371,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Oreitn_plaza.jpg/500px-Oreitn_plaza.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Oriental_Plaza",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "outeniqua-choo-tjoe",
@@ -2381,7 +2384,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Outeniqua_Choo_Tjoe.JPG/500px-Outeniqua_Choo_Tjoe.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Outeniqua_Choo_Tjoe",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "outeniqua-transport-museum",
@@ -2394,7 +2397,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Outiniqua_Transport_Museum.jpg/500px-Outiniqua_Transport_Museum.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Outeniqua_Transport_Museum",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "palace-of-justice-pretoria",
@@ -2407,7 +2410,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Law_Chambers-011.jpg/500px-Law_Chambers-011.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Palace_of_Justice,_Pretoria",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "paradise-valley-nature-reserve",
@@ -2420,7 +2423,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Paradise_Valley_Pinetown_Durban.jpg/960px-Paradise_Valley_Pinetown_Durban.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Paradise_Valley_Nature_Reserve",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikimedia Commons - see file page for its licence",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "parkhurst-gauteng",
@@ -2433,7 +2436,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Parkhurst%2C_Gauteng.jpg/500px-Parkhurst%2C_Gauteng.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Parkhurst,_Gauteng",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "phinda-private-game-reserve",
@@ -2446,7 +2449,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/View_in_the_Phinda_Private_Game_Reserve.jpg/960px-View_in_the_Phinda_Private_Game_Reserve.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Phinda_Private_Game_Reserve",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikimedia Commons - see file page for its licence",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "pretoria-forts",
@@ -2459,7 +2462,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Fort_Klapperkop-002.jpg/500px-Fort_Klapperkop-002.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Pretoria_Forts",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "pretoria-national-botanical-garden",
@@ -2472,7 +2475,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Broodboomtuin%2C_a%2C_Pretoria_Nasionale_Botaniese_Tuin.jpg/500px-Broodboomtuin%2C_a%2C_Pretoria_Nasionale_Botaniese_Tuin.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Pretoria_National_Botanical_Garden",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "pretoria-zoo",
@@ -2485,7 +2488,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Pretoria_National_Zoological_Gardens_Okapi.jpg/500px-Pretoria_National_Zoological_Gardens_Okapi.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Pretoria_Zoo",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "rand-show",
@@ -2498,12 +2501,12 @@
       "image": null,
       "source_url": "https://en.wikipedia.org/wiki/Rand_Show",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "ratanga-junction",
       "name": "Ratanga Junction",
-      "summary": "Ratanga Junction was an amusement park located in Century City, Cape Town in South Africa.",
+      "summary": "Ratanga Junction was an amusement park that operated from 1998 to 2018 in Century City, Cape Town in South Africa.",
       "province": "South Africa",
       "category": "cultural",
       "lat": null,
@@ -2511,7 +2514,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/The_Cobra_at_Ratanga_Junction.jpg/500px-The_Cobra_at_Ratanga_Junction.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Ratanga_Junction",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "rhodes-memorial",
@@ -2524,7 +2527,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Cecil_Rhodes_Memorial_Elevated_View_2B_%28cropped%2C_edited%29.jpg/500px-Cecil_Rhodes_Memorial_Elevated_View_2B_%28cropped%2C_edited%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Rhodes_Memorial",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "richards-bay-stadium",
@@ -2537,7 +2540,7 @@
       "image": null,
       "source_url": "https://en.wikipedia.org/wiki/Richards_Bay_Stadium",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "rio-casino-resort",
@@ -2550,12 +2553,12 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Hotel_Howard_Johnson_Plaza_Resort_%26_Casino_01.jpg/960px-Hotel_Howard_Johnson_Plaza_Resort_%26_Casino_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Rio_Casino_Resort",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikimedia Commons - see file page for its licence",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "robben-island",
       "name": "Robben Island",
-      "summary": "Robben Island (Afrikaans: Robbeneiland) is an island in Table Bay, 6.9 kilometers (4.3 mi) west of the coast of Bloubergstrand, north of Cape Town, South Africa. It takes its name from the archaic Dutch word for seals (robben), hence the Dutch/Afrikaans name Robbeneiland, which translates to Seal(s) Island.",
+      "summary": "Robben Island (Dutch: Robbeneiland) is an island in Table Bay, 6.9 kilometers (4.3 mi) west of the coast of Bloubergstrand, north of Cape Town, South Africa. It takes its name from the archaic Dutch word for seals (robben).",
       "province": "Western Cape",
       "category": "cultural",
       "lat": -33.805,
@@ -2563,7 +2566,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Robben_Island_-_Cape_Town%2C_South_Africa_%283883849594%29.jpg/500px-Robben_Island_-_Cape_Town%2C_South_Africa_%283883849594%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Robben_Island",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "robben-island-prison",
@@ -2576,7 +2579,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Maximum_Security_Prison%2C_Robben_Island_%2802%29.jpg/500px-Maximum_Security_Prison%2C_Robben_Island_%2802%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Robben_Island_(prison)",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "roy-hesketh-circuit",
@@ -2589,7 +2592,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Roy_Hesketh_Circuit.svg/500px-Roy_Hesketh_Circuit.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Roy_Hesketh_Circuit",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "royal-observatory-cape-of-good-hope",
@@ -2602,7 +2605,7 @@
       "image": "https://upload.wikimedia.org/wikipedia/commons/8/88/Main_building_of_Royal_Observatory%2C_Cape_of_Good_Hope.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "source_url": "https://en.wikipedia.org/wiki/Royal_Observatory,_Cape_of_Good_Hope",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "sab-world-of-beer",
@@ -2615,7 +2618,7 @@
       "image": null,
       "source_url": "https://en.wikipedia.org/wiki/SAB_World_of_Beer",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "sas-somerset",
@@ -2628,12 +2631,12 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/HMS_Barcross_1943.jpg/500px-HMS_Barcross_1943.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/SAS_Somerset",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "sandy-bay-cape-town",
       "name": "Sandy Bay, Cape Town",
-      "summary": "Sandy Bay is a beach just south of Llandudno. It is on the west side of the Karbonkelberg,  and cannot be seen from the main road to Hout Bay, which turns inland above Llandudno.",
+      "summary": "Sandy Bay is an unofficial nudist beach just south of Llandudno. It is on the west side of the Karbonkelberg,  and cannot be seen from the main road to Hout Bay, which turns inland above Llandudno.",
       "province": "Western Cape",
       "category": "cultural",
       "lat": -34.02333333,
@@ -2641,7 +2644,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Sandy_Bay%2C_Cape_Town.jpg/500px-Sandy_Bay%2C_Cape_Town.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Sandy_Bay,_Cape_Town",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "sardine-run",
@@ -2654,7 +2657,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Agulhas_chla.png/500px-Agulhas_chla.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Sardine_run",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10",
+      "added": "2026-11-09",
       "aliases": [
         "The Sardine Run",
         "Sardine run"
@@ -2671,7 +2674,7 @@
       "image": null,
       "source_url": "https://en.wikipedia.org/wiki/Sibaya_Casino_and_Entertainment_Kingdom",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "simon-s-town-museum",
@@ -2684,7 +2687,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Simonstown_Museum_2.JPG/500px-Simonstown_Museum_2.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Simon's_Town_Museum",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "slave-lodge-cape-town",
@@ -2697,7 +2700,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Slave_Lodge_museum.jpg/500px-Slave_Lodge_museum.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Slave_Lodge,_Cape_Town",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "south-african-air-force-museum",
@@ -2707,10 +2710,10 @@
       "category": "cultural",
       "lat": null,
       "lng": null,
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Tail_of_the_Mirage_III_at_the_South_African_Air_Force_Museum_Ysterplaat_June_2026.jpg/960px-Tail_of_the_Mirage_III_at_the_South_African_Air_Force_Museum_Ysterplaat_June_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Cockpit_of_the_Mirage_III_at_the_South_African_Air_Force_Museum_Ysterplaat_June_2026.jpg/960px-Cockpit_of_the_Mirage_III_at_the_South_African_Air_Force_Museum_Ysterplaat_June_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/South_African_Air_Force_Museum",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikimedia Commons - see file page for its licence",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "south-african-jewish-museum",
@@ -2723,7 +2726,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/South_African_Jewish_Museum_in_July%2C_2018_16.jpg/960px-South_African_Jewish_Museum_in_July%2C_2018_16.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/South_African_Jewish_Museum",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikimedia Commons - see file page for its licence",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "south-african-lipizzaners",
@@ -2736,7 +2739,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/South_African_Lipizzaners-001.jpg/500px-South_African_Lipizzaners-001.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/South_African_Lipizzaners",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "south-african-national-museum-of-military-history",
@@ -2749,7 +2752,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/South_African_G5_and_G6_-_001.jpg/500px-South_African_G5_and_G6_-_001.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/South_African_National_Museum_of_Military_History",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "south-african-national-railway-and-steam-museum",
@@ -2762,7 +2765,7 @@
       "image": "https://upload.wikimedia.org/wikipedia/commons/c/c5/National_Railway_Museum_Shildon_-_geograph.org.uk_-_3608534.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
       "source_url": "https://en.wikipedia.org/wiki/South_African_National_Railway_And_Steam_Museum",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikimedia Commons - see file page for its licence",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "south-african-naval-museum",
@@ -2775,7 +2778,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/South_African_Naval_Museum_Simon%27s_Town.jpg/500px-South_African_Naval_Museum_Simon%27s_Town.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/South_African_Naval_Museum",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "south-african-sendinggestig-museum",
@@ -2788,7 +2791,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Museum_Facade.jpg/500px-Museum_Facade.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/South_African_Sendinggestig_Museum",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "south-african-state-theatre",
@@ -2801,7 +2804,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/South_African_State_Theatre12.jpg/500px-South_African_State_Theatre12.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/South_African_State_Theatre",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "southbroom",
@@ -2814,7 +2817,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Southbroom_beach%2C_KZN.JPG/500px-Southbroom_beach%2C_KZN.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Southbroom",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10",
+      "added": "2026-11-09",
       "aliases": [
         "Southbroom"
       ]
@@ -2830,7 +2833,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Spice_Route_Paarl.JPG/500px-Spice_Route_Paarl.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Spice_Route_Paarl",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "statue-of-nelson-mandela-union-buildings",
@@ -2843,7 +2846,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Late_Nelson_Mandela_Statue%2C_Pretoria_South_Africa_Redux.png/960px-Late_Nelson_Mandela_Statue%2C_Pretoria_South_Africa_Redux.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Statue_of_Nelson_Mandela,_Union_Buildings",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikimedia Commons - see file page for its licence",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "stellenbosch-university-botanical-garden",
@@ -2856,7 +2859,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Stellenbosch_University_Botanical_Garden_-_garden.jpg/500px-Stellenbosch_University_Botanical_Garden_-_garden.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Stellenbosch_University_Botanical_Garden",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "sterkfontein",
@@ -2869,7 +2872,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/SterkfonteinCave.jpg/500px-SterkfonteinCave.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Sterkfontein",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "sun-city-south-africa",
@@ -2882,7 +2885,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Sun_City_Casino%2C_Sun_City%2C_North_West%2C_South_Africa_%2819910947343%29.jpg/500px-Sun_City_Casino%2C_Sun_City%2C_North_West%2C_South_Africa_%2819910947343%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Sun_City_(South_Africa)",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "sun-international",
@@ -2895,7 +2898,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/en/thumb/7/70/Sun_International_logo.svg/500px-Sun_International_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Sun_International",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "suncoast-casino-and-entertainment-world",
@@ -2908,7 +2911,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Suncoast_logo.jpg/500px-Suncoast_logo.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Suncoast_Casino_and_Entertainment_World",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "table-mountain-aerial-cableway",
@@ -2921,7 +2924,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/TableMountainAerialCableway2018.jpg/500px-TableMountainAerialCableway2018.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Table_Mountain_Aerial_Cableway",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "the-cenotaph-durban",
@@ -2934,7 +2937,7 @@
       "image": "https://upload.wikimedia.org/wikipedia/commons/2/20/Hotel_de_ville_de_Durban.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "source_url": "https://en.wikipedia.org/wiki/The_Cenotaph,_Durban",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "the-elephant-sanctuary-hartbeespoort-dam",
@@ -2947,7 +2950,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Elephant_and_Monkey_Sanctuary%2C_Hartbeespoort%2C_North_West%2C_South_Africa_%2820329516548%29.jpg/960px-Elephant_and_Monkey_Sanctuary%2C_Hartbeespoort%2C_North_West%2C_South_Africa_%2820329516548%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/The_Elephant_Sanctuary_Hartbeespoort_Dam",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikimedia Commons - see file page for its licence",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "the-side-show-nightclub",
@@ -2960,7 +2963,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Side_Show_Main_Floor_Restaurant_Configuration.jpg/500px-Side_Show_Main_Floor_Restaurant_Configuration.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/The_Side_Show_(nightclub)",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "the-wilds-johannesburg",
@@ -2973,7 +2976,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/View_of_Johannesburg_from_The_Wilds.jpg/500px-View_of_Johannesburg_from_The_Wilds.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/The_Wilds_(Johannesburg)",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "thohoyandou-national-botanical-garden",
@@ -2986,7 +2989,7 @@
       "image": null,
       "source_url": "https://en.wikipedia.org/wiki/Thohoyandou_National_Botanical_Garden",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "tsogo-sun",
@@ -2999,7 +3002,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Tsogo-Sun.jpg/500px-Tsogo-Sun.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Tsogo_Sun",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "tugela-falls",
@@ -3012,7 +3015,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Tugela_falls.jpg/500px-Tugela_falls.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Tugela_Falls",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "two-oceans-aquarium",
@@ -3025,7 +3028,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Two_Oceans_Aquarium_CT_jeh.jpg/500px-Two_Oceans_Aquarium_CT_jeh.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Two_Oceans_Aquarium",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "tygerberg-zoo",
@@ -3038,7 +3041,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Suni-Tygerberg_Zoo.jpg/500px-Suni-Tygerberg_Zoo.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Tygerberg_Zoo",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "umhlanga-lagoon-nature-reserve",
@@ -3051,7 +3054,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Ohlanga-strandmeer%2C_Umhlanga%2C_a.jpg/500px-Ohlanga-strandmeer%2C_Umhlanga%2C_a.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/UMhlanga_Lagoon_Nature_Reserve",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "ushaka-marine-world",
@@ -3064,7 +3067,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/ZA-Durban-shaka-m-eing.jpg/500px-ZA-Durban-shaka-m-eing.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/UShaka_Marine_World",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "ulundi-stadium",
@@ -3077,7 +3080,7 @@
       "image": null,
       "source_url": "https://en.wikipedia.org/wiki/Ulundi_Stadium",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "umdoni-bird-sanctuary",
@@ -3090,7 +3093,7 @@
       "image": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Umdoni_Bird_Sanctuary_Peafowls.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
       "source_url": "https://en.wikipedia.org/wiki/Umdoni_Bird_Sanctuary",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikimedia Commons - see file page for its licence",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "umgeni-river-bird-park",
@@ -3103,7 +3106,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/UmgeniRiverBirdPark.DemoiselleCrane.jpg/500px-UmgeniRiverBirdPark.DemoiselleCrane.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Umgeni_River_Bird_Park",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "umhlanga-rocks-lighthouse",
@@ -3116,7 +3119,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Umhlanga_Rocks-vuurtoring.jpg/500px-Umhlanga_Rocks-vuurtoring.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Umhlanga_Rocks_Lighthouse",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "university-of-kwazulu-natal-botanical-garden",
@@ -3129,7 +3132,7 @@
       "image": null,
       "source_url": "https://en.wikipedia.org/wiki/University_of_KwaZulu-Natal_Botanical_Garden",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "v-a-waterfront",
@@ -3142,7 +3145,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Signal_Hill_and_Ferris_wheel_from_Victoria_Wharf_balcony%2C_Cape_Town.jpg/500px-Signal_Hill_and_Ferris_wheel_from_Victoria_Wharf_balcony%2C_Cape_Town.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/V&A_Waterfront",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "valley-of-a-thousand-hills",
@@ -3155,7 +3158,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Valley_of_a_Thousand_Hills.jpg/500px-Valley_of_a_Thousand_Hills.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Valley_of_a_Thousand_Hills",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10",
+      "added": "2026-11-09",
       "aliases": [
         "Valley of a Thousand Hills"
       ]
@@ -3171,7 +3174,7 @@
       "image": null,
       "source_url": "https://en.wikipedia.org/wiki/Wadley_Stadium",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "walter-sisulu-national-botanical-garden",
@@ -3184,7 +3187,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Walter_Sisulu_Nasionale_Botaniese_Tuin%2C_uitsig_a.jpg/500px-Walter_Sisulu_Nasionale_Botaniese_Tuin%2C_uitsig_a.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Walter_Sisulu_National_Botanical_Garden",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "walter-sisulu-square",
@@ -3197,7 +3200,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Walter_Sisulu_Square%2C_Soweto.jpg/500px-Walter_Sisulu_Square%2C_Soweto.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Walter_Sisulu_Square",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "waterworks-museum-cape-town",
@@ -3210,7 +3213,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Crane_at_Waterworks_Museu.JPG/500px-Crane_at_Waterworks_Museu.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Waterworks_Museum_(Cape_Town)",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "wembezi-stadium",
@@ -3223,7 +3226,7 @@
       "image": null,
       "source_url": "https://en.wikipedia.org/wiki/Wembezi_Stadium",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "wonder-cave-kromdraai-gauteng",
@@ -3236,7 +3239,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Wonder_Caves_Praying_Mary.JPG/500px-Wonder_Caves_Praying_Mary.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Wonder_Cave_(Kromdraai,_Gauteng)",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "woodburn-stadium",
@@ -3249,7 +3252,7 @@
       "image": null,
       "source_url": "https://en.wikipedia.org/wiki/Woodburn_Stadium",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "workers-library-and-museum",
@@ -3262,7 +3265,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/A.R.P._workers_rescuing_furniture_from_bombed_building_%28BUMED_09-7915-6%29%2C_U.S._Navy_BUMED_Library_and_Archives_%284274076702%29.jpg/960px-A.R.P._workers_rescuing_furniture_from_bombed_building_%28BUMED_09-7915-6%29%2C_U.S._Navy_BUMED_Library_and_Archives_%284274076702%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Workers'_Library_and_Museum",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikimedia Commons - see file page for its licence",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "world-of-birds-wildlife-sanctuary-and-monkey-park",
@@ -3275,7 +3278,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Swinhoe%27s_Pheasant_RWD.jpg/500px-Swinhoe%27s_Pheasant_RWD.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/World_of_Birds_Wildlife_Sanctuary_and_Monkey_Park",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     },
     {
       "id": "zeitz-museum-of-contemporary-art-africa",
@@ -3288,7 +3291,7 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Zeitz_Museum_of_Contemporary_Art_Africa%2C_Cape_Town_%28_1050775%29.jpg/500px-Zeitz_Museum_of_Contemporary_Art_Africa%2C_Cape_Town_%28_1050775%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source_url": "https://en.wikipedia.org/wiki/Zeitz_Museum_of_Contemporary_Art_Africa",
       "license": "Text: Wikipedia, CC BY-SA 4.0. Image: Wikipedia, CC BY-SA 4.0",
-      "added": "2026-10-10"
+      "added": "2026-11-09"
     }
   ],
   "must_include_check": {
@@ -3308,7 +3311,7 @@
     "Southbroom": "Southbroom",
     "Krantzkloof Nature Reserve": "Krantzkloof Nature Reserve",
     "Phoenix Settlement (Inanda)": "Phoenix Settlement",
-    "BAT Centre": null,
+    "BAT Centre": "Barycenter",
     "KZNSA Gallery (Glenwood)": "KZNSA - KwaZulu Natal Society of Arts",
     "Isandlwana & Rorke's Drift": "Isandlwana",
     "The Old Fort, Durban": "Old Fort (Durban)",
