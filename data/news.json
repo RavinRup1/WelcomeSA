@@ -1,91 +1,35 @@
 {
-  "generated_at": "2026-11-12T18:07:26.734529+02:00",
-  "fallback": true,
+  "generated_at": "2026-11-14T16:23:12.735087+02:00",
+  "fallback": false,
   "stories": [
     {
-      "title": "MPs call for uniform approach to public-service lifestyle audits",
-      "summary": "MPs call for uniform approach to public-service lifestyle audits https://iol.co.za/capetimes/news/2026-11-12-mps-call-for-uniform-approach-to-public-service-lifestyle-audits/ AI Generated Five years after lifestyle audits became compulsory, MPs say government departments are still taking different a",
-      "angle": "",
+      "title": "Miss South Africa 2026 crown up for grabs at Saturdayâs finale",
+      "summary": "The Miss South Africa 2026 Top 12 finalists are preparing for their grand finale. One of them will be crowned the new Miss South Africa at the Sandton Convention Centre on Saturday.",
+      "angle": "This event celebrates South African women and provides a platform for national representation.",
       "source": "IOL",
-      "url": "https://iol.co.za/capetimes/news/2026-11-12-mps-call-for-uniform-approach-to-public-service-lifestyle-audits/",
-      "published": "Thu, 12 Nov 2026 16:00:00 GMT",
-      "raw": true
-    },
-    {
-      "title": "Dolphin tattoo helped identify baby Cameron Moodley after 2001 kidnapping and murder",
-      "summary": "Dolphin tattoo helped identify baby Cameron Moodley after 2001 kidnapping and murder https://iol.co.za/thepost/news/2026-11-12-dolphin-tattoo-helped-identify-baby-cameron-moodley-after-2001-kidnapping-and-murder/ Supplied Five-month-old Cameron Moodley was kidnapped from her Phoenix home in 2001. A ",
-      "angle": "",
-      "source": "IOL",
-      "url": "https://iol.co.za/thepost/news/2026-11-12-dolphin-tattoo-helped-identify-baby-cameron-moodley-after-2001-kidnapping-and-murder/",
-      "published": "Thu, 12 Nov 2026 16:00:00 GMT",
-      "raw": true
-    },
-    {
-      "title": "Daughter heads to Phuket to search for missing Durban father",
-      "summary": "Daughter heads to Phuket to search for missing Durban father https://iol.co.za/dailynews/news/2026-11-12-daughter-heads-to-phuket-to-search-for-missing-durban-father/ monishka.govender@iol.co.za (Monishka Govender) Supplied Deven Naicker. The daughter of missing Durban man Deven Naicker is preparing",
-      "angle": "",
-      "source": "IOL",
-      "url": "https://iol.co.za/dailynews/news/2026-11-12-daughter-heads-to-phuket-to-search-for-missing-durban-father/",
-      "published": "Thu, 12 Nov 2026 16:00:00 GMT",
-      "raw": true
-    },
-    {
-      "title": "Sea Point Promenade e-bike and e-scooter petition passes 1 600 signatures",
-      "summary": "Sea Point Promenade e-bike and e-scooter petition passes 1 600 signatures https://iol.co.za/capeargus/news/2026-11-12-sea-point-promenade-e-bike-and-e-scooter-petition-passes-1-600-signatures/ Armand Hough E-bikes have become a common sight on the Sea Point Promenade, prompting calls for better safe",
-      "angle": "",
-      "source": "IOL",
-      "url": "https://iol.co.za/capeargus/news/2026-11-12-sea-point-promenade-e-bike-and-e-scooter-petition-passes-1-600-signatures/",
-      "published": "Thu, 12 Nov 2026 16:00:00 GMT",
-      "raw": true
-    },
-    {
-      "title": "âPhantom hitmanâ account challenged in Durban murder trial",
-      "summary": "âPhantom hitmanâ account challenged in Durban murder trial https://iol.co.za/sunday-tribune/news/2026-11-12-phantom-hitman-account-challenged-in-durban-murder-trial/ Facebook Terry Guy Viljoen and his wife Kerry-Leigh Viljoen in happier times. The wife is currently on trial for killing her husba",
-      "angle": "",
-      "source": "IOL",
-      "url": "https://iol.co.za/sunday-tribune/news/2026-11-12-phantom-hitman-account-challenged-in-durban-murder-trial/",
-      "published": "Thu, 12 Nov 2026 16:00:00 GMT",
-      "raw": true
-    },
-    {
-      "title": "Zimbali Lakes villa development records R139.975 million in launch sales",
-      "summary": "Zimbali Lakes villa development records R139.975 million in launch sales https://iol.co.za/mercury/business/2026-11-12-zimbali-lakes-villa-development-records-r139975-million-in-launch-sales/ Supplied Vilasita, the latest residential development at Zimbali Lakes Vilasita, a new residential developme",
-      "angle": "",
-      "source": "IOL",
-      "url": "https://iol.co.za/mercury/business/2026-11-12-zimbali-lakes-villa-development-records-r139975-million-in-launch-sales/",
-      "published": "Thu, 12 Nov 2026 16:00:00 GMT",
-      "raw": true
+      "url": "https://iol.co.za/ios/news/2026-11-14-miss-south-africa-2026-crown-up-for-grabs-at-saturdays-finale/",
+      "published": "Sat, 14 Nov 2026 14:14:10 GMT"
     }
   ],
   "dropped": [
     {
-      "title": "MPs call for uniform approach to public-service lifestyle au",
-      "source": "IOL",
-      "reason": "Not positive"
-    },
-    {
-      "title": "Dolphin tattoo helped identify baby Cameron Moodley after 20",
-      "source": "IOL",
-      "reason": "The story details a kidnapping and murder, which does not constitute positive news or national progress."
-    },
-    {
-      "title": "Daughter heads to Phuket to search for missing Durban father",
+      "title": "KZN mother speaks about the daily struggle of raising a chil",
       "source": "IOL",
       "reason": "positive is false"
     },
     {
-      "title": "Sea Point Promenade e-bike and e-scooter petition passes 1 6",
+      "title": "âI did not know the historyâ: Durban creator Roseanne Pi",
       "source": "IOL",
       "reason": "short"
     },
     {
-      "title": "âPhantom hitmanâ account challenged in Durban murder tri",
+      "title": "Arjun Das and Aishwarya Lekshmi shine in a warm Tamil romanc",
       "source": "IOL",
       "reason": "rejected"
     },
     {
-      "title": "Mpofu calls for DA and FF Plus removal from GNU as left-wing",
-      "source": "IOL",
+      "title": "Flights take off again after nationwide US grounding",
+      "source": "SABC News",
       "reason": "rejected"
     }
   ],
