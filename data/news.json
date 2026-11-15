@@ -1,34 +1,52 @@
 {
-  "generated_at": "2026-11-14T16:23:12.735087+02:00",
+  "generated_at": "2026-11-15T16:55:05.740260+02:00",
   "fallback": false,
   "stories": [
     {
-      "title": "Miss South Africa 2026 crown up for grabs at Saturdayâs finale",
-      "summary": "The Miss South Africa 2026 Top 12 finalists are preparing for their grand finale. One of them will be crowned the new Miss South Africa at the Sandton Convention Centre on Saturday.",
-      "angle": "This event celebrates South African women and provides a platform for national representation.",
+      "title": "Gauteng's Tiyani Makamu crowned Miss SA 2026",
+      "summary": "Tiyani Makamu from Gauteng has been crowned Miss South Africa 2026. The 27-year-old from Bronkhorstspruit was crowned at the Sandton Convention Centre in Johannesburg.",
+      "angle": "This celebrates the achievement of a young South African woman.",
       "source": "IOL",
-      "url": "https://iol.co.za/ios/news/2026-11-14-miss-south-africa-2026-crown-up-for-grabs-at-saturdays-finale/",
-      "published": "Sat, 14 Nov 2026 14:14:10 GMT"
+      "url": "https://iol.co.za/the-star/lifestyle/2026-11-15-gautengs-tiyani-makamu-crowned-miss-sa-2026/",
+      "published": "Sun, 15 Nov 2026 14:12:44 GMT"
+    },
+    {
+      "title": "Cape Town team prepares for South Africaâs first pioneering epilepsy procedure",
+      "summary": "A pioneering stereo-EEG procedure is being prepared in Cape Town by a multidisciplinary team. This technique offers new possibilities for patients whose epileptic seizures cannot be controlled with medication.",
+      "angle": "This represents significant medical progress for South Africa, offering new hope for epilepsy patients.",
+      "source": "IOL",
+      "url": "https://iol.co.za/capetimes/2026-11-15-cape-town-team-prepares-for-south-africas-first-pioneering-epilepsy-procedure/",
+      "published": "Sun, 15 Nov 2026 14:00:00 GMT"
     }
   ],
   "dropped": [
     {
-      "title": "KZN mother speaks about the daily struggle of raising a chil",
+      "title": "IEC boosts security for repeat vote in Douglas",
       "source": "IOL",
       "reason": "positive is false"
     },
     {
-      "title": "âI did not know the historyâ: Durban creator Roseanne Pi",
+      "title": "Department reports 231,850 foreign nationals at inspected wo",
+      "source": "IOL",
+      "reason": "Not positive and not accurate."
+    },
+    {
+      "title": "\" Detection saves lives\" - Grim picture as STI statistics in",
+      "source": "IOL",
+      "reason": "Not all conditions met"
+    },
+    {
+      "title": "Stay on top by any means necessary: Mosimane outlines Bafana",
       "source": "IOL",
       "reason": "short"
     },
     {
-      "title": "Arjun Das and Aishwarya Lekshmi shine in a warm Tamil romanc",
-      "source": "IOL",
+      "title": "Family confirms death of SA veteran entertainer Eddie Eckste",
+      "source": "SABC News",
       "reason": "rejected"
     },
     {
-      "title": "Flights take off again after nationwide US grounding",
+      "title": "Pope Leo to cross Peru for visits to Inca city, Amazon gatew",
       "source": "SABC News",
       "reason": "rejected"
     }
