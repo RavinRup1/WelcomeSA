@@ -1,54 +1,107 @@
 {
-  "generated_at": "2026-11-15T16:55:05.740260+02:00",
-  "fallback": false,
+  "generated_at": "2026-11-16T19:14:50.787271+02:00",
+  "fallback": true,
   "stories": [
     {
-      "title": "Gauteng's Tiyani Makamu crowned Miss SA 2026",
-      "summary": "Tiyani Makamu from Gauteng has been crowned Miss South Africa 2026. The 27-year-old from Bronkhorstspruit was crowned at the Sandton Convention Centre in Johannesburg.",
-      "angle": "This celebrates the achievement of a young South African woman.",
+      "title": "300 staff evacuated as police investigate bomb threat at Sandton office park",
+      "summary": "300 staff evacuated as police investigate bomb threat at Sandton office park https://iol.co.za/news/south-africa/2026-11-16-300-staff-evacuated-as-police-investigate-bomb-threat-at-sandton-office-park/ Sinenhlanhla.masilela@iol.co.za (Sinenhlanhla Masilela) Unsplash Bomb threat evacuates 300 staff a",
+      "angle": "",
       "source": "IOL",
-      "url": "https://iol.co.za/the-star/lifestyle/2026-11-15-gautengs-tiyani-makamu-crowned-miss-sa-2026/",
-      "published": "Sun, 15 Nov 2026 14:12:44 GMT"
+      "url": "https://iol.co.za/news/south-africa/2026-11-16-300-staff-evacuated-as-police-investigate-bomb-threat-at-sandton-office-park/",
+      "published": "Mon, 16 Nov 2026 16:50:10 GMT",
+      "raw": true
     },
     {
-      "title": "Cape Town team prepares for South Africaâs first pioneering epilepsy procedure",
-      "summary": "A pioneering stereo-EEG procedure is being prepared in Cape Town by a multidisciplinary team. This technique offers new possibilities for patients whose epileptic seizures cannot be controlled with medication.",
-      "angle": "This represents significant medical progress for South Africa, offering new hope for epilepsy patients.",
+      "title": "Atteridgeville mass shooting: Child discovers nine people shot dead in Jeffsville shack",
+      "summary": "Atteridgeville mass shooting: Child discovers nine people shot dead in Jeffsville shack https://iol.co.za/the-star/news/2026-11-16-atteridgeville-mass-shooting-child-discovers-nine-people-shot-dead-in-jeffsville-shack/ Timothy Bernard / ANA Studio Six men and three women were shit and killed in a sh",
+      "angle": "",
       "source": "IOL",
-      "url": "https://iol.co.za/capetimes/2026-11-15-cape-town-team-prepares-for-south-africas-first-pioneering-epilepsy-procedure/",
-      "published": "Sun, 15 Nov 2026 14:00:00 GMT"
+      "url": "https://iol.co.za/the-star/news/2026-11-16-atteridgeville-mass-shooting-child-discovers-nine-people-shot-dead-in-jeffsville-shack/",
+      "published": "Mon, 16 Nov 2026 16:35:00 GMT",
+      "raw": true
+    },
+    {
+      "title": "Springboks determined to restore standards against Ireland after Paris disappointment",
+      "summary": "Springboks determined to restore standards against Ireland after Paris disappointment https://iol.co.za/sport/rugby/springboks/2026-11-16-springboks-determined-to-restore-standards-against-ireland-after-paris-disappointment/ Backpagepix Springbok head coach Rassie Erasmus has challenged his players ",
+      "angle": "",
+      "source": "IOL",
+      "url": "https://iol.co.za/sport/rugby/springboks/2026-11-16-springboks-determined-to-restore-standards-against-ireland-after-paris-disappointment/",
+      "published": "Mon, 16 Nov 2026 16:30:00 GMT",
+      "raw": true
+    },
+    {
+      "title": "Court orders sale of R5.5m Langebaan family holiday home after brothers clash over rent and ownership",
+      "summary": "Court orders sale of R5.5m Langebaan family holiday home after brothers clash over rent and ownership https://iol.co.za/news/crime-and-courts/2026-11-16-court-orders-sale-of-r55m-langebaan-family-holiday-home-after-brothers-clash-over-rent-and-ownership/ Sinenhlanhla.masilela@iol.co.za (Sinenhlanhla",
+      "angle": "",
+      "source": "IOL",
+      "url": "https://iol.co.za/news/crime-and-courts/2026-11-16-court-orders-sale-of-r55m-langebaan-family-holiday-home-after-brothers-clash-over-rent-and-ownership/",
+      "published": "Mon, 16 Nov 2026 16:16:08 GMT",
+      "raw": true
+    },
+    {
+      "title": "After Dakar 2026, can African countries turn Youth Olympic success into lasting medals?",
+      "summary": "After Dakar 2026, can African countries turn Youth Olympic success into lasting medals? https://iol.co.za/sport/olympics/2026-11-16-after-dakar-2026-can-african-countries-turn-youth-olympic-success-into-lasting-medals/ AFP Dakar hosted a successful Youth Olympic Games as athlets are see in the podiu",
+      "angle": "",
+      "source": "IOL",
+      "url": "https://iol.co.za/sport/olympics/2026-11-16-after-dakar-2026-can-african-countries-turn-youth-olympic-success-into-lasting-medals/",
+      "published": "Mon, 16 Nov 2026 16:15:00 GMT",
+      "raw": true
+    },
+    {
+      "title": "Water restrictions for Western Cape to affect farmers ahead of harvest season",
+      "summary": "Water restrictions for Western Cape to affect farmers ahead of harvest season https://iol.co.za/the-star/news/2026-11-16-water-restrictions-for-western-cape-to-affect-farmers-ahead-of-harvest-season/ Itumeleng English / ANA Studio Water and Sanitation Minister Pemmy Majodina has announced water rest",
+      "angle": "",
+      "source": "IOL",
+      "url": "https://iol.co.za/the-star/news/2026-11-16-water-restrictions-for-western-cape-to-affect-farmers-ahead-of-harvest-season/",
+      "published": "Mon, 16 Nov 2026 16:10:00 GMT",
+      "raw": true
     }
   ],
   "dropped": [
     {
-      "title": "IEC boosts security for repeat vote in Douglas",
+      "title": "300 staff evacuated as police investigate bomb threat at San",
+      "source": "IOL",
+      "reason": "Conditions not met"
+    },
+    {
+      "title": "Atteridgeville mass shooting: Child discovers nine people sh",
+      "source": "IOL",
+      "reason": "Not positive"
+    },
+    {
+      "title": "Springboks determined to restore standards against Ireland a",
       "source": "IOL",
       "reason": "positive is false"
     },
     {
-      "title": "Department reports 231,850 foreign nationals at inspected wo",
+      "title": "Court orders sale of R5.5m Langebaan family holiday home aft",
       "source": "IOL",
-      "reason": "Not positive and not accurate."
+      "reason": "positive is false"
     },
     {
-      "title": "\" Detection saves lives\" - Grim picture as STI statistics in",
+      "title": "After Dakar 2026, can African countries turn Youth Olympic s",
       "source": "IOL",
-      "reason": "Not all conditions met"
+      "reason": "The story is about Dakar and Senegal, not specifically South Africa."
     },
     {
-      "title": "Stay on top by any means necessary: Mosimane outlines Bafana",
+      "title": "Water restrictions for Western Cape to affect farmers ahead ",
       "source": "IOL",
+      "reason": "rejected"
+    },
+    {
+      "title": "Police in Limpopo arrest suspect with illicit cigarettes",
+      "source": "SABC News",
+      "reason": "positive is false"
+    },
+    {
+      "title": "Court orders redo of demarcation process in Ventersdorp",
+      "source": "SABC News",
+      "reason": "positive is false"
+    },
+    {
+      "title": "Police say more than 700 firearms confiscated since Safer Fe",
+      "source": "SABC News",
       "reason": "short"
-    },
-    {
-      "title": "Family confirms death of SA veteran entertainer Eddie Eckste",
-      "source": "SABC News",
-      "reason": "rejected"
-    },
-    {
-      "title": "Pope Leo to cross Peru for visits to Inca city, Amazon gatew",
-      "source": "SABC News",
-      "reason": "rejected"
     }
   ],
   "feeds": [
