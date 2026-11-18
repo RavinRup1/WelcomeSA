@@ -1,107 +1,46 @@
 {
-  "generated_at": "2026-11-16T19:14:50.787271+02:00",
-  "fallback": true,
+  "generated_at": "2026-11-18T18:39:07.730334+02:00",
+  "fallback": false,
   "stories": [
     {
-      "title": "300 staff evacuated as police investigate bomb threat at Sandton office park",
-      "summary": "300 staff evacuated as police investigate bomb threat at Sandton office park https://iol.co.za/news/south-africa/2026-11-16-300-staff-evacuated-as-police-investigate-bomb-threat-at-sandton-office-park/ Sinenhlanhla.masilela@iol.co.za (Sinenhlanhla Masilela) Unsplash Bomb threat evacuates 300 staff a",
-      "angle": "",
+      "title": "Hero firefighter saves three-day-old boy after family races to station with newborn not breathing",
+      "summary": "A Belhar firefighter successfully performed CPR on a three-day-old baby. The infant was brought to the station unresponsive and not breathing, but the firefighter brought him to life.",
+      "angle": "This story highlights the quick thinking and life-saving skills of a dedicated public servant.",
       "source": "IOL",
-      "url": "https://iol.co.za/news/south-africa/2026-11-16-300-staff-evacuated-as-police-investigate-bomb-threat-at-sandton-office-park/",
-      "published": "Mon, 16 Nov 2026 16:50:10 GMT",
-      "raw": true
-    },
-    {
-      "title": "Atteridgeville mass shooting: Child discovers nine people shot dead in Jeffsville shack",
-      "summary": "Atteridgeville mass shooting: Child discovers nine people shot dead in Jeffsville shack https://iol.co.za/the-star/news/2026-11-16-atteridgeville-mass-shooting-child-discovers-nine-people-shot-dead-in-jeffsville-shack/ Timothy Bernard / ANA Studio Six men and three women were shit and killed in a sh",
-      "angle": "",
-      "source": "IOL",
-      "url": "https://iol.co.za/the-star/news/2026-11-16-atteridgeville-mass-shooting-child-discovers-nine-people-shot-dead-in-jeffsville-shack/",
-      "published": "Mon, 16 Nov 2026 16:35:00 GMT",
-      "raw": true
-    },
-    {
-      "title": "Springboks determined to restore standards against Ireland after Paris disappointment",
-      "summary": "Springboks determined to restore standards against Ireland after Paris disappointment https://iol.co.za/sport/rugby/springboks/2026-11-16-springboks-determined-to-restore-standards-against-ireland-after-paris-disappointment/ Backpagepix Springbok head coach Rassie Erasmus has challenged his players ",
-      "angle": "",
-      "source": "IOL",
-      "url": "https://iol.co.za/sport/rugby/springboks/2026-11-16-springboks-determined-to-restore-standards-against-ireland-after-paris-disappointment/",
-      "published": "Mon, 16 Nov 2026 16:30:00 GMT",
-      "raw": true
-    },
-    {
-      "title": "Court orders sale of R5.5m Langebaan family holiday home after brothers clash over rent and ownership",
-      "summary": "Court orders sale of R5.5m Langebaan family holiday home after brothers clash over rent and ownership https://iol.co.za/news/crime-and-courts/2026-11-16-court-orders-sale-of-r55m-langebaan-family-holiday-home-after-brothers-clash-over-rent-and-ownership/ Sinenhlanhla.masilela@iol.co.za (Sinenhlanhla",
-      "angle": "",
-      "source": "IOL",
-      "url": "https://iol.co.za/news/crime-and-courts/2026-11-16-court-orders-sale-of-r55m-langebaan-family-holiday-home-after-brothers-clash-over-rent-and-ownership/",
-      "published": "Mon, 16 Nov 2026 16:16:08 GMT",
-      "raw": true
-    },
-    {
-      "title": "After Dakar 2026, can African countries turn Youth Olympic success into lasting medals?",
-      "summary": "After Dakar 2026, can African countries turn Youth Olympic success into lasting medals? https://iol.co.za/sport/olympics/2026-11-16-after-dakar-2026-can-african-countries-turn-youth-olympic-success-into-lasting-medals/ AFP Dakar hosted a successful Youth Olympic Games as athlets are see in the podiu",
-      "angle": "",
-      "source": "IOL",
-      "url": "https://iol.co.za/sport/olympics/2026-11-16-after-dakar-2026-can-african-countries-turn-youth-olympic-success-into-lasting-medals/",
-      "published": "Mon, 16 Nov 2026 16:15:00 GMT",
-      "raw": true
-    },
-    {
-      "title": "Water restrictions for Western Cape to affect farmers ahead of harvest season",
-      "summary": "Water restrictions for Western Cape to affect farmers ahead of harvest season https://iol.co.za/the-star/news/2026-11-16-water-restrictions-for-western-cape-to-affect-farmers-ahead-of-harvest-season/ Itumeleng English / ANA Studio Water and Sanitation Minister Pemmy Majodina has announced water rest",
-      "angle": "",
-      "source": "IOL",
-      "url": "https://iol.co.za/the-star/news/2026-11-16-water-restrictions-for-western-cape-to-affect-farmers-ahead-of-harvest-season/",
-      "published": "Mon, 16 Nov 2026 16:10:00 GMT",
-      "raw": true
+      "url": "https://iol.co.za/news/south-africa/2026-11-18-hero-firefighter-saves-three-day-old-boy-after-family-races-to-station-with-newborn-not-breathing/",
+      "published": "Wed, 18 Nov 2026 16:14:01 GMT"
     }
   ],
   "dropped": [
     {
-      "title": "300 staff evacuated as police investigate bomb threat at San",
-      "source": "IOL",
-      "reason": "Conditions not met"
-    },
-    {
-      "title": "Atteridgeville mass shooting: Child discovers nine people sh",
+      "title": "Alcohol linked to 3.7% of deaths in South Africa, researcher",
       "source": "IOL",
       "reason": "Not positive"
     },
     {
-      "title": "Springboks determined to restore standards against Ireland a",
+      "title": "High Court bid seeks to stop demolition of Bellville Velodro",
       "source": "IOL",
-      "reason": "positive is false"
+      "reason": "Not positive"
     },
     {
-      "title": "Court orders sale of R5.5m Langebaan family holiday home aft",
+      "title": "Woman hit by rail vehicle in Outeniqua Mountains after compa",
       "source": "IOL",
-      "reason": "positive is false"
+      "reason": "Not positive"
     },
     {
-      "title": "After Dakar 2026, can African countries turn Youth Olympic s",
+      "title": "Suspect arrested over murder of MKP candidate shot two days ",
       "source": "IOL",
-      "reason": "The story is about Dakar and Senegal, not specifically South Africa."
+      "reason": "Conditions not met"
     },
     {
-      "title": "Water restrictions for Western Cape to affect farmers ahead ",
+      "title": "Womenâs Shutdown to demand GBVF action, funding and accoun",
       "source": "IOL",
-      "reason": "rejected"
+      "reason": "The story concerns a protest against a severe societal issue (GBVF) rather than genuine positive progress or a positive "
     },
     {
-      "title": "Police in Limpopo arrest suspect with illicit cigarettes",
+      "title": "Fraud accused Peter ‘Gagash’ Nonyane resigns from TMPD",
       "source": "SABC News",
-      "reason": "positive is false"
-    },
-    {
-      "title": "Court orders redo of demarcation process in Ventersdorp",
-      "source": "SABC News",
-      "reason": "positive is false"
-    },
-    {
-      "title": "Police say more than 700 firearms confiscated since Safer Fe",
-      "source": "SABC News",
-      "reason": "short"
+      "reason": "The story is about an officer resigning due to serious fraud and corruption charges, which addresses negative conduct ra"
     }
   ],
   "feeds": [
