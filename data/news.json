@@ -1,46 +1,82 @@
 {
-  "generated_at": "2026-11-18T18:39:07.730334+02:00",
-  "fallback": false,
+  "generated_at": "2026-11-19T18:43:07.824906+02:00",
+  "fallback": true,
   "stories": [
     {
-      "title": "Hero firefighter saves three-day-old boy after family races to station with newborn not breathing",
-      "summary": "A Belhar firefighter successfully performed CPR on a three-day-old baby. The infant was brought to the station unresponsive and not breathing, but the firefighter brought him to life.",
-      "angle": "This story highlights the quick thinking and life-saving skills of a dedicated public servant.",
+      "title": "Farrell throws Sheehan curveball for Springbok showdown in Dublin",
+      "summary": "Farrell throws Sheehan curveball for Springbok showdown in Dublin https://iol.co.za/sport/rugby/international/2026-11-19-farrell-throws-sheehan-curveball-for-springbok-showdown-in-dublin/ BackpagePix Dan Sheehan will operate from the No 8 position instead of his usual No 2 when they meet the Springb",
+      "angle": "",
       "source": "IOL",
-      "url": "https://iol.co.za/news/south-africa/2026-11-18-hero-firefighter-saves-three-day-old-boy-after-family-races-to-station-with-newborn-not-breathing/",
-      "published": "Wed, 18 Nov 2026 16:14:01 GMT"
+      "url": "https://iol.co.za/sport/rugby/international/2026-11-19-farrell-throws-sheehan-curveball-for-springbok-showdown-in-dublin/",
+      "published": "Thu, 19 Nov 2026 16:30:00 GMT",
+      "raw": true
+    },
+    {
+      "title": "Steve Hansen blames lack of dialogue with 'protected beasts' for Rassie Erasmusâ outburst",
+      "summary": "Steve Hansen blames lack of dialogue with 'protected beasts' for Rassie Erasmusâ outburst https://iol.co.za/sport/rugby/springboks/2026-11-19-steve-hansen-blames-lack-of-dialogue-with-protected-beasts-for-rassie-erasmus-outburst/ john.goliath@iol.co.za (John Goliath) Backpagepix Springbok head coa",
+      "angle": "",
+      "source": "IOL",
+      "url": "https://iol.co.za/sport/rugby/springboks/2026-11-19-steve-hansen-blames-lack-of-dialogue-with-protected-beasts-for-rassie-erasmus-outburst/",
+      "published": "Thu, 19 Nov 2026 16:30:00 GMT",
+      "raw": true
+    },
+    {
+      "title": "Nine arrested in illegal-mining operation in Primrose",
+      "summary": "Nine arrested in illegal-mining operation in Primrose https://iol.co.za/sundayindependent/news/2026-11-19-nine-arrested-in-illegal-mining-operation-in-primrose/ EMPD Nine alleged illegal miners in Primrose being apprehended by the EMPD during a joint illegal mining operation Nine men were arrested d",
+      "angle": "",
+      "source": "IOL",
+      "url": "https://iol.co.za/sundayindependent/news/2026-11-19-nine-arrested-in-illegal-mining-operation-in-primrose/",
+      "published": "Thu, 19 Nov 2026 16:28:31 GMT",
+      "raw": true
+    },
+    {
+      "title": "Cameron Hanekom has a golden opportunity to show the Springboks they can count on him",
+      "summary": "Cameron Hanekom has a golden opportunity to show the Springboks they can count on him https://iol.co.za/sport/rugby/springboks/2026-11-19-cameron-hanekom-has-a-golden-opportunity-to-show-the-springboks-they-can-count-on-him/ BackpagePix Springbok No 8 Cameron Hanekom has a golden opportunity to stak",
+      "angle": "",
+      "source": "IOL",
+      "url": "https://iol.co.za/sport/rugby/springboks/2026-11-19-cameron-hanekom-has-a-golden-opportunity-to-show-the-springboks-they-can-count-on-him/",
+      "published": "Thu, 19 Nov 2026 16:15:00 GMT",
+      "raw": true
+    },
+    {
+      "title": "Keshav Maharajâs return gives Dolphins crucial boost in Kingsmead battle against Cobras",
+      "summary": "Keshav Maharajâs return gives Dolphins crucial boost in Kingsmead battle against Cobras https://iol.co.za/sport/cricket/domestic/2026-11-19-keshav-maharajs-return-gives-dolphins-crucial-boost-in-kingsmead-battle-against-cobras/ rowan.callaghan@inl.co.za (Rowan Callaghan) BackpagePix Proteas spinne",
+      "angle": "",
+      "source": "IOL",
+      "url": "https://iol.co.za/sport/cricket/domestic/2026-11-19-keshav-maharajs-return-gives-dolphins-crucial-boost-in-kingsmead-battle-against-cobras/",
+      "published": "Thu, 19 Nov 2026 16:15:00 GMT",
+      "raw": true
+    },
+    {
+      "title": "Leaked message: Zille tells DA caucus âDie is cast, we will be shut out in Gauteng\"",
+      "summary": "Leaked message: Zille tells DA caucus âDie is cast, we will be shut out in Gauteng\" https://iol.co.za/lge2026/2026-11-19-leaked-message-zille-tells-da-caucus-die-is-cast-we-will-be-shut-out-in-gauteng/ Njabulo.ngcobo@iol.co.za (Njabulo Ngcobo) Itumeleng English / IOL DA Johannesburg mayoral candid",
+      "angle": "",
+      "source": "IOL",
+      "url": "https://iol.co.za/lge2026/2026-11-19-leaked-message-zille-tells-da-caucus-die-is-cast-we-will-be-shut-out-in-gauteng/",
+      "published": "Thu, 19 Nov 2026 16:12:59 GMT",
+      "raw": true
     }
   ],
   "dropped": [
     {
-      "title": "Alcohol linked to 3.7% of deaths in South Africa, researcher",
+      "title": "Farrell throws Sheehan curveball for Springbok showdown in D",
       "source": "IOL",
-      "reason": "Not positive"
+      "reason": "short"
     },
     {
-      "title": "High Court bid seeks to stop demolition of Bellville Velodro",
-      "source": "IOL",
-      "reason": "Not positive"
-    },
-    {
-      "title": "Woman hit by rail vehicle in Outeniqua Mountains after compa",
-      "source": "IOL",
-      "reason": "Not positive"
-    },
-    {
-      "title": "Suspect arrested over murder of MKP candidate shot two days ",
+      "title": "Steve Hansen blames lack of dialogue with 'protected beasts'",
       "source": "IOL",
       "reason": "Conditions not met"
     },
     {
-      "title": "Womenâs Shutdown to demand GBVF action, funding and accoun",
+      "title": "Nine arrested in illegal-mining operation in Primrose",
       "source": "IOL",
-      "reason": "The story concerns a protest against a severe societal issue (GBVF) rather than genuine positive progress or a positive "
+      "reason": "short"
     },
     {
-      "title": "Fraud accused Peter ‘Gagash’ Nonyane resigns from TMPD",
-      "source": "SABC News",
-      "reason": "The story is about an officer resigning due to serious fraud and corruption charges, which addresses negative conduct ra"
+      "title": "Cameron Hanekom has a golden opportunity to show the Springb",
+      "source": "IOL",
+      "reason": "No issues found."
     }
   ],
   "feeds": [
