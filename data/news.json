@@ -1,54 +1,97 @@
 {
-  "generated_at": "2026-11-21T17:31:09.750578+02:00",
-  "fallback": false,
+  "generated_at": "2026-11-22T17:31:59.709884+02:00",
+  "fallback": true,
   "stories": [
     {
-      "title": "LIVE | Springboks and Ireland set for Aviva Stadium showdown in Nations Championship",
-      "summary": "The Springboks are preparing for a significant Nations Championship match against Ireland. South African flyer Kurt-Lee Arendse is expected to be a key player in this exciting showdown.",
-      "angle": "The Springboks' participation in this international championship highlights South Africa's presence in global sports.",
+      "title": "Liga leaders Barca mount impressive Villarreal comeback win",
+      "summary": "Liga leaders Barca mount impressive Villarreal comeback win https://iol.co.za/sport/soccer/la-liga/2026-11-22-liga-leaders-barca-mount-impressive-villarreal-comeback-win/ AFP Barcelona forward Raphinha jumps over to evade Villarreal goalkeeper Peter Gulacsi during their Spanish league match at Camp ",
+      "angle": "",
       "source": "IOL",
-      "url": "https://iol.co.za/sport/rugby/springboks/2026-11-21-live-springboks-and-ireland-set-for-aviva-stadium-showdown-in-nations-championship/",
-      "published": "Sat, 21 Nov 2026 14:50:10 GMT"
+      "url": "https://iol.co.za/sport/soccer/la-liga/2026-11-22-liga-leaders-barca-mount-impressive-villarreal-comeback-win/",
+      "published": "Sun, 22 Nov 2026 15:30:00 GMT",
+      "raw": true
     },
     {
-      "title": "Durban hospital performs record 11 life-saving heart surgeries on children",
-      "summary": "Inkosi Albert Luthuli Central Hospital in Durban has successfully performed a record 11 life-saving paediatric heart surgeries. This surgical marathon, involving local and international specialists, brings hope to children and families across KwaZulu-Natal.",
-      "angle": "This medical milestone represents significant progress in paediatric healthcare in South Africa.",
+      "title": "âWinning games is top priorityâ: Bruno Fernandes puts Man United contract talks on hold",
+      "summary": "âWinning games is top priorityâ: Bruno Fernandes puts Man United contract talks on hold https://iol.co.za/sport/soccer/premier-league/2026-11-22-winning-games-is-top-priority-bruno-fernandes-puts-man-united-contract-talks-on-hold/ File Manchester United captain Bruno Fernandes has revealed that ",
+      "angle": "",
       "source": "IOL",
-      "url": "https://iol.co.za/news/south-africa/2026-11-21-durban-hospital-performs-record-11-life-saving-heart-surgeries-on-children/",
-      "published": "Sat, 21 Nov 2026 14:18:11 GMT"
+      "url": "https://iol.co.za/sport/soccer/premier-league/2026-11-22-winning-games-is-top-priority-bruno-fernandes-puts-man-united-contract-talks-on-hold/",
+      "published": "Sun, 22 Nov 2026 15:11:15 GMT",
+      "raw": true
+    },
+    {
+      "title": "How a discriminatory Danish law left thousands without legal fathers â and why they are fighting back",
+      "summary": "How a discriminatory Danish law left thousands without legal fathers â and why they are fighting back https://iol.co.za/news/world/2026-11-22-how-a-discriminatory-danish-law-left-thousands-without-legal-fathers--and-why-they-are-fighting-back/ AFP Protesters take part in a demonstration to protest",
+      "angle": "",
+      "source": "IOL",
+      "url": "https://iol.co.za/news/world/2026-11-22-how-a-discriminatory-danish-law-left-thousands-without-legal-fathers--and-why-they-are-fighting-back/",
+      "published": "Sun, 22 Nov 2026 15:00:00 GMT",
+      "raw": true
+    },
+    {
+      "title": "Police fire rubber bullets after taxi drivers stone officers at Delft rank",
+      "summary": "Police fire rubber bullets after taxi drivers stone officers at Delft rank https://iol.co.za/capetimes/2026-11-22-police-fire-rubber-bullets-after-taxi-drivers-stone-officers-at-delft-rank/ Facebook Police fired stun grenades and rubber rounds after taxi drivers pelted officers with stones at Delft'",
+      "angle": "",
+      "source": "IOL",
+      "url": "https://iol.co.za/capetimes/2026-11-22-police-fire-rubber-bullets-after-taxi-drivers-stone-officers-at-delft-rank/",
+      "published": "Sun, 22 Nov 2026 15:00:00 GMT",
+      "raw": true
+    },
+    {
+      "title": "Woman hospitalised after stampede at Maynardville carnival",
+      "summary": "Woman hospitalised after stampede at Maynardville carnival https://iol.co.za/capeargus/news/2026-11-22-woman-hospitalised-after-stampede-at-maynardville-carnival/ Zanele Mvana The H.O.K Carnival was quiet after a stampede caused iinjuries A woman remains in hospital after a stampede at the H. O. K C",
+      "angle": "",
+      "source": "IOL",
+      "url": "https://iol.co.za/capeargus/news/2026-11-22-woman-hospitalised-after-stampede-at-maynardville-carnival/",
+      "published": "Sun, 22 Nov 2026 15:00:00 GMT",
+      "raw": true
+    },
+    {
+      "title": "Five takeaways from Springboksâ defeat to Ireland as Nations Championship title beckons",
+      "summary": "Five takeaways from Springboksâ defeat to Ireland as Nations Championship title beckons https://iol.co.za/sport/rugby/springboks/2026-11-22-five-takeaways-from-springboks-defeat-to-ireland-as-nations-championship-title-beckons/ AFP The Springboks dominated at the scrum and it allowed scrumhalf Mor",
+      "angle": "",
+      "source": "IOL",
+      "url": "https://iol.co.za/sport/rugby/springboks/2026-11-22-five-takeaways-from-springboks-defeat-to-ireland-as-nations-championship-title-beckons/",
+      "published": "Sun, 22 Nov 2026 14:30:00 GMT",
+      "raw": true
     }
   ],
   "dropped": [
     {
-      "title": "New municipal councils face pressure to restore trust and im",
+      "title": "Liga leaders Barca mount impressive Villarreal comeback win",
+      "source": "IOL",
+      "reason": "short"
+    },
+    {
+      "title": "âWinning games is top priorityâ: Bruno Fernandes puts Ma",
+      "source": "IOL",
+      "reason": "The story is not about South Africa and does not represent national progress or a broadly positive development."
+    },
+    {
+      "title": "How a discriminatory Danish law left thousands without legal",
+      "source": "IOL",
+      "reason": "short"
+    },
+    {
+      "title": "Police fire rubber bullets after taxi drivers stone officers",
+      "source": "IOL",
+      "reason": "Not positive and not accurate"
+    },
+    {
+      "title": "Woman hospitalised after stampede at Maynardville carnival",
+      "source": "IOL",
+      "reason": "The story describes a negative event involving injuries and hospitalization, not positive news or national progress."
+    },
+    {
+      "title": "Aiden Markram backs 'street fighter' Matthew Breetzke to fin",
+      "source": "IOL",
+      "reason": "short"
+    },
+    {
+      "title": "Khayelitsha forum slams âtrigger-happyâ police after off",
       "source": "IOL",
       "reason": "Not positive"
-    },
-    {
-      "title": "Welfare groups report alarming rise in abandoned babies in T",
-      "source": "IOL",
-      "reason": "positive is false"
-    },
-    {
-      "title": "Man, 44, dies after disappearing underwater at Gariep Dam",
-      "source": "IOL",
-      "reason": "positive is false"
-    },
-    {
-      "title": "Dr Phumzile Mlambo-Ngcukaâs family announces memorial serv",
-      "source": "IOL",
-      "reason": "short"
-    },
-    {
-      "title": "EXCLUSIVE: Mashaba launches scathing attack on DA, alleges p",
-      "source": "IOL",
-      "reason": "The story is political drama and allegations, not positive news or national progress. The summary invents a positive fra"
-    },
-    {
-      "title": "GAME DAY I Springboks fired up to deliver for suspended Rass",
-      "source": "IOL",
-      "reason": "short"
     }
   ],
   "feeds": [
