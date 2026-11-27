@@ -1,72 +1,41 @@
 {
-  "generated_at": "2026-11-25T20:05:43.938940+02:00",
-  "fallback": true,
+  "generated_at": "2026-11-27T19:35:54.628740+02:00",
+  "fallback": false,
   "stories": [
     {
-      "title": "Court sends Julius Malema and Kenny Kunene defamation dispute to trial",
-      "summary": "Court sends Julius Malema and Kenny Kunene defamation dispute to trial https://iol.co.za/news/politics/2026-11-25-court-sends-julius-malema-and-kenny-kunene-defamation-dispute-to-trial/ Sinenhlanhla.masilela@iol.co.za (Sinenhlanhla Masilela) Itumeleng English / Independent Newspapers EFF leader Juli",
-      "angle": "",
+      "title": "Beyond the walls: Long Street gallery reimagines the art experience",
+      "summary": "Cape Town's Signature Art Gallery is reimagining the art experience on Long Street. It combines visual art with live music, fashion, and design, creating opportunities for artists.",
+      "angle": "This initiative fosters artistic growth and provides new platforms for creators.",
       "source": "IOL",
-      "url": "https://iol.co.za/news/politics/2026-11-25-court-sends-julius-malema-and-kenny-kunene-defamation-dispute-to-trial/",
-      "published": "Wed, 25 Nov 2026 18:02:17 GMT",
-      "raw": true
-    },
-    {
-      "title": "Parliament seeks legal advice after court sets aside Phala Phala report",
-      "summary": "Parliament seeks legal advice after court sets aside Phala Phala report https://iol.co.za/capeargus/news/2026-11-25-parliament-seeks-legal-advice-after-court-sets-aside-phala-phala-report/ X BID WON: President Cyril Ramaphosa Parliament is seeking legal advice after the Western Cape High Court set a",
-      "angle": "",
-      "source": "IOL",
-      "url": "https://iol.co.za/capeargus/news/2026-11-25-parliament-seeks-legal-advice-after-court-sets-aside-phala-phala-report/",
-      "published": "Wed, 25 Nov 2026 18:00:00 GMT",
-      "raw": true
-    },
-    {
-      "title": "Meet the young Cape Town councillors challenging the old political playbook",
-      "summary": "Meet the young Cape Town councillors challenging the old political playbook https://iol.co.za/capeargus/city-watch/2026-11-25-meet-the-young-cape-town-councillors-challenging-the-old-political-playbook/ SUPPLIED Patriotical Alliance (PA) proportional representation (PR) councillor Moegamat Boltman. ",
-      "angle": "",
-      "source": "IOL",
-      "url": "https://iol.co.za/capeargus/city-watch/2026-11-25-meet-the-young-cape-town-councillors-challenging-the-old-political-playbook/",
-      "published": "Wed, 25 Nov 2026 18:00:00 GMT",
-      "raw": true
-    },
-    {
-      "title": "Rape cases explained: What survivors can expect from SAPS and the NPA",
-      "summary": "Rape cases explained: What survivors can expect from SAPS and the NPA https://iol.co.za/news/south-africa/2026-11-25-rape-cases-explained-what-survivors-can-expect-from-saps-and-the-npa/ yasmine.jacobs@iol.co.za (Yasmine Jacobs) File South African police arrested 381 alleged sexual offendersâinclu",
-      "angle": "",
-      "source": "IOL",
-      "url": "https://iol.co.za/news/south-africa/2026-11-25-rape-cases-explained-what-survivors-can-expect-from-saps-and-the-npa/",
-      "published": "Wed, 25 Nov 2026 17:46:00 GMT",
-      "raw": true
-    },
-    {
-      "title": "DA still pursuing Ekurhuleni mayoral deal despite ANC-ActionSA talks",
-      "summary": "DA still pursuing Ekurhuleni mayoral deal despite ANC-ActionSA talks https://iol.co.za/the-star/city-watch/2026-11-25-da-still-pursuing-ekurhuleni-mayoral-deal-despite-anc-actionsa-talks/ Facebook / Khathutshelo Rasilingwane The DA has not given up on its bid to lead Ekurhuleni, with mayoral candida",
-      "angle": "",
-      "source": "IOL",
-      "url": "https://iol.co.za/the-star/city-watch/2026-11-25-da-still-pursuing-ekurhuleni-mayoral-deal-despite-anc-actionsa-talks/",
-      "published": "Wed, 25 Nov 2026 17:40:00 GMT",
-      "raw": true
-    },
-    {
-      "title": "Mbaliyezwe Atelier wins Bloom competition at Expressionsâ The Escape",
-      "summary": "Mbaliyezwe Atelier wins Bloom competition at Expressionsâ The Escape https://iol.co.za/the-star/lifestyle/2026-11-25-mbaliyezwe-atelier-wins-bloom-competition-at-expressions-the-escape/ Supplied The Escape â The Great Spring was held on Saturday, November 21, at Pere House in Midrand. Mbaliyezwe",
-      "angle": "",
-      "source": "IOL",
-      "url": "https://iol.co.za/the-star/lifestyle/2026-11-25-mbaliyezwe-atelier-wins-bloom-competition-at-expressions-the-escape/",
-      "published": "Wed, 25 Nov 2026 17:30:00 GMT",
-      "raw": true
+      "url": "https://iol.co.za/capeargus/lifestyle/2026-11-27-beyond-the-walls-long-street-gallery-reimagines-the-art-experience/",
+      "published": "Fri, 27 Nov 2026 17:00:00 GMT"
     }
   ],
   "dropped": [
     {
-      "title": "Rape cases explained: What survivors can expect from SAPS an",
+      "title": "Thomas Ramos back as France unleash all Bordeaux front row t",
       "source": "IOL",
       "reason": "short"
     },
     {
-      "title": "Mbaliyezwe Atelier wins Bloom competition at Expressionsâ ",
+      "title": "Herman Mashaba returns as Johannesburg Mayor after defeating",
+      "source": "IOL",
+      "reason": "Not positive"
+    },
+    {
+      "title": "ActionSA's 100 Homes campaign challenged by Western Cape soc",
       "source": "IOL",
       "reason": "short"
+    },
+    {
+      "title": "WATCH | MotoGP champion Marc Marquez announces retirement wi",
+      "source": "IOL",
+      "reason": "Not about SA."
+    },
+    {
+      "title": "Springboks vs France: Five key battles that could decide Nat",
+      "source": "IOL",
+      "reason": "None."
     }
   ],
   "feeds": [
@@ -103,7 +72,7 @@
       "url": "https://www.sabcnews.com/sabcnews/feed/",
       "ok": false,
       "stories": 0,
-      "note": "ConnectionError"
+      "note": "SSLError"
     }
   ],
   "ok": true
